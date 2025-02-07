@@ -237,4 +237,59 @@ def predicition(gw):
 
         gw_prediction_to_json(next_gw)
 
-predicition(22)
+# predicition(22)
+
+def xG_xA_understat_games():
+    understat_game_df = pd.read_csv("./data/tmp/understat_game.csv")
+    understat_player_df = pd.read_csv("./data/tmp/understat_player.csv")
+
+    game_columns = understat_game_df.columns.tolist()
+
+    home_columns = game_columns.copy()
+    home_columns.remove("away")
+    away_columns = game_columns.copy()
+    away_columns.remove("home")
+
+    home_df = understat_game_df[home_columns].rename(columns={'home': 'team'})
+    away_df = understat_game_df[away_columns].rename(columns={'away': 'team'})
+
+    new_understat_game_df = pd.concat([home_df, away_df], ignore_index=True)
+
+    player_agg = understat_player_df.groupby(['game_id', 'team_name']).agg({
+        'goals': 'sum',
+        'xG': 'sum',
+        'assists': 'sum',
+        'xA': 'sum'
+    }).reset_index().rename(columns={
+        'game_id': 'id',
+        'team_name': 'team'
+    })
+
+    new_understat_game_df = new_understat_game_df.merge(
+        player_agg,
+        on=['id', 'team'],
+        how='left'
+    )
+
+    new_understat_game_df = new_understat_game_df.sort_values(['team', 'date'])
+
+    metrics = ['goals', 'xG', 'assists', 'xA']
+
+    for metric in metrics:
+        new_understat_game_df[f'rolled_{metric}'] = (
+            new_understat_game_df.groupby('team')[metric]
+            .rolling(window=5, min_periods=1)
+            .mean()
+            .groupby('team')
+            .shift(1)
+            .reset_index(level=0, drop=True)
+        )
+        new_understat_game_df.loc[new_understat_game_df[f'rolled_{metric}'].isna(), f'rolled_{metric}'] = 0
+
+        new_understat_game_df[f'rolled_{metric}'] = new_understat_game_df[f'rolled_{metric}'].round(2)
+        if not np.issubdtype(new_understat_game_df[metric].dtype, np.integer):
+            new_understat_game_df[metric] = new_understat_game_df[metric].round(2)
+
+    new_understat_game_df.to_csv("teams.csv", index=False)
+
+xG_xA_understat_games()
