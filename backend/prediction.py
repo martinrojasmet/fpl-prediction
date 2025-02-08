@@ -249,7 +249,6 @@ def xG_xA_understat_games(gw):
     understat_game_df = pd.read_csv("./data/tmp/understat_game.csv")
     understat_player_df = pd.read_csv("./data/tmp/understat_player.csv")
     teams_df = pd.read_csv("./data/pivot/teams.csv")
-    # final_df = pd.read_csv("./data/final/understat_games.csv")
     players_2425_df = pd.read_csv("./data/final/2425_players_data.csv")
     final_understat_game_df = pd.read_csv("./data/final/understat_games.csv")
 
@@ -268,7 +267,6 @@ def xG_xA_understat_games(gw):
     gw_df = gw_df.drop_duplicates()
 
     understat_game_df = understat_game_df.merge(gw_df, on=["id"], how="left")
-    # print(understat_game_df)
 
     home_columns.append("gw")
 
@@ -296,7 +294,8 @@ def xG_xA_understat_games(gw):
         how='left'
     )
 
-    # Add the new gw here
+    # Add next gameweek
+
     new_gw = []
     for game in next_games_json:
         rand_num = random.randint(3_000_001, 5_000_000)
@@ -322,44 +321,30 @@ def xG_xA_understat_games(gw):
 
     new_gw_df = pd.DataFrame(new_gw)
     new_understat_game_df = pd.concat([new_understat_game_df, new_gw_df], ignore_index=True)
-    # print(new_understat_game_df.columns)
 
-    # Add previous data
     common_cols = ["id", "understat_id", "date", "gw"]
 
-    # Select home and away columns separately
     home_cols = common_cols + [col for col in final_understat_game_df.columns if "home" in col and "rolling" not in col and "code" not in col]
     away_cols = common_cols + [col for col in final_understat_game_df.columns if "away" in col and "rolling" not in col and "code" not in col]
 
-    # Create separate DataFrames for home and away
     prev_home_df = final_understat_game_df[home_cols].copy()
     prev_away_df = final_understat_game_df[away_cols].copy()
 
-    # Rename columns (remove "home_" and "away_" prefixes, change "home"/"away" to "team")
     prev_home_df = prev_home_df.rename(columns=lambda x: x.replace("home_", "").replace("_", "") if x not in common_cols else x)
     prev_away_df = prev_away_df.rename(columns=lambda x: x.replace("away_", "").replace("_", "") if x not in common_cols else x)
 
-    # Rename the team column
     prev_home_df = prev_home_df.rename(columns={"home": "team"})
     prev_away_df = prev_away_df.rename(columns={"away": "team"})
 
-    # print(prev_home_df)
-    # print(prev_away_df)
-
     prev_home_df["is_home"] = True
     prev_away_df["is_home"] = False
-
-    # print(home_df.columns)
-    # print(home_df)
-    # print(away_df.columns)
-    # print(away_df)
-
-    # Rolling data
 
     new_understat_game_df = pd.concat([new_understat_game_df, prev_home_df], ignore_index=True)
     new_understat_game_df = pd.concat([new_understat_game_df, prev_away_df], ignore_index=True)
 
     new_understat_game_df = new_understat_game_df.sort_values(['team', 'date'])
+
+    # Add rolling values
 
     metrics = ['goals', 'xG', 'assists', 'xA']
 
@@ -378,14 +363,14 @@ def xG_xA_understat_games(gw):
         if not np.issubdtype(new_understat_game_df[metric].dtype, np.integer):
             new_understat_game_df[metric] = new_understat_game_df[metric].round(2)
 
+    # Merge home and away data
+
     home_df = new_understat_game_df[new_understat_game_df["is_home"] == True].copy()
     away_df = new_understat_game_df[new_understat_game_df["is_home"] == False].copy()
 
     for metric in metrics:
         home_df = home_df.rename(columns={metric: f"home_{metric}", f"rolling_{metric}": f"rolling_home_{metric}", "team": "home"})
         away_df = away_df.rename(columns={metric: f"away_{metric}", f"rolling_{metric}": f"rolling_away_{metric}", "team": "away"})
-
-    # Merge home and away data
 
     home_df.drop('is_home', axis=1, inplace=True)
     away_df.drop('is_home', axis=1, inplace=True)
@@ -428,25 +413,13 @@ def xG_xA_understat_games(gw):
     result_df = result_df.sort_values("date")
     result_df["gw"] = result_df["gw"].astype(int)
 
-    # # Saving
-    duplicates = result_df[result_df.duplicated(subset=["id"], keep=False)]
-    print("duplicados")
-    print(duplicates)
-    # "https://www.si.com/soccer/2019/06/13/premier-league-fixtures-201920-complete-list-every-game-new-season"
-    # 2190 2181 2175
-    result_df.to_csv("teams4.csv", index=False)
+    # # Save data without next games
+    # result_df.to_csv("teams4.csv", index=False)
 
     xgb = XGBClassifier(n_estimators=50, random_state=10)
 
-    # amount_training = .92
-    # train = final_df[:int(len(final_df)*amount_training)]
-    # test = final_df[int(len(final_df)*amount_training):]
-
     test = result_df[(result_df["gw"] == gw) & (result_df["date"] >= start_date)]
     train = result_df[~result_df.index.isin(test.index)]
-
-    print(train)
-    print(test)
 
     normal_predictors = ['home_team_code', 'away_team_code']
 
@@ -461,19 +434,7 @@ def xG_xA_understat_games(gw):
     for word in rolling_predictors:
         test.rename(columns={word: word[8:]}, inplace=True)
 
-    # # print(test[test_predictors])
-
     preds = xgb.predict(test[test_predictors])
-    # # print(preds)
-
-    # combined = pd.DataFrame(dict(actual=test['result'], predicted=preds))
-
-    # precision = precision_score(test['result'], preds, average='macro')
-
-    # # print(precision)
-    # combined = pd.DataFrame(dict(actual=test['result'], predicted=preds))
-    # # print(pd.crosstab(combined['actual'], combined['predicted']))
-
-    # # final_df.to_csv("teams2.csv", index=False)
+    print(preds)
 
 xG_xA_understat_games(23)
