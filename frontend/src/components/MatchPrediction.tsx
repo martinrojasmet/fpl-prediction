@@ -11,7 +11,7 @@ export const MatchPrediction: React.FC<MatchPredictionProps> = ({ game }) => {
     <div className="flex items-center justify-center gap-4 mb-2 relative">
       <div className="flex-1 text-center break-words">
         <img src={`http://localhost:5000/api/assets/teams/${game.homeName}.png`}  alt={game.homeName} className="w-16 h-16 mx-auto md:w-20 md:h-20 max-w-full object-contain" />
-        <h3 className={`mt-2 font-semibold text-sm md:text-base p-1 px-1 rounded-lg ${game.result === 1 ? 'bg-green-500 text-white' : ''}`}>
+        <h3 className={`mt-2 font-semibold text-sm md:text-base p-1 px-3 rounded-lg inline-block ${game.result === 1 ? 'bg-green-500 text-white' : ''}`}>
           {game.homeName}
         </h3>
       </div>
@@ -25,7 +25,7 @@ export const MatchPrediction: React.FC<MatchPredictionProps> = ({ game }) => {
       </div>
       <div className="flex-1 text-center break-words">
         <img src={`http://localhost:5000/api/assets/teams/${game.awayName}.png`} alt={game.awayName} className="w-16 h-16 mx-auto md:w-20 md:h-20 max-w-full object-contain" />
-        <h3 className={`mt-2 font-semibold text-sm md:text-base p-1 px-1 rounded-lg ${game.result === 2 ? 'bg-green-500 text-white' : ''}`}>
+        <h3 className={`mt-2 font-semibold text-sm md:text-base p-1 px-3 rounded-lg inline-block ${game.result === 2 ? 'bg-green-500 text-white' : ''}`}>
           {game.awayName}
         </h3>
       </div>
