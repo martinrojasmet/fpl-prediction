@@ -14,7 +14,13 @@ CORS(app)  # Enable CORS for all routes
 # Serve image files
 @app.route('/api/assets/players/<path:filename>')
 def serve_assets(filename):
-    assets_dir = '/home/martin/Documents/GitHub/fpl/backend/assets/player_images/'
+    assets_dir = '/home/martin/Documents/GitHub/fpl-prediction/backend/assets/player_images/'
+    return send_from_directory(assets_dir, filename)
+
+# Serve team logos
+@app.route('/api/assets/teams/<path:filename>')
+def serve_team_logos(filename):
+    assets_dir = '/home/martin/Documents/GitHub/fpl-prediction/backend/assets/team_logos/'
     return send_from_directory(assets_dir, filename)
 
 # Get GW point data

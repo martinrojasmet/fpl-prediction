@@ -19,13 +19,12 @@ function App() {
                 {/* <TrendingUp size={20} /> */}
                 <span>Points</span>
               </Link>
-              {/* <Link 
-                to="/winner" 
+              <Link 
+                to="/games" 
                 className="inline-flex items-center space-x-2 hover:text-[#00ff85] transition-colors"
               >
-                <Trophy size={20} />
-                <span>Winner Prediction</span>
-              </Link> */}
+                <span>Games</span>
+              </Link>
             </div>
           </div>
         </nav>
@@ -33,7 +32,7 @@ function App() {
         <main className="container mx-auto py-8">
           <Routes>
             <Route path="/" element={<PointPrediction />} />
-            <Route path="/winner" element={<WinnerPrediction />} />
+            <Route path="/games" element={<WinnerPrediction />} />
           </Routes>
         </main>
       </div>

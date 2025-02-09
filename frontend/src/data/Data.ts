@@ -38,29 +38,35 @@ export async function fetchPlayers(gw: number): Promise<Player[]> {
     }
 }
 
-export async function fetchCombinedData(gw: number): Promise<Player[]> {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 120000); // 10 seconds timeout
-
+export async function fetchGames(gw: number): Promise<Player[]> {
     try {
-        const response = await fetch(`/api/combined-data?gw=${gw}`, { signal: controller.signal });
+        const response = await fetch(`http://localhost:5000/api/predictions/games/gws/?gw=${gw}`); // Fixed query param
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
+
+        const contentType = response.headers.get('content-type');
+        if (!contentType?.includes('application/json')) {
+            throw new TypeError("Received non-JSON response");
+        }
+
         const data = await response.json();
-    
-        return data;
+        return data.players;
     } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error fetching players:', error);
         throw error;
-    } finally {
-        clearTimeout(timeoutId);
     }
 }
 
-export async function fetchGWs(): Promise<number[]> {
+export async function fetchGWs(fetchType: string): Promise<number[]> {
     try {
-        const response = await fetch('http://localhost:5000/api/predictions/points/gws/');
+        let apiType: string;
+        if (fetchType === "points") {
+            apiType = "points"
+        } else {
+            apiType = "games"
+        }
+        const response = await fetch(`http://localhost:5000/api/predictions/${apiType}/gws/`);
         
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);

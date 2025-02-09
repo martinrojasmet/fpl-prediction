@@ -14,13 +14,13 @@ export const PointPrediction: React.FC = () => {
   const [sortField, setSortField] = useState<SortField>('expectedPoints');
   const [sortDirection, setSortDirection] = useState<SortDirection>('desc');
   const [players, setPlayers] = useState<Player[]>([]);
-  const [gameweeks, setGameweeks] = useState<number[]>([]); // Store the list of gameweeks
-  const [currentIndex, setCurrentIndex] = useState<number>(0); // Track the current gameweek index
+  const [gameweeks, setGameweeks] = useState<number[]>([]);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   useEffect(() => {
     const getGWs = async () => {
       try {
-        const gameweeks = await fetchGWs();
+        const gameweeks = await fetchGWs("points");
         setGameweeks(gameweeks);
 
         if (gameweeks.length > 0) {
