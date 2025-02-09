@@ -33,7 +33,8 @@ img_api_url = "http://localhost:5000/api/assets/players/"
 player_images_folder_path = "/home/martin/Documents/GitHub/fpl/backend/assets/player_images/"
 default_player_image_path = img_api_url + "default.png"
 
-point_predictions_json_folder = "/home/martin/Documents/GitHub/fpl/backend/data/final/point_prediction_jsons/"
+point_predictions_json_folder = "/home/martin/Documents/GitHub/fpl-prediction/backend/data/final/point_prediction_jsons/"
+game_predictions_json_folder = "/home/martin/Documents/GitHub/fpl-prediction/backend/data/final/game_prediction_jsons/"
 
 def point_prediction(fpl_data, team_data, gw):
     if (gw not in get_gws_predicted()):
@@ -224,10 +225,15 @@ def get_gws_predicted():
         result = list(point_prediction["gw"].unique())
     return result
 
-def get_gws_predicted_jsons():
+def get_gws_predicted_jsons(type_data):
     gws = []
 
-    for filename in os.listdir(point_predictions_json_folder):
+    if type_data == "players":
+        json_folder = point_predictions_json_folder
+    else:
+        json_folder = game_predictions_json_folder
+
+    for filename in os.listdir(json_folder):
         name = filename.split('.')[0]
         if name.isdigit():
             gws.append(int(name))
