@@ -1,4 +1,4 @@
-import { Player, Team } from '../types';
+import { Game, Player, Team } from '../types';
 
 export const mockPlayers: Player[] = [];
 
@@ -38,9 +38,9 @@ export async function fetchPlayers(gw: number): Promise<Player[]> {
     }
 }
 
-export async function fetchGames(gw: number): Promise<Player[]> {
+export async function fetchGames(gw: number): Promise<Game[]> {
     try {
-        const response = await fetch(`http://localhost:5000/api/predictions/games/gws/?gw=${gw}`); // Fixed query param
+        const response = await fetch(`http://localhost:5000/api/predictions/games/gws/?gw=${gw}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -51,7 +51,7 @@ export async function fetchGames(gw: number): Promise<Player[]> {
         }
 
         const data = await response.json();
-        return data.players;
+        return data.games;
     } catch (error) {
         console.error('Error fetching players:', error);
         throw error;

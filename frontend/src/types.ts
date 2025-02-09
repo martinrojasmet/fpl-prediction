@@ -13,3 +13,9 @@ export interface Team {
   primaryColor: string;
   winProbability: number;
 }
+
+export interface Game {
+  homeName: string;
+  awayName: string;
+  result: number;
+}

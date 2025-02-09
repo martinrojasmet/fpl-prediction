@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { MatchPrediction } from '../components/MatchPrediction';
-import { mockTeams } from '../data/Data';
-import { Player } from '../types';
-import { fetchGWs, fetchPlayers } from '../data/Data';
+import { fetchGames, mockTeams } from '../data/Data';
+import { Game } from '../types';
+import { fetchGWs } from '../data/Data';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export const WinnerPrediction: React.FC = () => {
   const [gameweek, setGameweek] = useState<number>(23);
-  const [players, setPlayers] = useState<Player[]>([]);
+  const [games, setGames] = useState<Game[]>([]);
   const [gameweeks, setGameweeks] = useState<number[]>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
@@ -32,16 +32,16 @@ export const WinnerPrediction: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    const getPlayers = async () => {
+    const getGames = async () => {
       try {
-        const data = await fetchPlayers(gameweek);
-        setPlayers(data);
+        const data = await fetchGames(gameweek);
+        setGames(data);
       } catch (error) {
         console.error('Error fetching players:', error);
       }
     };
 
-    getPlayers();
+    getGames();
   }, [gameweek]);
 
   const handleGameweekChange = (direction: 'prev' | 'next') => {
@@ -62,7 +62,7 @@ export const WinnerPrediction: React.FC = () => {
   return (
     <div className="p-8">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold text-[#38003c]">Winner Prediction</h1>
+        <h1 className="text-3xl font-bold text-[#38003c]">Games</h1>
         <div className="flex items-center space-x-4">
           <button
             onClick={() => handleGameweekChange('prev')}
@@ -81,10 +81,11 @@ export const WinnerPrediction: React.FC = () => {
           </button>
         </div>
       </div>
-      <MatchPrediction 
-        homeTeam={mockTeams[0]} 
-        awayTeam={mockTeams[1]} 
-      />
+      <div>
+        {games.map((game) => (
+            <MatchPrediction key={`${game.homeName}-${game.awayName}-${gameweek}`} game={game} />
+          ))}
+      </div>
     </div>
   );
 };

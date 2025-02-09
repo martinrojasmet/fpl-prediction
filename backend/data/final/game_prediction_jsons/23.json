@@ -1,52 +1,52 @@
 [
     {
-        "home_team_code": "Wolverhampton Wanderers",
-        "away_team_code": "Arsenal",
+        "homeName": "Wolverhampton Wanderers",
+        "awayName": "Arsenal",
         "result": 0
     },
     {
-        "home_team_code": "Liverpool",
-        "away_team_code": "Ipswich",
+        "homeName": "Liverpool",
+        "awayName": "Ipswich",
         "result": 1
     },
     {
-        "home_team_code": "Bournemouth",
-        "away_team_code": "Nottingham Forest",
+        "homeName": "Bournemouth",
+        "awayName": "Nottingham Forest",
         "result": 2
     },
     {
-        "home_team_code": "Southampton",
-        "away_team_code": "Newcastle United",
+        "homeName": "Southampton",
+        "awayName": "Newcastle United",
         "result": 2
     },
     {
-        "home_team_code": "Manchester City",
-        "away_team_code": "Chelsea",
+        "homeName": "Manchester City",
+        "awayName": "Chelsea",
         "result": 1
     },
     {
-        "home_team_code": "Brighton",
-        "away_team_code": "Everton",
+        "homeName": "Brighton",
+        "awayName": "Everton",
         "result": 1
     },
     {
-        "home_team_code": "Aston Villa",
-        "away_team_code": "West Ham",
+        "homeName": "Aston Villa",
+        "awayName": "West Ham",
         "result": 0
     },
     {
-        "home_team_code": "Tottenham",
-        "away_team_code": "Leicester",
+        "homeName": "Tottenham",
+        "awayName": "Leicester",
         "result": 1
     },
     {
-        "home_team_code": "Fulham",
-        "away_team_code": "Manchester United",
+        "homeName": "Fulham",
+        "awayName": "Manchester United",
         "result": 1
     },
     {
-        "home_team_code": "Crystal Palace",
-        "away_team_code": "Brentford",
+        "homeName": "Crystal Palace",
+        "awayName": "Brentford",
         "result": 0
     }
 ]

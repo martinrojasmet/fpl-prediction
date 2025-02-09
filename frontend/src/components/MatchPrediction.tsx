@@ -1,63 +1,35 @@
-import React, { useState } from 'react';
-import { Team } from '../types';
+import { Game } from '../types';
 
 interface MatchPredictionProps {
-  homeTeam: Team;
-  awayTeam: Team;
+  game: Game;
 }
 
-export const MatchPrediction: React.FC<MatchPredictionProps> = ({ homeTeam, awayTeam }) => {
-  const [isHovered, setIsHovered] = useState(false);
+export const MatchPrediction: React.FC<MatchPredictionProps> = ({ game }) => {
 
   return (
-    <div className="w-[70%] mx-auto p-6 bg-white rounded-lg shadow-md">
-      <div className="flex justify-between items-center mb-6">
-        <div className="text-center">
-          <img src={homeTeam.logoUrl} alt={homeTeam.name} className="w-16 h-16 mx-auto" />
-          <h3 className="mt-2 font-semibold">{homeTeam.name}</h3>
-        </div>
-        <div className="text-xl font-bold">vs</div>
-        <div className="text-center">
-          <img src={awayTeam.logoUrl} alt={awayTeam.name} className="w-16 h-16 mx-auto" />
-          <h3 className="mt-2 font-semibold">{awayTeam.name}</h3>
-        </div>
+  <div className="md:w-[70%] w-[100%] mx-auto p-6 bg-white rounded-lg shadow-md mb-5">
+    <div className="flex items-center justify-center gap-4 mb-2 relative">
+      <div className="flex-1 text-center break-words">
+        <img src={`http://localhost:5000/api/assets/teams/${game.homeName}.png`}  alt={game.homeName} className="w-16 h-16 mx-auto md:w-20 md:h-20 max-w-full object-contain" />
+        <h3 className={`mt-2 font-semibold text-sm md:text-base p-1 px-1 rounded-lg ${game.result === 1 ? 'bg-green-500 text-white' : ''}`}>
+          {game.homeName}
+        </h3>
       </div>
-
-      <div className="relative">
-        <div 
-          className="relative h-2 bg-gray-200 rounded-full overflow-hidden cursor-pointer transition-all duration-300"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-          style={{ height: isHovered ? '2rem' : '0.5rem' }}
-        >
-          <div
-            className="absolute left-0 h-full transition-all duration-300 flex items-center justify-start pl-2"
-            style={{
-              width: `${homeTeam.winProbability * 100}%`,
-              backgroundColor: homeTeam.primaryColor
-            }}
-          >
-            {isHovered && (
-              <span className="text-white font-semibold text-sm whitespace-nowrap">
-                {(homeTeam.winProbability * 100).toFixed(1)}%
-              </span>
-            )}
+      <div className="text-center">
+        <div className="text-xl font-bold whitespace-nowrap">vs</div>
+        {game.result === 0 && (
+          <div className="mt-1 text-sm font-semibold bg-gray-300 text-gray-700 p-1 px-3 rounded-lg">
+            Tie
           </div>
-          <div
-            className="absolute right-0 h-full transition-all duration-300 flex items-center justify-end pr-2"
-            style={{
-              width: `${awayTeam.winProbability * 100}%`,
-              backgroundColor: awayTeam.primaryColor
-            }}
-          >
-            {isHovered && (
-              <span className="text-white font-semibold text-sm whitespace-nowrap">
-                {(awayTeam.winProbability * 100).toFixed(1)}%
-              </span>
-            )}
-          </div>
-        </div>
+        )}
+      </div>
+      <div className="flex-1 text-center break-words">
+        <img src={`http://localhost:5000/api/assets/teams/${game.awayName}.png`} alt={game.awayName} className="w-16 h-16 mx-auto md:w-20 md:h-20 max-w-full object-contain" />
+        <h3 className={`mt-2 font-semibold text-sm md:text-base p-1 px-1 rounded-lg ${game.result === 2 ? 'bg-green-500 text-white' : ''}`}>
+          {game.awayName}
+        </h3>
       </div>
     </div>
+  </div>
   );
 };

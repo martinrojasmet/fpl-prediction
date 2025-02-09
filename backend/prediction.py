@@ -461,7 +461,7 @@ def game_prediction(gw):
     preds = xgb.predict(test[test_predictors])
 
     output = [
-        {"home_team_code": home, "away_team_code": away, "result": int(result)}
+        {"homeName": home, "awayName": away, "result": int(result)}
         for home, away, result in zip(test["home"], test["away"], preds)
     ]
 
