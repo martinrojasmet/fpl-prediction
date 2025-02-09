@@ -1,0 +1,52 @@
+[
+    {
+        "home_team_code": "Wolverhampton Wanderers",
+        "away_team_code": "Arsenal",
+        "result": 0
+    },
+    {
+        "home_team_code": "Liverpool",
+        "away_team_code": "Ipswich",
+        "result": 1
+    },
+    {
+        "home_team_code": "Bournemouth",
+        "away_team_code": "Nottingham Forest",
+        "result": 2
+    },
+    {
+        "home_team_code": "Southampton",
+        "away_team_code": "Newcastle United",
+        "result": 2
+    },
+    {
+        "home_team_code": "Manchester City",
+        "away_team_code": "Chelsea",
+        "result": 1
+    },
+    {
+        "home_team_code": "Brighton",
+        "away_team_code": "Everton",
+        "result": 1
+    },
+    {
+        "home_team_code": "Aston Villa",
+        "away_team_code": "West Ham",
+        "result": 0
+    },
+    {
+        "home_team_code": "Tottenham",
+        "away_team_code": "Leicester",
+        "result": 1
+    },
+    {
+        "home_team_code": "Fulham",
+        "away_team_code": "Manchester United",
+        "result": 1
+    },
+    {
+        "home_team_code": "Crystal Palace",
+        "away_team_code": "Brentford",
+        "result": 0
+    }
+]
