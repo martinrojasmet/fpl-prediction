@@ -4,9 +4,15 @@ This is a fun project I’ve wanted to tackle for a while: a Fantasy Premier Lea
 
 After cleaning and merging the official FPL data with Understat’s metrics, I developed a model to predict players’ points for the upcoming gameweek. The predictions factor in the player’s historical performance and their track record against specific opponents. I used XGBoost and Linear Regression algorithms to generate these forecasts.
 
-The results are displayed on a simple webpage featuring an interactive graph of the player’s performance history and predicted points, as well as the basic details like the player name and opponent. As I gain more experience and find time to do it, I plan to refine the model’s accuracy and add new features.
+On the other hand, I developed a game winner prediction model for the upcoming gameweek based on team statistics. The model utilizes an XGBoost Classifier and rolling averages to generate predictions.
 
-![FPL Prediction Example from 2025-01-25](https://github.com/martinrojasmet/fpl-prediction/raw/main/fpl-prediction.gif "FPL Prediction Example from 2025-01-25")
+The points's results are displayed on a simple webpage featuring an interactive graph of the player’s performance history and predicted points, as well as the basic details like the player name and opponent. Additionally, the winner predictions are presented in a straightforward format, with the winner highlighted in green and a tie in gray.
+
+I hope the data I gathered and merged can be useful to you, in any projects you may undertake. As I gain more experience and time, I plan to refine the model’s accuracy, add new features, and experiment with different methods to improve its performance.
+
+![FPL Point Prediction Example from 2025-02-09](https://github.com/martinrojasmet/fpl-prediction/raw/main/fpl-prediction-points.gif "FPL Point Prediction Example from 2025-02-09")
+
+![FPL Game Prediction Example from 2025-02-09](https://github.com/martinrojasmet/fpl-prediction/raw/main/fpl-prediction-games.png "FPL Game Prediction Example from 2025-02-09")
 
 
 [repo_url]: https://github.com/vaastav/Fantasy-Premier-League
