@@ -31,7 +31,8 @@ new_understat_player_df = pd.read_csv(understat_player_path)
 new_understat_game_df = pd.read_csv(understat_game_path)
 
 # 2425
-players_2425_path = "2425_players_data.csv"
+final_folder_path = "./data/final/"
+players_2425_path = final_folder_path + "2425_players_data.csv"
 players_2425_df = pd.read_csv(players_2425_path)
 
 # variables
@@ -40,7 +41,7 @@ gw = int(os.getenv('GW'))
 # last_gw = int(os.getenv('GW'))
 
 # logging
-logging_folder_path = "/home/martin/Documents/GitHub/fpl4/utils/"
+logging_folder_path = "/home/martin/Documents/GitHub/fpl-prediction/backend/utils/"
 logging.basicConfig(filename=f'{logging_folder_path}pipeline.log', level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 # not used
@@ -68,7 +69,7 @@ def add_fpl_name_data(players_df):
     for element in fpl_data["elements"]:
         name = element["first_name"] + " " + element["second_name"]
         fpl_id = element["id"]
-        opta_id = element["photo"].spli(".")[0]
+        opta_id = element["photo"].split(".")[0]
         if (name not in players_fpl_name_list) or (fpl_id not in players_fpl_id_list):
             new_row = {"fpl": name, "fpl_2024-25": fpl_id, "opta_id": opta_id}
             players_df = players_df._append(new_row, ignore_index=True)

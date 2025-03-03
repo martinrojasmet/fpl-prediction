@@ -1,170 +1,51 @@
 id,understat_id,date,home,away
-3851,26652,2024-09-28,Newcastle United,Manchester City
-3852,26653,2024-09-28,Nottingham Forest,Fulham
-3853,26654,2024-09-28,Everton,Crystal Palace
-3854,26655,2024-09-28,Arsenal,Leicester
-3855,26656,2024-09-28,Brentford,West Ham
-3856,26657,2024-09-28,Chelsea,Brighton
-3857,26658,2024-09-28,Wolverhampton Wanderers,Liverpool
-3858,26659,2024-09-29,Ipswich,Aston Villa
-3859,26660,2024-09-29,Manchester United,Tottenham
-3860,26661,2024-09-30,Bournemouth,Southampton
-3861,26662,2024-10-05,Crystal Palace,Liverpool
-3862,26663,2024-10-05,Leicester,Bournemouth
-3863,26664,2024-10-05,Manchester City,Fulham
-3864,26665,2024-10-05,West Ham,Ipswich
-3865,26666,2024-10-05,Arsenal,Southampton
-3866,26667,2024-10-05,Brentford,Wolverhampton Wanderers
-3867,26668,2024-10-06,Chelsea,Nottingham Forest
-3868,26669,2024-10-05,Everton,Newcastle United
-3869,26670,2024-10-06,Aston Villa,Manchester United
-3870,26671,2024-10-06,Brighton,Tottenham
-3871,26672,2024-10-19,Tottenham,West Ham
-3872,26673,2024-10-19,Fulham,Aston Villa
-3873,26674,2024-10-19,Ipswich,Everton
-3874,26675,2024-10-19,Manchester United,Brentford
-3875,26676,2024-10-19,Newcastle United,Brighton
-3876,26677,2024-10-21,Nottingham Forest,Crystal Palace
-3877,26678,2024-10-19,Southampton,Leicester
-3878,26679,2024-10-20,Liverpool,Chelsea
-3879,26680,2024-10-19,Bournemouth,Arsenal
-3880,26681,2024-10-20,Wolverhampton Wanderers,Manchester City
-3881,26682,2024-10-25,Leicester,Nottingham Forest
-3882,26683,2024-10-26,Manchester City,Southampton
-3883,26684,2024-10-26,Aston Villa,Bournemouth
-3884,26685,2024-10-26,Brentford,Ipswich
-3885,26686,2024-10-26,Brighton,Wolverhampton Wanderers
-3886,26687,2024-10-26,Everton,Fulham
-3887,26688,2024-10-27,Chelsea,Newcastle United
-3888,26689,2024-10-27,Crystal Palace,Tottenham
-3889,26690,2024-10-27,West Ham,Manchester United
-3890,26691,2024-10-27,Arsenal,Liverpool
-3891,26692,2024-11-02,Bournemouth,Manchester City
-3892,26693,2024-11-04,Fulham,Brentford
-3893,26694,2024-11-02,Newcastle United,Arsenal
-3894,26695,2024-11-02,Ipswich,Leicester
-3895,26696,2024-11-02,Liverpool,Brighton
-3896,26697,2024-11-03,Manchester United,Chelsea
-3897,26698,2024-11-02,Nottingham Forest,West Ham
-3898,26699,2024-11-02,Southampton,Everton
-3899,26700,2024-11-03,Tottenham,Aston Villa
-3900,26701,2024-11-02,Wolverhampton Wanderers,Crystal Palace
-3901,26702,2024-11-09,Brentford,Bournemouth
-3902,26703,2024-11-09,Brighton,Manchester City
-3903,26704,2024-11-10,Nottingham Forest,Newcastle United
-3904,26705,2024-11-10,Chelsea,Arsenal
-3905,26706,2024-11-09,Crystal Palace,Fulham
-3906,26707,2024-11-09,Liverpool,Aston Villa
-3907,26708,2024-11-10,Manchester United,Leicester
-3908,26709,2024-11-10,Tottenham,Ipswich
-3909,26710,2024-11-09,West Ham,Everton
-3910,26711,2024-11-09,Wolverhampton Wanderers,Southampton
-3911,26712,2024-11-23,Bournemouth,Brighton
-3912,26713,2024-11-25,Newcastle United,West Ham
-3913,26714,2024-11-23,Arsenal,Nottingham Forest
-3914,26715,2024-11-23,Everton,Brentford
-3915,26716,2024-11-23,Aston Villa,Crystal Palace
-3916,26717,2024-11-23,Fulham,Wolverhampton Wanderers
-3917,26718,2024-11-24,Ipswich,Manchester United
-3918,26719,2024-11-23,Leicester,Chelsea
-3919,26720,2024-11-23,Manchester City,Tottenham
-3920,26721,2024-11-24,Southampton,Liverpool
-3921,26722,2024-11-30,Brentford,Leicester
-3922,26723,2024-11-29,Brighton,Southampton
-3923,26724,2024-12-01,Chelsea,Aston Villa
-3924,26725,2024-11-30,Crystal Palace,Newcastle United
-3925,26726,2024-12-01,Liverpool,Manchester City
-3926,26727,2024-12-01,Manchester United,Everton
-3927,26728,2024-11-30,Nottingham Forest,Ipswich
-3928,26729,2024-12-01,Tottenham,Fulham
-3929,26730,2024-11-30,West Ham,Arsenal
-3930,26731,2024-11-30,Wolverhampton Wanderers,Bournemouth
-3931,26732,2024-12-05,Bournemouth,Tottenham
-3932,26733,2024-12-04,Arsenal,Manchester United
-3933,26734,2024-12-04,Aston Villa,Brentford
-3934,26735,2024-12-04,Everton,Wolverhampton Wanderers
-3935,26736,2024-12-05,Fulham,Brighton
-3936,26737,2024-12-03,Ipswich,Crystal Palace
-3937,26738,2024-12-03,Leicester,West Ham
-3938,26739,2024-12-04,Manchester City,Nottingham Forest
-3939,26740,2024-12-04,Newcastle United,Liverpool
-3940,26741,2024-12-04,Southampton,Chelsea
-3941,26742,2024-12-07,Aston Villa,Southampton
-3942,26743,2024-12-07,Brentford,Newcastle United
-3943,26744,2024-12-07,Manchester United,Nottingham Forest
-3944,26745,2024-12-08,Tottenham,Chelsea
-3945,26746,2024-12-09,West Ham,Wolverhampton Wanderers
-3946,26747,2024-12-07,Crystal Palace,Manchester City
-3947,26749,2024-12-08,Fulham,Arsenal
-3948,26750,2024-12-08,Ipswich,Bournemouth
-3949,26751,2024-12-08,Leicester,Brighton
-3950,26752,2024-12-14,Liverpool,Fulham
-3951,26753,2024-12-15,Manchester City,Manchester United
-3952,26754,2024-12-16,Bournemouth,West Ham
-3953,26755,2024-12-14,Arsenal,Everton
-3954,26756,2024-12-15,Brighton,Crystal Palace
-3955,26757,2024-12-15,Chelsea,Brentford
-3956,26758,2024-12-14,Wolverhampton Wanderers,Ipswich
-3957,26759,2024-12-15,Southampton,Tottenham
-3958,26760,2024-12-14,Newcastle United,Leicester
-3959,26761,2024-12-14,Nottingham Forest,Aston Villa
-3960,26762,2024-12-21,Aston Villa,Manchester City
-3961,26763,2024-12-22,Fulham,Southampton
-3962,26764,2024-12-22,Everton,Chelsea
-3963,26765,2024-12-21,Crystal Palace,Arsenal
-3964,26766,2024-12-21,Brentford,Nottingham Forest
-3965,26767,2024-12-21,West Ham,Brighton
-3966,26768,2024-12-22,Tottenham,Liverpool
-3967,26769,2024-12-22,Manchester United,Bournemouth
-3968,26770,2024-12-22,Leicester,Wolverhampton Wanderers
-3969,26771,2024-12-21,Ipswich,Newcastle United
-3970,26772,2024-12-26,Bournemouth,Crystal Palace
-3971,26773,2024-12-27,Arsenal,Ipswich
-3972,26774,2024-12-27,Brighton,Brentford
-3973,26775,2024-12-26,Chelsea,Fulham
-3974,26776,2024-12-26,Liverpool,Leicester
-3975,26777,2024-12-26,Manchester City,Everton
-3976,26778,2024-12-26,Newcastle United,Aston Villa
-3977,26779,2024-12-26,Nottingham Forest,Tottenham
-3978,26780,2024-12-26,Southampton,West Ham
-3979,26781,2024-12-26,Wolverhampton Wanderers,Manchester United
-3980,26782,2024-12-30,Aston Villa,Brighton
-3981,26783,2025-01-01,Brentford,Arsenal
-3982,26784,2024-12-29,Crystal Palace,Southampton
-3983,26785,2024-12-29,Everton,Nottingham Forest
-3984,26786,2024-12-29,Fulham,Bournemouth
-3985,26787,2024-12-30,Ipswich,Chelsea
-3986,26788,2024-12-29,Leicester,Manchester City
-3987,26789,2024-12-30,Manchester United,Newcastle United
-3988,26790,2024-12-29,Tottenham,Wolverhampton Wanderers
-3989,26791,2024-12-29,West Ham,Liverpool
-3990,26792,2025-01-04,Bournemouth,Everton
-3991,26793,2025-01-04,Aston Villa,Leicester
-3992,26794,2025-01-04,Brighton,Arsenal
-3993,26795,2025-01-04,Crystal Palace,Chelsea
-3994,26796,2025-01-05,Fulham,Ipswich
-3995,26797,2025-01-05,Liverpool,Manchester United
-3996,26798,2025-01-04,Manchester City,West Ham
-3997,26799,2025-01-04,Southampton,Brentford
-3998,26800,2025-01-04,Tottenham,Newcastle United
-3999,26801,2025-01-06,Wolverhampton Wanderers,Nottingham Forest
-4000,26802,2025-01-15,Arsenal,Tottenham
-4001,26803,2025-01-14,Brentford,Manchester City
-4002,26804,2025-01-15,Everton,Aston Villa
-4003,26805,2025-01-16,Ipswich,Brighton
-4004,26806,2025-01-15,Leicester,Crystal Palace
-4005,26807,2025-01-14,Nottingham Forest,Liverpool
-4006,26808,2025-01-14,West Ham,Fulham
-4007,26809,2025-01-14,Chelsea,Bournemouth
-4008,26810,2025-01-15,Newcastle United,Wolverhampton Wanderers
-4009,26811,2025-01-16,Manchester United,Southampton
-4010,26812,2025-01-18,Arsenal,Aston Villa
-4011,26813,2025-01-18,Brentford,Liverpool
-4012,26814,2025-01-20,Chelsea,Wolverhampton Wanderers
-4013,26815,2025-01-19,Everton,Tottenham
-4014,26816,2025-01-19,Ipswich,Manchester City
-4015,26817,2025-01-18,Leicester,Fulham
-4016,26818,2025-01-19,Manchester United,Brighton
-4017,26819,2025-01-18,Newcastle United,Bournemouth
-4018,26820,2025-01-19,Nottingham Forest,Southampton
-4019,26821,2025-01-18,West Ham,Crystal Palace
+4020,26822,2025-01-25,Bournemouth,Nottingham Forest
+4021,26823,2025-01-26,Aston Villa,West Ham
+4022,26824,2025-01-25,Brighton,Everton
+4023,26825,2025-01-26,Crystal Palace,Brentford
+4024,26826,2025-01-26,Fulham,Manchester United
+4025,26827,2025-01-25,Liverpool,Ipswich
+4026,26828,2025-01-25,Manchester City,Chelsea
+4027,26829,2025-01-25,Southampton,Newcastle United
+4028,26830,2025-01-26,Tottenham,Leicester
+4029,26831,2025-01-25,Wolverhampton Wanderers,Arsenal
+4030,26832,2025-02-01,Bournemouth,Liverpool
+4031,26833,2025-02-02,Arsenal,Manchester City
+4032,26834,2025-02-02,Brentford,Tottenham
+4033,26835,2025-02-03,Chelsea,West Ham
+4034,26836,2025-02-01,Everton,Leicester
+4035,26837,2025-02-01,Ipswich,Southampton
+4036,26838,2025-02-02,Manchester United,Crystal Palace
+4037,26839,2025-02-01,Newcastle United,Fulham
+4038,26840,2025-02-01,Nottingham Forest,Brighton
+4039,26841,2025-02-01,Wolverhampton Wanderers,Aston Villa
+4040,26842,2025-02-15,Aston Villa,Ipswich
+4041,26843,2025-02-14,Brighton,Chelsea
+4042,26844,2025-02-15,Crystal Palace,Everton
+4043,26845,2025-02-15,Fulham,Nottingham Forest
+4044,26846,2025-02-15,Leicester,Arsenal
+4045,26847,2025-02-16,Liverpool,Wolverhampton Wanderers
+4046,26848,2025-02-15,Manchester City,Newcastle United
+4047,26849,2025-02-15,Southampton,Bournemouth
+4048,26850,2025-02-16,Tottenham,Manchester United
+4049,26851,2025-02-15,West Ham,Brentford
+4050,26852,2025-02-22,Bournemouth,Wolverhampton Wanderers
+4051,26853,2025-02-22,Arsenal,West Ham
+4052,26854,2025-02-22,Aston Villa,Chelsea
+4053,26855,2025-02-22,Everton,Manchester United
+4054,26856,2025-02-22,Fulham,Crystal Palace
+4055,26857,2025-02-22,Ipswich,Tottenham
+4056,26858,2025-02-21,Leicester,Brentford
+4057,26859,2025-02-23,Manchester City,Liverpool
+4058,26860,2025-02-23,Newcastle United,Nottingham Forest
+4059,26861,2025-02-22,Southampton,Brighton
+4060,26862,2025-02-26,Brentford,Everton
+4061,26863,2025-02-25,Brighton,Bournemouth
+4062,26864,2025-02-26,Nottingham Forest,Arsenal
+4063,26865,2025-02-26,Tottenham,Manchester City
+4064,26866,2025-02-27,West Ham,Leicester
+4065,26867,2025-02-25,Wolverhampton Wanderers,Fulham
+4066,26868,2025-02-25,Crystal Palace,Aston Villa
+4067,26869,2025-02-25,Chelsea,Southampton
+4068,26870,2025-02-26,Liverpool,Newcastle United
+4069,26871,2025-02-26,Manchester United,Ipswich
