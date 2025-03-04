@@ -92,18 +92,18 @@ def add_understat_name_data(understat_merged_df, players_df):
     lis = []
     for name in unique_player_names:
         if name not in players_df["understat"].values:
-            matching_row = players_df[players_df["fpl"] == name]
-            if not matching_row.empty:
-                print(name)
-                lis.append(name)
-            else:
-                # Falta checkear si el nombre es similar
+            if (players_df["fpl"] == name).any():
+                print(f"{name} understat value updated")
                 players_df.loc[players_df["fpl"] == name, "understat"] = name
-    
-    print("Cantidad de jugadores fuera: ", len(lis))
-    if len(lis) > 0:
-        raise ValueError("Some players are missing from the players_df.")
+            else:
+                lis.append(name)
+
     players_df.to_csv(players_pivot_path, index=False)
+
+    if lis:
+        print("Amount of players out: ", len(lis))
+        print(lis)
+        raise ValueError("Some players are missing from the players_df.")
 
 def get_fpl_data():
     result_df = pd.DataFrame()
@@ -450,20 +450,21 @@ def main():
         print("Adding Understat name data")
         add_understat_name_data(new_understat_merged_df, players_df)
 
-        print("Getting FPL data")
-        get_fpl_data()
+        # print("Getting FPL data")
+        # get_fpl_data()
 
-        print("Merging Understat and FPL data")
-        fpl_player_df = pd.read_csv(fpl_player_path)
-        merge_understat_fpl(fpl_player_df, new_understat_merged_df)
+        # print("Merging Understat and FPL data")
+        # fpl_player_df = pd.read_csv(fpl_player_path)
+        # merge_understat_fpl(fpl_player_df, new_understat_merged_df)
 
-        print("Append new data to 2425")
-        result_df = pd.read_csv(result_path)
-        append_current_data(players_2425_df, result_df)
+        # print("Append new data to 2425")
+        # result_df = pd.read_csv(result_path)
+        # append_current_data(players_2425_df, result_df)
 
-        print("FPL data pipeline finished")
-        logging.info('FPL data pipeline finished')
+        # print("FPL data pipeline finished")
+        # logging.info('FPL data pipeline finished')
     except Exception as e:
+        print(e)
         logging.error(f'Failed to run pipeline: {e}')
 
 main()
