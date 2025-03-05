@@ -450,19 +450,19 @@ def main():
         print("Adding Understat name data")
         add_understat_name_data(new_understat_merged_df, players_df)
 
-        # print("Getting FPL data")
-        # get_fpl_data()
+        print("Getting FPL data")
+        get_fpl_data()
 
-        # print("Merging Understat and FPL data")
-        # fpl_player_df = pd.read_csv(fpl_player_path)
-        # merge_understat_fpl(fpl_player_df, new_understat_merged_df)
+        print("Merging Understat and FPL data")
+        fpl_player_df = pd.read_csv(fpl_player_path)
+        merge_understat_fpl(fpl_player_df, new_understat_merged_df)
 
-        # print("Append new data to 2425")
-        # result_df = pd.read_csv(result_path)
-        # append_current_data(players_2425_df, result_df)
+        print("Append new data to 2425")
+        result_df = pd.read_csv(result_path)
+        append_current_data(players_2425_df, result_df)
 
-        # print("FPL data pipeline finished")
-        # logging.info('FPL data pipeline finished')
+        print("FPL data pipeline finished")
+        logging.info('FPL data pipeline finished')
     except Exception as e:
         print(e)
         logging.error(f'Failed to run pipeline: {e}')
