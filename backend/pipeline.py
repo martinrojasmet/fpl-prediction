@@ -377,17 +377,12 @@ def get_team_name():
 
 # final
 def merge_understat_fpl(fpl_player_df, new_understat_merged_df):
-    # Joe Ayodele-Aribo,Joe Ayodele-Aribo,452.0
-    # Joe Ayodele-Aribo,Joe Aribo,452.0
+
     fpl_player_df["understat_fpl_name"] = fpl_player_df["fpl_name"].map(players_df.set_index("fpl")["understat"])
 
     fpl_player_df["fpl_date"] = pd.to_datetime(fpl_player_df["fpl_date"]).dt.strftime('%Y-%m-%d')
     new_understat_merged_df["date"] = pd.to_datetime(new_understat_merged_df["date"]).dt.strftime('%Y-%m-%d')
     result_df = fpl_player_df.merge(new_understat_merged_df, left_on=["understat_fpl_name", "fpl_date"], right_on=["player_name", "date"], how="left")
-
-    # duplicated = result_df[(result_df["fpl_name"].notna()) & (result_df["game_id"].notna())]
-    # duplicated = duplicated[duplicated.duplicated(subset=["fpl_name", "game_id"], keep=False)]
-    # print(duplicated[["fpl_name", "game_id"]])
 
     result_df = result_df[result_df["fpl_name"].notna()]
 

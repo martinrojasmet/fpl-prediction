@@ -47,3 +47,5 @@ def delete_not_images():
 def update_images_locally():
     get_opta_ids()
     get_images()
+
+update_images_locally()
