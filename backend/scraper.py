@@ -10,6 +10,12 @@ player_game_df_path = folder_path + "understat_player.csv"
 games_df_path = folder_path + "understat_game.csv"
 indexes_path = "./utils/scraper_indexes.txt"
 
+from dotenv import load_dotenv
+import json
+load_dotenv()
+gw = int(os.getenv('GW'))
+last_gw = int(os.getenv('LAST_GW'))
+
 def get_actual_value(xNumber):
     number_regex = r"([-+]?\d+\.\d+)"
     match = re.search(number_regex, xNumber)
@@ -105,8 +111,27 @@ def run(playwright: Playwright) -> None:
 
     page = context.new_page()
 
+    with open('./utils/double_gw.json', 'r') as file:
+        double_gw = json.load(file)
+
+    list_dgw = []
+    for key, values in double_gw.items():
+        if int(key) >= gw and int(key) <= last_gw:
+            list_dgw.append(values["understat_id"])
+    print(list_dgw)
+
+    second_cond = False
+
     game_number = start_game
-    while game_number <= last_game:
+    while game_number <= last_game or len(list_dgw) > 0:
+        first_cond_met = game_number > last_game
+        if not second_cond and first_cond_met:
+            second_cond = True
+        if second_cond:
+            game_number = list_dgw[0]
+            list_dgw.pop(0)
+            print(game_number)
+            print(list_dgw)
         page.goto(base_url + str(game_number))
         error_404_is_visible = page.get_by_text("404 The page you requested").is_visible()
         if not error_404_is_visible:
@@ -143,19 +168,28 @@ def run(playwright: Playwright) -> None:
                 }, ignore_index=True)
 
                 game_id += 1
-
-            if (game_number - start_game + 1) % 10 == 0:
-                if not player_game_df.empty and not games_df.empty:
-                    player_game_df.to_csv(player_game_df_path, index=False)
-                    games_df.to_csv(games_df_path, index=False)
-                update_value_in_txt("start_game", game_number)
-                update_value_in_txt("game_id", game_id)
-                update_value_in_txt("player_game_id", player_game_id)
-        game_number += 1
+            if not second_cond:
+                if (game_number - start_game + 1) % 10 == 0:
+                    if not player_game_df.empty and not games_df.empty:
+                        player_game_df.to_csv(player_game_df_path, index=False)
+                        games_df.to_csv(games_df_path, index=False)
+                    if not second_cond:
+                        update_value_in_txt("start_game", game_number)
+                    update_value_in_txt("game_id", game_id)
+                    update_value_in_txt("player_game_id", player_game_id)
+        if not second_cond:
+            game_number += 1
+        else:
+            if not player_game_df.empty and not games_df.empty:
+                player_game_df.to_csv(player_game_df_path, index=False)
+                games_df.to_csv(games_df_path, index=False)
+            update_value_in_txt("game_id", game_id)
+            update_value_in_txt("player_game_id", player_game_id)
     if not player_game_df.empty and not games_df.empty:
         player_game_df.to_csv(player_game_df_path, index=False)
         games_df.to_csv(games_df_path, index=False)
-    update_value_in_txt("start_game", game_number)
+    if not second_cond:
+        update_value_in_txt("start_game", game_number)
     update_value_in_txt("game_id", game_id)
     update_value_in_txt("player_game_id", player_game_id)
 

@@ -1510,3 +1510,65 @@ player_game_id,player_name,game_id,team_name,minutes,shots,goals,key_passes,assi
 114674,Jack Taylor,4069,Ipswich,20,1,0,0,0,0.03,0.0,26871,2025-02-26,Ipswich
 114675,Ben Johnson,4069,Ipswich,5,0,0,0,0,0.0,0.0,26871,2025-02-26,Ipswich
 114676,Nathan Broadhead,4069,Ipswich,20,0,0,0,0,0.0,0.0,26871,2025-02-26,Ipswich
+114677,Jordan Pickford,4070,Everton,90,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114678,Jake O'Brien,4070,Everton,90,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114679,James Tarkowski,4070,Everton,90,1,1,1,0,0.08,0.06,26748,2025-02-12,Liverpool
+114680,Jarrad Branthwaite,4070,Everton,90,0,0,1,1,0.0,0.36,26748,2025-02-12,Liverpool
+114681,Vitalii Mykolenko,4070,Everton,90,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114682,Idrissa Gueye,4070,Everton,82,0,0,1,0,0.0,0.05,26748,2025-02-12,Liverpool
+114683,James Garner,4070,Everton,90,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114684,Jesper Lindstrom,4070,Everton,82,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114685,Abdoulaye Doucouré,4070,Everton,90,2,0,2,0,0.12,0.05,26748,2025-02-12,Liverpool
+114686,Iliman Ndiaye,4070,Everton,24,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114687,Beto,4070,Everton,90,4,1,2,0,0.52,0.18,26748,2025-02-12,Liverpool
+114688,Ashley Young,4070,Everton,1,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114689,Jack Harrison,4070,Everton,66,2,0,1,0,0.18,0.12,26748,2025-02-12,Liverpool
+114690,Tim Iroegbunam,4070,Everton,8,1,0,1,1,0.01,0.08,26748,2025-02-12,Liverpool
+114691,Carlos Alcaraz,4070,Everton,8,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114692,Alisson,4070,Liverpool,90,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114693,Conor Bradley,4070,Liverpool,66,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114694,Ibrahima Konaté,4070,Liverpool,90,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114695,Virgil van Dijk,4070,Liverpool,90,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114696,Andrew Robertson,4070,Liverpool,74,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114697,Alexis Mac Allister,4070,Liverpool,90,1,1,0,0,0.33,0.0,26748,2025-02-12,Liverpool
+114698,Ryan Gravenberch,4070,Liverpool,66,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114699,Mohamed Salah,4070,Liverpool,90,2,1,2,1,0.46,0.38,26748,2025-02-12,Liverpool
+114700,Dominik Szoboszlai,4070,Liverpool,90,1,0,0,0,0.04,0.0,26748,2025-02-12,Liverpool
+114701,Cody Gakpo,4070,Liverpool,74,0,0,1,0,0.0,0.04,26748,2025-02-12,Liverpool
+114702,Luis Díaz,4070,Liverpool,90,1,0,0,0,0.05,0.0,26748,2025-02-12,Liverpool
+114703,Konstantinos Tsimikas,4070,Liverpool,16,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114704,Diogo Jota,4070,Liverpool,1,0,0,1,0,0.0,0.06,26748,2025-02-12,Liverpool
+114705,Darwin Núñez,4070,Liverpool,16,0,0,1,0,0.0,0.09,26748,2025-02-12,Liverpool
+114706,Trent Alexander-Arnold,4070,Liverpool,24,0,0,0,0,0.0,0.0,26748,2025-02-12,Liverpool
+114707,Curtis Jones,4070,Liverpool,24,1,0,0,0,0.09,0.0,26748,2025-02-12,Liverpool
+114708,Emiliano Martinez,4071,Aston Villa,90,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114709,Andrés García,4071,Aston Villa,70,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114710,Axel Disasi,4071,Aston Villa,90,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114711,Tyrone Mings,4071,Aston Villa,90,1,0,0,0,0.07,0.0,26884,2025-02-19,Liverpool
+114712,Lucas Digne,4071,Aston Villa,81,0,0,2,1,0.0,0.42,26884,2025-02-19,Liverpool
+114713,Youri Tielemans,4071,Aston Villa,90,2,1,0,0,0.43,0.0,26884,2025-02-19,Liverpool
+114714,John McGinn,4071,Aston Villa,89,0,0,1,0,0.0,0.07,26884,2025-02-19,Liverpool
+114715,Morgan Rogers,4071,Aston Villa,90,1,0,0,0,0.05,0.0,26884,2025-02-19,Liverpool
+114716,Marco Asensio,4071,Aston Villa,70,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114717,Marcus Rashford,4071,Aston Villa,70,1,0,0,0,0.08,0.0,26884,2025-02-19,Liverpool
+114718,Ollie Watkins,4071,Aston Villa,90,1,1,0,0,0.34,0.0,26884,2025-02-19,Liverpool
+114719,Donyell Malen,4071,Aston Villa,20,2,0,0,0,0.07,0.0,26884,2025-02-19,Liverpool
+114720,Ian Maatsen,4071,Aston Villa,9,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114721,Lamare Bogarde,4071,Aston Villa,1,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114722,Matthew Cash,4071,Aston Villa,20,1,0,1,0,0.01,0.02,26884,2025-02-19,Liverpool
+114723,Jacob Ramsey,4071,Aston Villa,20,0,0,1,0,0.0,0.05,26884,2025-02-19,Liverpool
+114724,Alisson,4071,Liverpool,90,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114725,Trent Alexander-Arnold,4071,Liverpool,69,1,1,4,0,0.09,0.17,26884,2025-02-19,Liverpool
+114726,Ibrahima Konaté,4071,Liverpool,90,0,0,1,0,0.0,0.06,26884,2025-02-19,Liverpool
+114727,Virgil van Dijk,4071,Liverpool,90,1,0,0,0,0.03,0.0,26884,2025-02-19,Liverpool
+114728,Andrew Robertson,4071,Liverpool,90,1,0,4,0,0.1,0.46,26884,2025-02-19,Liverpool
+114729,Alexis Mac Allister,4071,Liverpool,84,1,0,0,0,0.04,0.0,26884,2025-02-19,Liverpool
+114730,Ryan Gravenberch,4071,Liverpool,90,0,0,1,0,0.0,0.05,26884,2025-02-19,Liverpool
+114731,Mohamed Salah,4071,Liverpool,90,2,1,2,1,0.57,0.14,26884,2025-02-19,Liverpool
+114732,Dominik Szoboszlai,4071,Liverpool,90,3,0,3,0,0.22,0.52,26884,2025-02-19,Liverpool
+114733,Curtis Jones,4071,Liverpool,90,1,0,0,0,0.04,0.0,26884,2025-02-19,Liverpool
+114734,Diogo Jota,4071,Liverpool,69,6,0,1,1,0.57,0.53,26884,2025-02-19,Liverpool
+114735,Luis Díaz,4071,Liverpool,6,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114736,Darwin Núñez,4071,Liverpool,21,1,0,0,0,0.38,0.0,26884,2025-02-19,Liverpool
+114737,Jarell Quansah,4071,Liverpool,1,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool
+114738,Conor Bradley,4071,Liverpool,21,0,0,0,0,0.0,0.0,26884,2025-02-19,Liverpool

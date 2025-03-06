@@ -70,3 +70,91 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 2025-03-04 23:50:38,358 - root - INFO - FPL data pipeline finished
 2025-03-04 23:53:09,513 - root - INFO - FPL data pipeline started...
 2025-03-04 23:56:07,565 - root - INFO - FPL data pipeline finished
+2025-03-05 23:24:14,318 - root - INFO - FPL data pipeline started...
+2025-03-05 23:24:26,092 - root - ERROR - Failed to run pipeline: '>=' not supported between instances of 'str' and 'int'
+2025-03-05 23:26:03,320 - root - INFO - FPL data pipeline started...
+2025-03-05 23:26:04,289 - root - ERROR - Failed to run pipeline: 'list' object has no attribute 'empty'
+2025-03-05 23:26:32,036 - root - INFO - FPL data pipeline started...
+2025-03-05 23:36:41,105 - root - INFO - FPL data pipeline started...
+2025-03-05 23:37:02,106 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2594' coro=<Locator.inner_text() done, defined at /home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/_impl/_locator.py:442> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/home/martin/Documents/GitHub/fpl-prediction/backend/pipeline.py", line 465, in <module>
+    main()
+  File "/home/martin/Documents/GitHub/fpl-prediction/backend/pipeline.py", line 434, in main
+    scrape_understat_data()
+  File "/home/martin/Documents/GitHub/fpl-prediction/backend/scraper.py", line 195, in scrape_understat_data
+    run(playwright)
+  File "/home/martin/Documents/GitHub/fpl-prediction/backend/scraper.py", line 154, in run
+    player_game_df, player_game_id = get_data_from_players(table, rows, player_game_df, player_game_id, game_id, team)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/Documents/GitHub/fpl-prediction/backend/scraper.py", line 29, in get_data_from_players
+    minutes = row.locator("td").nth(3).inner_text()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 16500, in inner_text
+    self._sync(self._impl_obj.inner_text(timeout=timeout))
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/sync_api/_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/asyncio/base_events.py", line 1987, in _run_once
+    handle._run()
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 444, in inner_text
+    return await self._frame.inner_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 618, in inner_text
+    return await self._channel.send("innerText", locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 512, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 85, in inner_send
+    callback = self._connection._send_message_to_server(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 327, in _send_message_to_server
+    getattr(task, "__pw_stack_trace__", traceback.extract_stack()),
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/traceback.py", line 232, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/traceback.py", line 395, in extract
+    return klass._extract_from_extended_frame_gen(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/traceback.py", line 430, in _extract_from_extended_frame_gen
+    result.append(FrameSummary(
+                  ^^^^^^^^^^^^^
+  File "/home/martin/.pyenv/versions/3.12.4/lib/python3.12/traceback.py", line 265, in __init__
+    def __init__(self, filename, lineno, name, *, lookup_line=True,
+    
+KeyboardInterrupt
+2025-03-05 23:37:30,983 - root - INFO - FPL data pipeline started...
+2025-03-05 23:40:14,564 - root - INFO - FPL data pipeline started...
+2025-03-05 23:40:27,693 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-03-05 23:41:18,290 - root - INFO - FPL data pipeline started...
+2025-03-05 23:43:34,267 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-03-05 23:45:58,956 - root - INFO - FPL data pipeline started...
+2025-03-05 23:46:38,743 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-03-05 23:47:22,130 - root - INFO - FPL data pipeline started...
+2025-03-05 23:49:34,212 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-03-05 23:53:05,945 - root - INFO - FPL data pipeline started...
+2025-03-05 23:53:06,655 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-03-05 23:53:17,308 - root - INFO - FPL data pipeline started...

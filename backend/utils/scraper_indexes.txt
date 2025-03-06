@@ -1,4 +1,4 @@
 start_game=26872
 last_game=26871
-game_id=4070
-player_game_id=114677
+game_id=4072
+player_game_id=114739
