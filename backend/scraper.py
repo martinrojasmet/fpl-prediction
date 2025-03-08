@@ -94,6 +94,16 @@ def convert_string_to_date(string):
     except ValueError:
         raise ValueError("Invalid date format. Please use 'Aug 17 2024' format.")
 
+def update_values(second_cond_only, player_game_id, game_number, game_id, player_game_df, games_df):
+    if not second_cond_only:
+        update_value_in_txt("start_game", game_number)
+    update_value_in_txt("game_id", game_id)
+    update_value_in_txt("player_game_id", player_game_id)
+
+    if not player_game_df.empty and not games_df.empty:
+        player_game_df.to_csv(player_game_df_path, index=False)
+        games_df.to_csv(games_df_path, index=False)
+
 def run(playwright: Playwright) -> None:
 
     start_game = get_value_from_txt("start_game")
@@ -120,18 +130,16 @@ def run(playwright: Playwright) -> None:
             list_dgw.append(values["understat_id"])
     print(list_dgw)
 
-    second_cond = False
+    second_cond_only = False
 
     game_number = start_game
     while game_number <= last_game or len(list_dgw) > 0:
-        first_cond_met = game_number > last_game
-        if not second_cond and first_cond_met:
-            second_cond = True
-        if second_cond:
+        first_cond_not_met = game_number > last_game
+        if not second_cond_only and first_cond_not_met:
+            second_cond_only = True
+        if second_cond_only:
             game_number = list_dgw[0]
             list_dgw.pop(0)
-            print(game_number)
-            print(list_dgw)
         page.goto(base_url + str(game_number))
         error_404_is_visible = page.get_by_text("404 The page you requested").is_visible()
         if not error_404_is_visible:
@@ -168,30 +176,13 @@ def run(playwright: Playwright) -> None:
                 }, ignore_index=True)
 
                 game_id += 1
-            if not second_cond:
-                if (game_number - start_game + 1) % 10 == 0:
-                    if not player_game_df.empty and not games_df.empty:
-                        player_game_df.to_csv(player_game_df_path, index=False)
-                        games_df.to_csv(games_df_path, index=False)
-                    if not second_cond:
-                        update_value_in_txt("start_game", game_number)
-                    update_value_in_txt("game_id", game_id)
-                    update_value_in_txt("player_game_id", player_game_id)
-        if not second_cond:
+            
+        if not second_cond_only:
             game_number += 1
-        else:
-            if not player_game_df.empty and not games_df.empty:
-                player_game_df.to_csv(player_game_df_path, index=False)
-                games_df.to_csv(games_df_path, index=False)
-            update_value_in_txt("game_id", game_id)
-            update_value_in_txt("player_game_id", player_game_id)
-    if not player_game_df.empty and not games_df.empty:
-        player_game_df.to_csv(player_game_df_path, index=False)
-        games_df.to_csv(games_df_path, index=False)
-    if not second_cond:
-        update_value_in_txt("start_game", game_number)
-    update_value_in_txt("game_id", game_id)
-    update_value_in_txt("player_game_id", player_game_id)
+            last_game_number = game_number
+        update_values(second_cond_only, player_game_id, game_number, game_id, player_game_df, games_df)
+    
+    update_values(second_cond_only, player_game_id, last_game_number + 1, game_id, player_game_df, games_df)
 
     context.close()
     browser.close()
