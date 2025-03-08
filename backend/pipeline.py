@@ -4,6 +4,7 @@ from scraper import scrape_understat_data
 import logging
 import os
 from dotenv import load_dotenv
+import json
 
 load_dotenv()
 
@@ -38,7 +39,7 @@ players_2425_df = pd.read_csv(players_2425_path)
 # variables
 start_date_season = os.getenv('START_DATE')
 gw = int(os.getenv('GW'))
-# last_gw = int(os.getenv('GW'))
+last_gw = int(os.getenv('LAST_GW'))
 
 # logging
 logging_folder_path = "/home/martin/Documents/GitHub/fpl-prediction/backend/utils/"
@@ -374,6 +375,20 @@ def get_team_name():
     matched_rows["fpl_team"] = matched_rows["fpl_team"].astype(int)
     matched_rows = matched_rows.sort_values(by=["fpl_kickoff_time", "fpl_name"])
     matched_rows.to_csv("2425_players_data2.csv", index=False)
+
+def change_gw_dw(fpl_player_df):
+    with open('./utils/double_gw.json', 'r') as file:
+        double_gw = json.load(file)
+
+    for key, values in double_gw.items():
+        gw = int(key)
+        # fpl_home_team_code
+        fpl_home_team_code = teams_pivot_df[(teams_pivot_df["understat_name"] == value.home) & (teams_pivot_df["season"] == "2024-25")]["definite_team_number"].iloc[-1]
+        # fpl_away_team_code
+        fpl_away_team_code = teams_pivot_df[(teams_pivot_df["understat_name"] == value.away) & (teams_pivot_df["season"] == "2024-25")]["definite_team_number"].iloc[-1]
+
+        fpl_player_df.loc[(fpl_player_df["gw"] == gw) & ((fpl_player_df["fpl_team"] == fpl_home_team_code) & (fpl_player_df["opponent_fpl_team_number"] == fpl_away_team_code)) | 
+        ((fpl_player_df["fpl_team"] == fpl_away_team_code) & (fpl_player_df["opponent_fpl_team_number"] == fpl_home_team_code)), "gw"] = values["original_gw"]
 
 # final
 def merge_understat_fpl(fpl_player_df, new_understat_merged_df):
