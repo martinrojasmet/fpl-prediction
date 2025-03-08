@@ -407,6 +407,7 @@ def merge_understat_fpl(fpl_player_df, new_understat_merged_df):
 
     unmatched_fpl_rows = result_df[result_df["player_game_id"].isna()]
     matched_fpl_rows = result_df[result_df["player_game_id"].notna()]
+    unmatched_fpl_played = unmatched_fpl_rows[unmatched_fpl_rows["minutes_x"] > 0]
     print(f"Number of matched fpl rows: {len(matched_fpl_rows)}")
     print(f"Number of unmatched fpl rows: {len(unmatched_fpl_rows)}")
 
@@ -415,11 +416,11 @@ def merge_understat_fpl(fpl_player_df, new_understat_merged_df):
     print(f"Number of matched understat rows: {len(matched_understat_rows)}")
     print(f"Number of unmatched understat rows: {len(unmatched_understat_rows)}")
 
-    if len(unmatched_understat_rows) > 0:
-        print("ALERTA DATOS NO ENCONTRADOS")
+    if len(unmatched_understat_rows) > 0 or len(unmatched_fpl_played):
         print(unmatched_understat_rows)
-        unmatched_fpl_rows.to_csv("", index=False)
-        raise ValueError("There are unmatched rows in the understat data.")
+        print(unmatched_fpl_played)
+        unmatched_fpl_rows.to_csv("error.csv", index=False)
+        raise ValueError("There are unmatched rows in the understat data or fpl data.")
     else:
         result_df.rename(columns={"player_game_id": "local_understat_id", "game_id": "local_understat_fixture", "understat_fpl_name":"understat_name",
         "team_name": "understat_team", "date": "understat_date", "minutes_x": "minutes", "assists_x": "assists"}, inplace=True)

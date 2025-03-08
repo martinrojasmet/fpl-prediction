@@ -130,7 +130,6 @@ def run(playwright: Playwright) -> None:
     for key, values in double_gw.items():
         if int(key) >= gw and int(key) <= last_gw:
             list_dgw.append(values["understat_id"])
-    print(list_dgw)
 
     second_cond_only = False
 
