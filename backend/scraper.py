@@ -111,6 +111,8 @@ def run(playwright: Playwright) -> None:
     game_id = get_value_from_txt("game_id")
     player_game_id = get_value_from_txt("player_game_id")
 
+    condition = start_game > last_game
+
     player_game_df = pd.DataFrame(columns=["id", "player_name", "game_id", "team_name", "minutes", "shots", "goals", "key_passes", "assists", "xG", "xA"])
     games_df = pd.DataFrame(columns=["id", "understat_id", "date", "home", "away"])
 
@@ -133,56 +135,58 @@ def run(playwright: Playwright) -> None:
     second_cond_only = False
 
     game_number = start_game
-    while game_number <= last_game or len(list_dgw) > 0:
-        first_cond_not_met = game_number > last_game
-        if not second_cond_only and first_cond_not_met:
-            second_cond_only = True
-        if second_cond_only:
-            game_number = list_dgw[0]
-            list_dgw.pop(0)
-        page.goto(base_url + str(game_number))
-        error_404_is_visible = page.get_by_text("404 The page you requested").is_visible()
-        if not error_404_is_visible:
-            league = page.locator("xpath=//html/body/div[1]/div[3]/ul/li[2]/a").inner_text()
-            date_string = page.locator("xpath=//html/body/div[1]/div[3]/ul/li[3]").inner_text()
 
-            home = page.locator("xpath=//html/body/div[1]/div[3]/div[2]/div[2]/h3/a").inner_text()
-            away = page.locator("xpath=//html/body/div[1]/div[3]/div[2]/div[3]/h3/a").inner_text()
+    if not condition:
+        while game_number <= last_game or len(list_dgw) > 0:
+            first_cond_not_met = game_number > last_game
+            if not second_cond_only and first_cond_not_met:
+                second_cond_only = True
+            if second_cond_only:
+                game_number = list_dgw[0]
+                list_dgw.pop(0)
+            page.goto(base_url + str(game_number))
+            error_404_is_visible = page.get_by_text("404 The page you requested").is_visible()
+            if not error_404_is_visible:
+                league = page.locator("xpath=//html/body/div[1]/div[3]/ul/li[2]/a").inner_text()
+                date_string = page.locator("xpath=//html/body/div[1]/div[3]/ul/li[3]").inner_text()
 
-            date = convert_string_to_date(date_string)
+                home = page.locator("xpath=//html/body/div[1]/div[3]/div[2]/div[2]/h3/a").inner_text()
+                away = page.locator("xpath=//html/body/div[1]/div[3]/div[2]/div[3]/h3/a").inner_text()
 
-            if league and league == "EPL":
-                table = page.locator("xpath=//html/body/div[1]/div[3]/div[4]/div/div[2]/table/tbody[1]")
-                rows = table.locator("tr")
+                date = convert_string_to_date(date_string)
+
+                if league and league == "EPL":
+                    table = page.locator("xpath=//html/body/div[1]/div[3]/div[4]/div/div[2]/table/tbody[1]")
+                    rows = table.locator("tr")
+                    
+                    for i in range(1,3):
+                        team_element = page.locator(f"xpath=//html/body/div[1]/div[3]/div[4]/div/div[1]/div/label[{i}]")
+                        team_element.click()
+
+                        team = team_element.inner_text()
+
+                        if i == 1:
+                            team = home
+                        else:
+                            team = away
+                        player_game_df, player_game_id = get_data_from_players(table, rows, player_game_df, player_game_id, game_id, team)
+
+                    games_df = games_df._append({
+                        "id": game_id,
+                        "understat_id": game_number,
+                        "date": date,
+                        "home": home,
+                        "away": away
+                    }, ignore_index=True)
+
+                    game_id += 1
                 
-                for i in range(1,3):
-                    team_element = page.locator(f"xpath=//html/body/div[1]/div[3]/div[4]/div/div[1]/div/label[{i}]")
-                    team_element.click()
-
-                    team = team_element.inner_text()
-
-                    if i == 1:
-                        team = home
-                    else:
-                        team = away
-                    player_game_df, player_game_id = get_data_from_players(table, rows, player_game_df, player_game_id, game_id, team)
-
-                games_df = games_df._append({
-                    "id": game_id,
-                    "understat_id": game_number,
-                    "date": date,
-                    "home": home,
-                    "away": away
-                }, ignore_index=True)
-
-                game_id += 1
-            
-        if not second_cond_only:
-            game_number += 1
-            last_game_number = game_number
-        update_values(second_cond_only, player_game_id, game_number, game_id, player_game_df, games_df)
-    
-    update_values(second_cond_only, player_game_id, last_game_number + 1, game_id, player_game_df, games_df)
+            if not second_cond_only:
+                game_number += 1
+                last_game_number = game_number
+            update_values(second_cond_only, player_game_id, game_number, game_id, player_game_df, games_df)
+        
+        update_values(second_cond_only, player_game_id, last_game_number + 1, game_id, player_game_df, games_df)
 
     context.close()
     browser.close()

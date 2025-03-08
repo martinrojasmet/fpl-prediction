@@ -119,7 +119,7 @@ def get_fpl_data():
         element_data = element_response.json()
         element_history = element_data["history"]
         for element in element_history:
-            if element["round"] >= gw:
+            if element["round"] >= gw and element["round"] <= last_gw:
                 row = {
                     "fpl_name": players_df.loc[players_df["fpl_2024-25"] == player_index, "fpl"].values[0],
                     "position": basic_element["element_type"],
@@ -383,12 +383,16 @@ def change_gw_dw(fpl_player_df):
     for key, values in double_gw.items():
         gw = int(key)
         # fpl_home_team_code
-        fpl_home_team_code = teams_pivot_df[(teams_pivot_df["understat_name"] == value.home) & (teams_pivot_df["season"] == "2024-25")]["definite_team_number"].iloc[-1]
+        fpl_home_team_code = teams_pivot_df[(teams_pivot_df["understat_name"] == values["home"]) & (teams_pivot_df["season"] == "2024-25")]["definite_team_number"].iloc[-1]
         # fpl_away_team_code
-        fpl_away_team_code = teams_pivot_df[(teams_pivot_df["understat_name"] == value.away) & (teams_pivot_df["season"] == "2024-25")]["definite_team_number"].iloc[-1]
+        fpl_away_team_code = teams_pivot_df[(teams_pivot_df["understat_name"] == values["away"]) & (teams_pivot_df["season"] == "2024-25")]["definite_team_number"].iloc[-1]
+        
+        mask = (fpl_player_df["gw"] == gw) & (((fpl_player_df["fpl_team"] == fpl_home_team_code) & (fpl_player_df["opponent_fpl_team_number"] == fpl_away_team_code)) | 
+        ((fpl_player_df["fpl_team"] == fpl_away_team_code) & (fpl_player_df["opponent_fpl_team_number"] == fpl_home_team_code)))
 
-        fpl_player_df.loc[(fpl_player_df["gw"] == gw) & ((fpl_player_df["fpl_team"] == fpl_home_team_code) & (fpl_player_df["opponent_fpl_team_number"] == fpl_away_team_code)) | 
-        ((fpl_player_df["fpl_team"] == fpl_away_team_code) & (fpl_player_df["opponent_fpl_team_number"] == fpl_home_team_code)), "gw"] = values["original_gw"]
+        fpl_player_df.loc[mask, "gw"] = values["original_gw"]
+
+        fpl_player_df.to_csv(fpl_player_path, index=False)
 
 # final
 def merge_understat_fpl(fpl_player_df, new_understat_merged_df):
@@ -465,6 +469,7 @@ def main():
 
         print("Merging Understat and FPL data")
         fpl_player_df = pd.read_csv(fpl_player_path)
+        change_gw_dw(fpl_player_df)
         merge_understat_fpl(fpl_player_df, new_understat_merged_df)
 
         print("Append new data to 2425")
