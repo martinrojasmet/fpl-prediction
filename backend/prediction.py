@@ -30,7 +30,7 @@ teams_path = './data/pivot/teams.csv'
 players_path = './data/final/2425_players_data.csv'
 
 img_api_url = "http://localhost:5000/api/assets/players/"
-player_images_folder_path = "/home/martin/Documents/GitHub/fpl/backend/assets/player_images/"
+player_images_folder_path = "/home/martin/Documents/GitHub/fpl-prediction/backend/assets/player_images/"
 default_player_image_path = img_api_url + "default.png"
 
 point_predictions_json_folder = "/home/martin/Documents/GitHub/fpl-prediction/backend/data/final/point_prediction_jsons/"
@@ -147,14 +147,13 @@ def point_prediction(fpl_data, team_data, gw):
         predictions = predictions[['understat_name', 'opta_id', 'gw', 'opponent_team', 'global_predicted_points', 'opponent_predicted_points', 'combined_predicted_points']]
         predictions.to_csv(predictions_path, index=False)
 
-def get_next_games(current_gw):
-    next_gw = current_gw + 1
+def get_games(current_gw):
     response = requests.get(url)
     fixtures = response.json()
  
     result = []
     for fixture in fixtures:
-        if fixture['event'] == next_gw:
+        if fixture['event'] == current_gw:
             home_team = fixture['team_h']
             away_team = fixture['team_a']
             kickoff_time = fixture['kickoff_time']
@@ -196,7 +195,7 @@ def gw_prediction_to_json(gw):
     formatted_data = []
     for _, row in predictions_gw.iterrows():
         opponent_name = teams.loc[teams['definite_team_number'] == row['opponent_team'], 'understat_name'].values[-1]
-        previous_points = players_data.loc[players_data['understat_name'] == row['understat_name'], 'points'].tail(5).values
+        previous_points = players_data.loc[(players_data['understat_name'] == row['understat_name']) & ~((players_data['gw'] >= gw) & (players_data['season'] == "2024-25")), 'points'].tail(5).values
         previous_points = np.pad(previous_points, (5 - len(previous_points), 0), 'constant', constant_values=(0,))
 
         image_path = player_images_folder_path + str(int(row['opta_id'])) + ".png"
@@ -242,9 +241,9 @@ def get_gws_predicted_jsons(type_data):
 
 def prediction(gw):
     if gw != 38:
-        get_next_games(gw)
-
         next_gw = gw + 1
+        get_games(next_gw)
+
         point_prediction(fpl_data, team_data, next_gw)
 
         gw_prediction_to_json(next_gw)
@@ -468,3 +467,6 @@ def game_prediction(gw):
     json_output = json.dumps(output, indent=4)
     with open(f"./data/final/game_prediction_jsons/{gw}.json", "w") as file:
         file.write(json_output)
+
+
+prediction(26)
