@@ -309,36 +309,36 @@ def game_prediction(gw):
             how='left'
         )
         games_df = pd.concat([games_df, new_understat_game_df], ignore_index=True)
+
+        # Add next GW
+        new_gw = []
+        for game in next_games_json:
+            rand_num = random.randint(3_000_001, 5_000_000)
+            data_home = {
+                "id": rand_num,
+                "understat_id": rand_num,
+                "date": datetime.strptime(game["fpl_kickoff_time"], "%Y-%m-%dT%H:%M:%SZ").strftime('%Y-%m-%d'),
+                "team": teams_df.loc[teams_df["definite_team_number"] == game["home_team"], "understat_name"].values[0],
+                "gw": gw,
+                "is_home": True
+            }
+            new_gw.append(data_home)
+
+            data_away = {
+                "id": rand_num,
+                "understat_id": rand_num,
+                "date": datetime.strptime(game["fpl_kickoff_time"], "%Y-%m-%dT%H:%M:%SZ").strftime('%Y-%m-%d'),
+                "team": teams_df.loc[teams_df["definite_team_number"] == game["away_team"], "understat_name"].values[0],
+                "gw": gw,
+                "is_home": False
+            }
+            new_gw.append(data_away)
+
+        new_gw_df = pd.DataFrame(new_gw)
+
+        games_df = pd.concat([games_df, new_gw_df], ignore_index=True)
     else:
-        print("not")
-
-    # Add next GW
-    new_gw = []
-    for game in next_games_json:
-        rand_num = random.randint(3_000_001, 5_000_000)
-        data_home = {
-            "id": rand_num,
-            "understat_id": rand_num,
-            "date": datetime.strptime(game["fpl_kickoff_time"], "%Y-%m-%dT%H:%M:%SZ").strftime('%Y-%m-%d'),
-            "team": teams_df.loc[teams_df["definite_team_number"] == game["home_team"], "understat_name"].values[0],
-            "gw": gw,
-            "is_home": True
-        }
-        new_gw.append(data_home)
-
-        data_away = {
-            "id": rand_num,
-            "understat_id": rand_num,
-            "date": datetime.strptime(game["fpl_kickoff_time"], "%Y-%m-%dT%H:%M:%SZ").strftime('%Y-%m-%d'),
-            "team": teams_df.loc[teams_df["definite_team_number"] == game["away_team"], "understat_name"].values[0],
-            "gw": gw,
-            "is_home": False
-        }
-        new_gw.append(data_away)
-
-    new_gw_df = pd.DataFrame(new_gw)
-
-    games_df = pd.concat([games_df, new_gw_df], ignore_index=True)
+        print("GW already saved")
 
     # Add previously saved Data
     common_cols = ["id", "understat_id", "date", "gw"]
@@ -439,13 +439,16 @@ def game_prediction(gw):
     if not gw_already:
         # Save
         result_not_pred.to_csv("./data/final/understat_games.csv", index=False)
-        print("saved")
+        print("Saved")
 
     # Prediction
     xgb = XGBClassifier(n_estimators=50, random_state=10)
 
+    print(result_df)
     test = result_df[(result_df["gw"] == gw) & (result_df["date"] >= start_date)]
-    train = result_df[~result_df.index.isin(test.index)]
+    print(test)
+    train = result_df[(~result_df.index.isin(test.index)) & ~((result_df["gw"] >= gw) & (result_df["date"] >= start_date))]
+    print(train)
 
     normal_predictors = ['home_team_code', 'away_team_code']
 
@@ -467,9 +470,13 @@ def game_prediction(gw):
         for home, away, result in zip(test["home"], test["away"], preds)
     ]
 
+    print(output)
+
     json_output = json.dumps(output, indent=4)
+
+    print(json_output)
     with open(f"./data/final/game_prediction_jsons/{gw}.json", "w") as file:
         file.write(json_output)
 
 
-prediction(27)
+prediction(26)
