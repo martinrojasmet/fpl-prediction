@@ -266,7 +266,6 @@ def game_prediction(gw):
 
     if not gw_already:
         # Add Understat scraped data
-
         game_columns = understat_game_df.columns.tolist()
 
         home_columns = game_columns.copy()
@@ -274,6 +273,7 @@ def game_prediction(gw):
         away_columns = game_columns.copy()
         away_columns.remove("home")
 
+        # Add GW value to Understat data
         gw_df = players_2425_df[["gw", "local_understat_fixture"]]
         gw_df = gw_df.rename(columns={"local_understat_fixture": "id"})
         gw_df = gw_df.drop_duplicates()
@@ -282,6 +282,7 @@ def game_prediction(gw):
 
         home_columns.append("gw")
 
+        # Make Home and Away Data
         home_df = understat_game_df[home_columns].rename(columns={'home': 'team'})
         away_df = understat_game_df[away_columns].rename(columns={'away': 'team'})
 
@@ -290,6 +291,7 @@ def game_prediction(gw):
 
         new_understat_game_df = pd.concat([home_df, away_df], ignore_index=True)
 
+        # Make a Match Stats Data (Grouped by Goals, xG, Assists and xA)
         player_agg = understat_player_df.groupby(['game_id', 'team_name']).agg({
             'goals': 'sum',
             'xG': 'sum',
@@ -300,6 +302,7 @@ def game_prediction(gw):
             'team_name': 'team'
         })
 
+        # Add Stats to Home and Away Data
         new_understat_game_df = new_understat_game_df.merge(
             player_agg,
             on=['id', 'team'],
@@ -309,7 +312,7 @@ def game_prediction(gw):
     else:
         print("not")
 
-    # Add next gameweek
+    # Add next GW
     new_gw = []
     for game in next_games_json:
         rand_num = random.randint(3_000_001, 5_000_000)
@@ -337,7 +340,7 @@ def game_prediction(gw):
 
     games_df = pd.concat([games_df, new_gw_df], ignore_index=True)
 
-    # Previous gameweeks
+    # Add previously saved Data
     common_cols = ["id", "understat_id", "date", "gw"]
 
     home_cols = common_cols + [col for col in final_understat_game_df.columns if "home" in col and "rolling" not in col and "code" not in col]
@@ -382,7 +385,7 @@ def game_prediction(gw):
         if not np.issubdtype(games_df[metric].dtype, np.integer):
             games_df[metric] = games_df[metric].round(2)
 
-    # Merge home and away data
+    # Merge Home and Away Data
     home_df = games_df[games_df["is_home"] == True].copy()
     away_df = games_df[games_df["is_home"] == False].copy()
 
@@ -469,4 +472,4 @@ def game_prediction(gw):
         file.write(json_output)
 
 
-prediction(26)
+prediction(27)

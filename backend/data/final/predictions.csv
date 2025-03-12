@@ -1,7 +1,7 @@
 understat_name,opta_id,gw,opponent_team,global_predicted_points,opponent_predicted_points,combined_predicted_points
 Andrew Robertson,122798,23,34,3.48,0.0,2.26
 Harry Maguire,95658,23,25,1.45,3.02,2.0
-Jamie Vardy,101668,23,17,3.04,4.91,3.7
+Jamie Vardy,101668,23,17,3.04,4.91,3.69
 Jarrod Bowen,178186,23,27,5.52,4.08,5.02
 Jeffrey Schlupp,86417,23,31,1.83,1.86,1.84
 Seamus Coleman,59949,23,21,0.84,2.27,1.34
@@ -9,7 +9,7 @@ Ross Barkley,88894,23,20,1.13,1.27,1.18
 James Tarkowski,17761,23,21,3.32,3.01,3.21
 Kieran Trippier,77794,23,13,2.91,1.62,2.46
 Michael Keane,106611,23,21,1.16,1.97,1.44
-Virgil van Dijk,97032,23,34,3.7,0.0,2.4
+Virgil van Dijk,97032,23,34,3.7,0.0,2.41
 Ben Mee,51927,23,5,1.67,2.67,2.02
 Lukasz Fabianski,37096,23,27,2.8,3.71,3.12
 Kyle Walker,58621,23,4,1.6,2.95,2.07
@@ -18,10 +18,10 @@ Mason Holgate,194164,23,21,0.53,1.43,0.84
 Jonny Evans,37642,23,25,0.95,1.76,1.23
 Ben Davies,115556,23,8,0.51,1.08,0.71
 James Ward-Prowse,101178,23,2,3.63,4.01,3.76
-Matt Targett,169359,23,13,1.38,1.19,1.32
+Matt Targett,169359,23,13,1.38,1.19,1.31
 Abdoulaye Doucouré,121599,23,21,2.5,2.87,2.63
 Alex McCarthy,58376,23,23,1.23,2.49,1.67
-Nick Pope,98747,23,13,3.34,3.56,3.41
+Nick Pope,98747,23,13,3.34,3.56,3.42
 Jack Stephens,88900,23,23,0.51,1.79,0.96
 Christian Eriksen,80607,23,25,0.78,3.44,1.71
 Harrison Reed,153366,23,11,1.83,0.9,1.5
@@ -32,15 +32,15 @@ Pierre-Emile Højbjerg,132015,23,8,2.02,1.61,1.88
 Raheem Sterling,103955,23,26,2.27,4.03,2.89
 Oleksandr Zinchenko,206325,23,26,2.57,2.29,2.47
 Kevin De Bruyne,61366,23,4,3.59,4.11,3.77
-John Stones,97299,23,4,1.8,2.01,1.88
+John Stones,97299,23,4,1.8,2.01,1.87
 Ilkay Gündogan,59859,23,4,3.61,1.92,3.02
 Jordan Pickford,111234,23,21,3.79,2.42,3.31
 Adam Smith,54469,23,32,1.72,2.18,1.88
 Ashley Young,18892,23,21,2.39,0.93,1.88
 Callum Wilson,75115,23,13,2.18,3.46,2.63
-Lewis Cook,155408,23,32,2.09,1.93,2.04
+Lewis Cook,155408,23,32,2.09,1.93,2.03
 Luke Shaw,106760,23,25,1.67,1.08,1.46
-Marcus Rashford,176297,23,25,3.6,2.9,3.35
+Marcus Rashford,176297,23,25,3.6,2.9,3.36
 Nathan Aké,126184,23,4,1.8,2.0,1.87
 Tyrone Mings,149484,23,20,2.41,0.63,1.79
 Nathaniel Clyne,57328,23,31,0.92,0.8,0.88
@@ -49,8 +49,8 @@ James Milner,15157,23,6,0.05,1.4,0.52
 Alex Iwobi,153133,23,11,3.15,2.27,2.84
 Trent Alexander-Arnold,169187,23,34,5.26,0.0,3.42
 Adam Lallana,39155,23,23,0.51,0.53,0.52
-Danny Welbeck,50175,23,6,2.88,2.55,2.77
-Aaron Cresswell,55459,23,27,1.38,1.08,1.28
+Danny Welbeck,50175,23,6,2.88,2.55,2.76
+Aaron Cresswell,55459,23,27,1.38,1.08,1.27
 Kurt Zouma,103192,23,27,1.85,1.61,1.77
 Michail Antonio,57531,23,27,2.46,2.34,2.42
 Ola Aina,159506,23,2,3.97,0.77,2.85
@@ -62,7 +62,7 @@ Aaron Wan-Bissaka,214590,23,27,2.26,1.62,2.04
 Ben Chilwell,172850,23,10,1.15,0.93,1.07
 Declan Rice,204480,23,26,3.94,1.71,3.16
 Wilfred Ndidi,203341,23,17,0.93,1.93,1.28
-Gabriel Jesus,205651,23,26,2.51,4.07,3.05
+Gabriel Jesus,205651,23,26,2.51,4.07,3.06
 Jordan Ayew,80146,23,17,2.42,2.38,2.41
 Harry Wilson,153682,23,11,2.59,1.31,2.14
 Axel Tuanzebe,180804,23,9,0.47,0.18,0.37
@@ -85,13 +85,13 @@ Solly March,109345,23,6,1.52,2.89,2.0
 Bernardo Silva,165809,23,4,3.38,3.22,3.32
 Ederson,121160,23,4,2.65,4.47,3.29
 Jacob Murphy,114243,23,13,2.73,1.36,2.25
-Kyle Walker-Peters,158534,23,23,2.36,1.57,2.09
+Kyle Walker-Peters,158534,23,23,2.36,1.57,2.08
 Victor Lindelöf,184667,23,25,1.37,0.73,1.15
 Dominic Solanke,154566,23,8,4.64,4.26,4.51
 Chris Wood,60689,23,2,3.6,5.2,4.16
 Hamza Choudhury,197469,23,17,0.01,0.41,0.15
 Ben Johnson,222018,23,9,0.87,0.37,0.7
-Callum Hudson-Odoi,209046,23,2,2.46,1.7,2.2
+Callum Hudson-Odoi,209046,23,2,2.46,1.7,2.19
 Konstantinos Mavropanos,233963,23,27,1.09,0.35,0.83
 Emerson,109533,23,27,1.84,0.6,1.41
 Eddie Nketiah,205533,23,31,1.55,0.93,1.33
@@ -101,12 +101,12 @@ Joe Willock,200089,23,13,1.53,3.08,2.07
 Dwight McNeil,433154,23,21,3.37,3.51,3.42
 Andreas Pereira,156689,23,11,3.16,1.56,2.6
 James Maddison,172780,23,8,3.8,0.0,2.47
-Fabian Schär,119471,23,13,3.2,0.61,2.3
+Fabian Schär,119471,23,13,3.2,0.61,2.29
 Tim Ream,82514,23,11,1.07,0.6,0.91
 Mateo Kovacic,91651,23,4,2.01,4.51,2.88
-Tom Cairney,76357,23,11,1.28,1.01,1.18
-Yves Bissouma,227127,23,8,1.39,0.83,1.2
-David Brooks,111317,23,32,0.26,0.18,0.24
+Tom Cairney,76357,23,11,1.28,1.01,1.19
+Yves Bissouma,227127,23,8,1.39,0.83,1.19
+David Brooks,111317,23,32,0.26,0.18,0.23
 Bobby Reid,96994,23,17,1.77,1.65,1.73
 Jorginho,85955,23,26,1.12,1.32,1.19
 Jason Steele,49262,23,6,1.22,0.93,1.12
@@ -114,8 +114,8 @@ Kepa,109745,23,32,0.85,0.67,0.79
 Raúl Jiménez,102057,23,11,1.34,1.91,1.54
 Morgan Gibbs-White,222531,23,2,3.91,2.2,3.31
 Willy Boly,90585,23,2,0.25,1.63,0.73
-Matt Doherty,87835,23,1,0.44,1.43,0.78
-Lucas Digne,101188,23,20,1.66,2.42,1.92
+Matt Doherty,87835,23,1,0.44,1.43,0.79
+Lucas Digne,101188,23,20,1.66,2.42,1.93
 Diogo Jota,194634,23,34,2.73,0.0,1.77
 Conor Coady,94147,23,17,1.43,1.32,1.39
 Jannik Vestergaard,93100,23,17,0.0,0.73,0.26
@@ -141,7 +141,7 @@ Emiliano Buendía,195546,23,20,0.61,1.49,0.92
 Rodri,220566,23,4,2.86,2.95,2.89
 Leandro Trossard,116216,23,26,4.08,4.63,4.27
 Neal Maupay,115382,23,21,0.46,0.72,0.55
-Lloyd Kelly,235530,23,13,1.34,1.93,1.54
+Lloyd Kelly,235530,23,13,1.34,1.93,1.55
 Adam Webster,110735,23,6,0.56,0.33,0.48
 Ismaila Sarr,232185,23,31,3.15,1.93,2.72
 Dean Henderson,172649,23,31,1.53,0.99,1.34
@@ -159,7 +159,7 @@ Mason Mount,184341,23,25,0.36,3.55,1.48
 Caoimhin Kelleher,200720,23,34,1.16,0.0,0.75
 Billy Gilmour,243568,23,6,1.1,0.54,0.9
 Anthony Gordon,232826,23,13,5.06,1.33,3.75
-Neco Williams,215136,23,2,1.85,1.46,1.72
+Neco Williams,215136,23,2,1.85,1.46,1.71
 Emile Smith-Rowe,209289,23,11,1.86,1.7,1.8
 Tyrick Mitchell,244723,23,31,3.76,3.78,3.77
 João Pedro,475168,23,6,3.57,1.54,2.86
@@ -175,11 +175,11 @@ Tommy Doyle,220394,23,1,1.14,0.53,0.93
 Cole Palmer,244851,23,10,7.17,3.21,5.78
 George Hirst,222625,23,9,0.86,0.0,0.56
 William Saliba,462424,23,26,4.75,2.78,4.06
-Kenny Tete,167074,23,11,1.44,1.73,1.55
+Kenny Tete,167074,23,11,1.44,1.73,1.54
 Antonee Robinson,169528,23,11,3.53,1.1,2.68
 Alphonse Areola,84182,23,27,1.16,1.1,1.14
 Gabriel,226597,23,26,3.89,5.6,4.49
-Eberechi Eze,232413,23,31,3.93,3.46,3.76
+Eberechi Eze,232413,23,31,3.93,3.46,3.77
 Leif Davis,455084,23,9,2.21,0.38,1.57
 Konstantinos Tsimikas,214285,23,34,1.46,0.0,0.95
 Kalvin Phillips,155405,23,9,0.12,0.88,0.39
@@ -189,10 +189,10 @@ Dara O'Shea,216616,23,9,1.8,2.06,1.89
 Wes Foderingham,82143,23,27,1.2,0.74,1.04
 Fabio Silva,449988,23,1,0.0,0.29,0.1
 Timo Werner,165153,23,8,0.77,1.0,0.85
-Joël Veltman,111478,23,6,1.76,3.26,2.29
+Joël Veltman,111478,23,6,1.76,3.26,2.28
 Christian Walton,108813,23,9,0.68,0.76,0.71
 Kai Havertz,219847,23,26,4.53,3.96,4.33
-Ben White,198869,23,26,3.49,4.39,3.81
+Ben White,198869,23,26,3.49,4.39,3.8
 Ollie Watkins,178301,23,20,5.7,4.21,5.18
 Matthew Cash,199796,23,20,1.06,1.48,1.21
 Liam Delap,463034,23,9,2.83,0.45,2.0
@@ -202,10 +202,10 @@ Jacob Ramsey,232653,23,20,1.85,2.14,1.95
 Rúben Dias,171314,23,4,1.2,2.29,1.58
 Vladimir Coufal,164555,23,27,0.81,2.03,1.24
 Wesley Fofana,444463,23,10,0.13,0.54,0.27
-Robin Olsen,111782,23,20,0.16,0.0,0.11
+Robin Olsen,111782,23,20,0.16,0.0,0.1
 Thomas Partey,167199,23,26,1.91,1.66,1.82
 Joachim Andersen,174874,23,11,2.12,4.14,2.83
-Tosin Adarabioyo,109646,23,10,1.11,0.38,0.86
+Tosin Adarabioyo,109646,23,10,1.11,0.38,0.85
 Rayan Ait Nouri,448514,23,1,1.84,0.61,1.41
 Robert Sánchez,215059,23,10,1.8,1.48,1.69
 Elliot Anderson,215379,23,2,2.29,0.44,1.64
@@ -223,8 +223,8 @@ Jaden Philogene-Bidace,481624,23,9,0.43,0.0,0.28
 William Osula,538207,23,13,0.47,0.0,0.31
 Tim Iroegbunam,490094,23,21,0.36,0.61,0.45
 Yoane Wissa,216646,23,5,4.44,4.64,4.51
-Kristoffer Ajer,191866,23,5,0.81,2.0,1.22
-Rico Henry,194010,23,5,0.0,2.33,0.81
+Kristoffer Ajer,191866,23,5,0.81,2.0,1.23
+Rico Henry,194010,23,5,0.0,2.33,0.82
 Vitaly Janelt,204580,23,5,2.49,3.66,2.9
 Mathias Jensen,207283,23,5,2.1,2.0,2.07
 Mads Roerslev,226956,23,5,2.01,1.06,1.68
@@ -240,12 +240,12 @@ Kiernan Dewsbury-Hall,215413,23,10,0.72,1.19,0.88
 Valentino Livramento,441191,23,13,1.32,0.0,0.86
 Leon Bailey,215711,23,20,3.33,2.06,2.89
 Adam Armstrong,155511,23,23,1.69,2.0,1.8
-Boubakary Soumare,225902,23,17,0.81,1.0,0.87
+Boubakary Soumare,225902,23,17,0.81,1.0,0.88
 José Sá,149065,23,1,1.97,1.4,1.77
-Ibrahima Konaté,204716,23,34,2.3,0.0,1.49
+Ibrahima Konaté,204716,23,34,2.3,0.0,1.5
 Samuel Edozie,490503,23,23,0.25,0.18,0.23
 Cristian Romero,221632,23,8,2.3,1.07,1.87
-Cameron Archer,433979,23,23,2.23,0.73,1.71
+Cameron Archer,433979,23,23,2.23,0.73,1.7
 Odsonne Edouard,199670,23,17,0.64,2.96,1.45
 Marc Cucurella,179268,23,10,1.31,0.67,1.09
 Takehiro Tomiyasu,223723,23,26,0.68,5.1,2.23
@@ -253,7 +253,7 @@ Hee-Chan Hwang,184754,23,1,1.96,2.31,2.08
 Maxwel Cornet,149519,23,23,0.0,1.65,0.58
 Romeo Lavia,514356,23,10,0.63,0.89,0.72
 Lamare Bogarde,515597,23,20,0.12,0.0,0.08
-Lewis Dobbin,461421,23,20,0.26,0.19,0.23
+Lewis Dobbin,461421,23,20,0.26,0.19,0.24
 Conor Bradley,492777,23,34,1.46,0.0,0.95
 James McAtee,432714,23,4,1.51,0.31,1.09
 Jeremy Sarmiento,441192,23,6,0.0,1.37,0.48
@@ -269,7 +269,7 @@ Bruno Guimarães,208706,23,13,4.18,5.21,4.54
 Rodrigo Bentancur,202993,23,8,0.49,4.94,2.05
 Josh Dasilva,183656,23,5,0.0,0.74,0.26
 Dejan Kulusevski,445044,23,8,3.37,3.76,3.51
-Luis Díaz,244731,23,34,4.24,0.0,2.75
+Luis Díaz,244731,23,34,4.24,0.0,2.76
 Moisés Caicedo,486672,23,10,2.5,1.3,2.08
 Alejandro Garnacho,493105,23,25,3.7,3.07,3.48
 Tyler Dibling,496661,23,23,2.22,0.0,1.44
@@ -323,7 +323,7 @@ Estupiñán,204214,23,6,1.18,0.56,0.96
 Casemiro,61256,23,25,1.15,1.7,1.34
 Alexander Isak,219168,23,13,6.96,4.19,5.99
 Lucas Paquetá,224024,23,27,2.72,3.68,3.06
-Sasa Kalajdzic,429414,23,1,0.17,0.18,0.18
+Sasa Kalajdzic,429414,23,1,0.17,0.18,0.17
 Manuel Akanji,211975,23,4,2.3,3.39,2.68
 Wout Faes,218218,23,17,1.08,0.4,0.84
 Antony,467169,23,25,0.13,0.74,0.34
@@ -341,21 +341,21 @@ João Félix,428399,23,10,1.09,0.0,0.71
 Carlos Alcaraz,502697,23,23,0.0,1.46,0.51
 Kevin Schade,513418,23,5,2.8,2.81,2.8
 Mykhailo Mudryk,465920,23,10,0.91,0.45,0.75
-Danilo,513046,23,2,0.33,1.0,0.57
+Danilo,513046,23,2,0.33,1.0,0.56
 Dango Ouattara,533463,23,32,2.61,2.41,2.54
 Pablo Sarabia,88484,23,1,1.28,0.78,1.1
 Georginio Rutter,463067,23,6,3.54,0.0,2.3
 Noni Madueke,248857,23,10,4.31,0.22,2.88
-Sasa Lukic,212314,23,11,1.67,1.77,1.71
+Sasa Lukic,212314,23,11,1.67,1.77,1.7
 Enzo Fernández,448047,23,10,2.77,1.78,2.42
 Jakub Kiwior,440854,23,26,1.2,4.68,2.42
-João Gomes,448089,23,1,2.85,1.23,2.29
+João Gomes,448089,23,1,2.85,1.23,2.28
 Victor Kristiansen,481510,23,17,1.14,2.0,1.44
 Yasin Ayari,509416,23,6,1.35,0.3,0.98
-Naouirou Ahamada,466117,23,31,0.01,0.45,0.17
+Naouirou Ahamada,466117,23,31,0.01,0.45,0.16
 Antoine Semenyo,437730,23,32,4.6,3.67,4.27
-Illia Zabarnyi,477580,23,32,3.26,1.7,2.72
-Jhon Durán,476344,23,20,2.44,2.29,2.38
+Illia Zabarnyi,477580,23,32,3.26,1.7,2.71
+Jhon Durán,476344,23,20,2.44,2.29,2.39
 Hamed Junior Traore,424044,23,32,0.0,0.0,0.0
 Pedro Porro,441164,23,8,3.31,5.29,4.0
 Samuel Amo-Ameyaw,499724,23,23,0.0,0.0,0.0
@@ -365,14 +365,14 @@ Milos Kerkez,544877,23,32,4.18,0.7,2.96
 Simon Adingra,535818,23,6,1.27,3.53,2.06
 Youssef Chermiti,491012,23,21,0.05,0.0,0.03
 Justin Kluivert,222683,23,32,5.92,1.55,4.39
-Mahmoud Dahoud,168090,23,6,0.0,0.3,0.11
+Mahmoud Dahoud,168090,23,6,0.0,0.3,0.1
 Chiedozie Ogbene,229164,23,9,0.19,5.75,2.14
 Bart Verbruggen,489639,23,6,3.39,2.16,2.96
 Alex Scott,503139,23,32,0.59,1.07,0.76
 Calvin Bassey,232892,23,11,2.59,4.09,3.12
 Jake O'Brien,512462,23,21,0.25,0.0,0.16
-Igor Julio,223434,23,6,1.06,0.62,0.9
-Edson Álvarez,213999,23,27,0.95,1.86,1.26
+Igor Julio,223434,23,6,1.06,0.62,0.91
+Edson Álvarez,213999,23,27,0.95,1.86,1.27
 Moussa Diaby,243557,23,20,0.0,1.86,0.65
 Pau Torres,244954,23,20,0.94,2.0,1.31
 Sandro Tonali,432422,23,13,1.61,0.0,1.05
@@ -380,11 +380,11 @@ Micky van de Ven,491279,23,8,0.82,0.0,0.53
 Iyenoma Destiny Udogie,487053,23,8,1.08,0.0,0.7
 Mark Flekken,118342,23,5,3.31,3.38,3.33
 Guglielmo Vicario,184254,23,8,1.02,0.0,0.66
-Christopher Nkunku,213198,23,10,1.89,0.7,1.48
+Christopher Nkunku,213198,23,10,1.89,0.7,1.47
 Chimuanya Ugochukwu,503714,23,23,0.7,0.46,0.62
-Malo Gusto,482609,23,10,1.36,1.31,1.35
+Malo Gusto,482609,23,10,1.36,1.31,1.34
 Nicolas Jackson,517052,23,10,4.95,3.86,4.57
-Axel Disasi,220362,23,10,0.35,0.62,0.45
+Axel Disasi,220362,23,10,0.35,0.62,0.44
 Dominik Szoboszlai,424876,23,34,2.43,0.0,1.58
 Ian Maatsen,441302,23,20,0.67,0.38,0.57
 Rasmus Højlund,497894,23,25,2.49,0.6,1.83
@@ -401,11 +401,11 @@ Ryan Gravenberch,441266,23,34,2.64,0.0,1.72
 Jean-Ricner Bellegarde,231057,23,1,1.53,1.0,1.34
 Nicolás Domínguez,250199,23,2,0.8,1.0,0.87
 Ibrahim Sangare,210462,23,2,0.0,0.76,0.27
-Yehor Yarmolyuk,508395,23,5,0.99,0.46,0.81
-Myles Lewis-Skelly,499169,23,26,0.79,0.0,0.52
-Radu Dragusin,493125,23,8,1.3,0.0,0.84
+Yehor Yarmolyuk,508395,23,5,0.99,0.46,0.8
+Myles Lewis-Skelly,499169,23,26,0.79,0.0,0.51
+Radu Dragusin,493125,23,8,1.3,0.0,0.85
 Ben Brereton Díaz,204814,23,23,0.0,1.46,0.51
-Yerson Mosquera,501837,23,1,0.12,0.54,0.26
+Yerson Mosquera,501837,23,1,0.12,0.54,0.27
 Daniel Muñoz,247348,23,31,3.97,0.0,2.58
 Adam Wharton,496221,23,31,0.0,0.0,0.0
 Morgan Rogers,244850,23,20,5.13,2.0,4.03
@@ -415,39 +415,39 @@ Toby Collyer,490881,23,25,0.2,0.0,0.13
 Mikey Moore,499721,23,8,0.8,0.0,0.52
 Joshua Zirkzee,458249,23,25,1.95,0.0,1.27
 Matthijs de Ligt,209365,23,25,0.52,0.0,0.34
-Noussair Mazraoui,230001,23,25,0.52,0.0,0.33
+Noussair Mazraoui,230001,23,25,0.52,0.0,0.34
 Jack Taylor,231899,23,9,1.6,0.0,1.04
 Marcus Harness,167191,23,9,0.0,0.0,0.0
 Wes Burns,149929,23,9,1.83,0.0,1.19
 Sam Morsy,74944,23,9,1.47,0.0,0.96
 Sammie Szmodics,172453,23,9,1.89,0.0,1.23
-Jacob Greaves,449429,23,9,0.82,0.0,0.54
+Jacob Greaves,449429,23,9,0.82,0.0,0.53
 Massimo Luongo,106606,23,9,0.0,0.0,0.0
 Luke Woolfenden,220583,23,9,1.02,0.0,0.66
 Conor Chaplin,196411,23,9,1.46,0.0,0.95
 Ali Al-Hamadi,462387,23,9,0.63,0.0,0.41
 George Edmundson,214964,23,9,0.0,0.0,0.0
 Nikola Milenkovic,227444,23,2,4.85,0.0,3.15
-Mats Wieffer,467779,23,6,1.1,0.0,0.71
+Mats Wieffer,467779,23,6,1.1,0.0,0.72
 Jørgen Strand Larsen,247412,23,1,3.21,0.0,2.09
 Julián Araujo,436893,23,32,0.0,0.0,0.0
 Yankuba Minteh,592031,23,6,2.33,0.0,1.51
 Riccardo Calafiori,466075,23,26,0.69,0.0,0.45
-Rodrigo Gomes,483081,23,1,2.02,0.0,1.32
+Rodrigo Gomes,483081,23,1,2.02,0.0,1.31
 Ross Stewart,230348,23,23,0.0,0.0,0.0
 Yukinari Sugawara,219279,23,23,0.59,0.0,0.38
 Jota Silva,510500,23,2,1.39,0.0,0.9
-Dean Huijsen,554605,23,32,5.65,0.0,3.68
+Dean Huijsen,554605,23,32,5.65,0.0,3.67
 Jesper Lindstrom,463903,23,21,1.77,0.0,1.15
-Harrison Armstrong,609873,23,21,0.07,0.0,0.04
-Niclas Füllkrug,91889,23,27,1.87,0.0,1.21
+Harrison Armstrong,609873,23,21,0.07,0.0,0.05
+Niclas Füllkrug,91889,23,27,1.87,0.0,1.22
 Andy Irving,229384,23,27,0.42,0.0,0.27
 Kosta Nedeljkovic,578545,23,20,0.0,0.0,0.0
 Jean-Clair Todibo,462116,23,27,1.21,0.0,0.79
 Guido Rodríguez,197024,23,27,0.56,0.0,0.36
 Yunus Konak,628204,23,5,0.09,0.0,0.06
 Chadi Riad,515621,23,31,0.0,0.0,0.0
-Daichi Kamada,209400,23,31,0.9,0.0,0.58
+Daichi Kamada,209400,23,31,0.9,0.0,0.59
 Marc Guiu,499309,23,10,0.05,0.0,0.03
 Renato Veiga,551230,23,10,0.0,0.0,0.0
 Sávio,510281,23,4,4.49,0.0,2.92
@@ -485,7 +485,7 @@ Hákon Valdimarsson,507433,23,5,0.14,0.0,0.09
 Thiago,502500,23,5,0.34,0.0,0.22
 Kieran Tierney,192895,23,26,0.2,0.0,0.13
 Mikel Merino,195384,23,26,2.8,0.0,1.82
-Kim Ji-Soo,570241,23,5,0.3,0.0,0.19
+Kim Ji-Soo,570241,23,5,0.3,0.0,0.2
 Will Alves,532534,23,17,0.15,0.0,0.1
 Danny Ward,95463,23,17,0.23,0.0,0.15
 Luke Thomas,244619,23,17,0.17,0.0,0.11
@@ -501,7 +501,7 @@ Joshua King,577725,23,11,1.01,0.0,0.66
 Jorge Cuenca,246301,23,11,0.22,0.0,0.14
 Ryan Sessegnon,184349,23,11,0.2,0.0,0.13
 Carlos Vinicius,245824,23,11,0.13,0.0,0.08
-Armando Broja,440323,23,21,0.7,0.0,0.46
+Armando Broja,440323,23,21,0.7,0.0,0.45
 Timothy Castagne,166477,23,11,3.23,0.0,2.1
 Luis Guilherme,577114,23,27,0.42,0.0,0.27
 Eric da Silva Moreira,569014,23,2,0.05,0.0,0.03
@@ -525,15 +525,15 @@ Ronnie Edwards,500926,23,23,0.07,0.0,0.05
 Kamaldeen Sulemana,504783,23,23,1.27,0.0,0.83
 Paul Onuachu,147611,23,23,1.94,0.0,1.26
 Joe Lumley,167888,23,23,0.57,0.0,0.37
-James Bree,184386,23,23,1.02,0.0,0.67
+James Bree,184386,23,23,1.02,0.0,0.66
 Ryan Manning,204863,23,23,0.38,0.0,0.25
-Caleb Kporha,590012,23,31,0.1,0.0,0.07
+Caleb Kporha,590012,23,31,0.1,0.0,0.06
 Jahmai Simpson-Pusey,554194,23,4,0.15,0.0,0.1
 Paris Maghoma,220695,23,5,0.57,0.0,0.37
 Oliver Scarles,536109,23,27,0.84,0.0,0.55
-Ben Winterburn,606775,23,32,0.61,0.0,0.39
+Ben Winterburn,606775,23,32,0.61,0.0,0.4
 Divin Mubama,487837,23,4,0.61,0.0,0.4
-Josh Acheampong,577016,23,10,0.9,0.0,0.58
+Josh Acheampong,577016,23,10,0.9,0.0,0.59
 Alfie Dorrington,519321,23,8,0.0,0.0,0.0
 Tyrique George,550615,23,10,0.0,0.0,0.0
 Lewis Orford,518442,23,27,0.64,0.0,0.42
@@ -542,3 +542,571 @@ Emmanuel Agbadou,516939,23,1,2.0,0.0,1.3
 Antonín Kinsky,485055,23,8,2.0,0.0,1.3
 Diego Gómez,514254,23,6,3.0,0.0,1.95
 Ben Godfrey,198826,23,9,0.0,0.0,0.0
+Andrew Robertson,122798,28,13,3.41,3.49,3.44
+Harry Maguire,95658,28,1,1.57,1.19,1.44
+Jamie Vardy,101668,28,4,3.03,2.8,2.95
+Jarrod Bowen,178186,28,23,5.59,4.52,5.21
+Jeffrey Schlupp,86417,28,34,1.72,0.0,1.12
+Abdoulaye Doucouré,121599,28,26,2.58,2.93,2.7
+Alex McCarthy,58376,28,9,1.16,0.77,1.02
+Nick Pope,98747,28,20,3.18,2.86,3.07
+Jack Stephens,88900,28,9,0.47,1.46,0.81
+Christian Eriksen,80607,28,1,0.7,2.76,1.42
+Joel Ward,55494,28,34,1.25,0.0,0.81
+James Ward-Prowse,101178,28,23,3.5,2.45,3.13
+Harry Winks,157668,28,4,0.72,0.63,0.69
+Idrissa Gueye,80801,28,26,1.86,1.45,1.71
+Pierre-Emile Højbjerg,132015,28,2,1.91,1.65,1.82
+Harrison Reed,153366,28,21,1.74,1.72,1.73
+Ben Davies,115556,28,2,0.56,1.62,0.93
+Matt Targett,169359,28,20,1.31,0.43,1.0
+Mason Holgate,194164,28,26,0.48,0.32,0.42
+Seamus Coleman,59949,28,26,0.76,0.91,0.81
+Jonny Evans,37642,28,1,0.87,1.47,1.08
+James Tarkowski,17761,28,26,3.44,3.57,3.49
+Kieran Trippier,77794,28,20,2.76,1.33,2.26
+Michael Keane,106611,28,26,1.05,2.75,1.64
+Ross Barkley,88894,28,31,1.04,1.13,1.07
+Ben Mee,51927,28,27,1.57,1.15,1.42
+Lukasz Fabianski,37096,28,23,2.57,3.0,2.72
+Kyle Walker,58621,28,32,1.48,5.27,2.8
+Craig Dawson,60232,28,6,1.46,1.8,1.58
+Virgil van Dijk,97032,28,13,3.68,2.75,3.35
+Raheem Sterling,103955,28,11,2.16,1.81,2.03
+Oleksandr Zinchenko,206325,28,11,2.47,1.13,2.0
+Kevin De Bruyne,61366,28,32,3.41,6.26,4.41
+John Stones,97299,28,32,1.79,1.77,1.78
+Ilkay Gündogan,59859,28,32,3.5,2.3,3.08
+Jordan Pickford,111234,28,26,3.78,2.72,3.4
+Nathan Aké,126184,28,32,1.7,3.1,2.19
+Tyrone Mings,149484,28,31,2.36,2.0,2.24
+Luke Shaw,106760,28,1,1.57,0.52,1.2
+Marcus Rashford,176297,28,31,3.57,4.14,3.77
+Callum Wilson,75115,28,20,2.09,3.8,2.69
+Ashley Young,18892,28,26,2.31,2.43,2.35
+Adam Smith,54469,28,17,1.6,2.93,2.07
+Lewis Cook,155408,28,17,2.1,1.14,1.76
+Danny Welbeck,50175,28,25,2.95,0.79,2.2
+Trent Alexander-Arnold,169187,28,13,5.3,3.66,4.72
+Alex Iwobi,153133,28,21,3.09,4.24,3.49
+Adam Lallana,39155,28,9,0.48,1.33,0.78
+Danny Ings,84939,28,23,2.54,1.8,2.28
+Nathaniel Clyne,57328,28,34,0.87,0.0,0.57
+James Milner,15157,28,25,0.0,1.19,0.42
+Aaron Cresswell,55459,28,23,1.49,1.24,1.4
+Kurt Zouma,103192,28,23,1.74,1.89,1.79
+Michail Antonio,57531,28,23,2.31,2.56,2.4
+Ola Aina,159506,28,10,3.9,0.75,2.79
+Ryan Fraser,90105,28,9,0.0,1.84,0.64
+Adama Traoré,159533,28,21,1.91,2.21,2.01
+Son Heung-Min,85971,28,2,5.32,5.57,5.41
+Dominic Calvert-Lewin,177815,28,26,2.43,1.36,2.06
+Aaron Wan-Bissaka,214590,28,23,2.4,4.53,3.15
+Declan Rice,204480,28,11,3.99,3.64,3.86
+Ben Chilwell,172850,28,34,1.06,0.0,0.69
+Wilfred Ndidi,203341,28,4,0.93,2.72,1.56
+Gabriel Jesus,205651,28,11,2.34,1.04,1.89
+Jordan Ayew,80146,28,4,2.35,2.77,2.5
+Harry Wilson,153682,28,21,2.43,3.55,2.82
+Axel Tuanzebe,180804,28,5,0.49,0.52,0.5
+Emiliano Martinez,98980,28,31,2.55,2.13,2.4
+Scott McTominay,195851,28,1,1.67,1.22,1.51
+Aaron Ramsdale,225321,28,9,2.7,0.96,2.09
+Reiss Nelson,200641,28,21,0.81,0.45,0.69
+Joseph Gomez,171287,28,13,1.27,1.51,1.36
+Will Hughes,108413,28,34,1.43,0.0,0.93
+Mohamed Salah,118748,28,13,7.05,7.79,7.31
+Richarlison,212319,28,2,1.86,2.02,1.92
+Charlie Taylor,103914,28,9,1.23,0.56,1.0
+Jan Bednarek,171771,28,9,2.07,0.59,1.55
+Mario Lemina,151086,28,6,2.05,1.38,1.81
+Philip Billing,168991,28,17,1.83,1.0,1.54
+Bernardo Silva,165809,28,32,3.2,5.59,4.04
+Ederson,121160,28,32,2.85,2.76,2.82
+Pascal Groß,60307,28,25,2.4,1.96,2.25
+Lewis Dunk,83299,28,25,2.29,1.51,2.01
+Phil Foden,209244,28,32,5.69,3.08,4.77
+Solly March,109345,28,25,1.41,1.39,1.41
+Jacob Murphy,114243,28,20,2.91,1.43,2.39
+Kyle Walker-Peters,158534,28,9,2.24,0.73,1.71
+Victor Lindelöf,184667,28,1,1.28,1.08,1.21
+Dominic Solanke,154566,28,2,4.32,1.38,3.29
+Chris Wood,60689,28,10,3.84,1.7,3.09
+Hamza Choudhury,197469,28,4,0.0,0.73,0.26
+Ben Johnson,222018,28,5,0.87,0.08,0.59
+Callum Hudson-Odoi,209046,28,10,2.5,0.8,1.9
+Konstantinos Mavropanos,233963,28,23,1.11,0.17,0.78
+Emerson,109533,28,23,1.93,1.64,1.83
+Eddie Nketiah,205533,28,34,1.54,0.0,1.0
+Curtis Jones,206915,28,13,2.02,0.76,1.58
+Harvey Barnes,201666,28,20,2.62,4.14,3.15
+Joe Willock,200089,28,20,1.55,2.62,1.92
+Dwight McNeil,433154,28,26,3.08,4.43,3.55
+James Maddison,172780,28,2,3.74,2.91,3.45
+Andreas Pereira,156689,28,21,3.11,3.23,3.15
+Fabian Schär,119471,28,20,3.07,0.93,2.32
+David Brooks,111317,28,17,0.37,0.9,0.56
+Bobby Reid,96994,28,4,1.81,1.91,1.85
+Jorginho,85955,28,11,1.04,2.41,1.52
+Jason Steele,49262,28,25,1.15,0.41,0.89
+Kepa,109745,28,17,0.97,2.72,1.59
+Yves Bissouma,227127,28,2,1.37,1.1,1.27
+Tim Ream,82514,28,21,0.98,1.01,0.99
+Mateo Kovacic,91651,28,32,1.99,0.56,1.49
+Tom Cairney,76357,28,21,1.2,0.62,1.0
+Diogo Jota,194634,28,13,2.59,4.12,3.13
+Conor Coady,94147,28,4,1.28,2.44,1.68
+Lucas Digne,101188,28,31,1.61,1.23,1.48
+Matt Doherty,87835,28,6,0.56,2.48,1.23
+Willy Boly,90585,28,10,0.2,1.15,0.53
+Morgan Gibbs-White,222531,28,10,4.15,0.86,3.0
+Raúl Jiménez,102057,28,21,1.46,1.07,1.33
+Alisson,116535,28,13,3.27,3.29,3.28
+Issa Diop,219924,28,21,1.02,1.57,1.22
+Jannik Vestergaard,93100,28,4,0.0,1.28,0.45
+Bernd Leno,80201,28,21,3.01,3.57,3.21
+Arijanet Muric,232917,28,5,1.75,0.52,1.32
+Sean Longstaff,180135,28,20,2.36,1.21,1.96
+Jefferson Lerma,152551,28,34,1.7,0.0,1.11
+Oliver Skipp,209042,28,4,0.91,1.0,0.94
+Diogo Dalot,216051,28,1,2.95,1.1,2.3
+Bukayo Saka,223340,28,11,6.21,3.78,5.36
+Max Kilman,214048,28,23,3.08,1.75,2.61
+Dan Burn,78916,28,20,3.17,1.1,2.45
+Chris Mepham,223911,28,17,0.25,0.22,0.24
+Youri Tielemans,166989,28,31,2.07,3.06,2.42
+Miguel Almirón,179018,28,20,1.6,1.9,1.7
+James Garner,232928,28,26,1.65,0.37,1.2
+Harvey Elliott,444884,28,13,1.86,0.79,1.49
+Mark Travers,229600,28,17,0.71,1.11,0.85
+Emiliano Buendía,195546,28,31,0.51,3.1,1.42
+Max Aarons,232980,28,17,0.3,0.92,0.52
+Rodri,220566,28,32,2.59,0.74,1.94
+Adam Webster,110735,28,25,0.74,2.91,1.5
+Ismaila Sarr,232185,28,34,3.49,0.0,2.27
+Dean Henderson,172649,28,34,1.68,0.0,1.09
+Leandro Trossard,116216,28,11,4.03,3.19,3.74
+Neal Maupay,115382,28,26,0.35,2.01,0.93
+Lloyd Kelly,235530,28,20,1.25,0.4,0.95
+Jack Grealish,114283,28,32,0.85,2.28,1.35
+Ezri Konsa Ngoyo,199798,28,31,2.39,2.13,2.3
+Giovani Lo Celso,200826,28,2,0.44,2.6,1.2
+John McGinn,122806,28,31,2.45,1.87,2.24
+Emil Krafth,111773,28,20,0.54,0.57,0.55
+Gabriel Martinelli,444145,28,11,3.73,2.54,3.31
+Pedro Neto,247632,28,8,1.85,1.03,1.56
+James Justin,220627,28,4,1.37,0.9,1.21
+Joelinton,180974,28,20,2.21,3.09,2.52
+Reece James,225796,28,8,0.59,3.02,1.44
+Mason Mount,184341,28,1,0.24,1.8,0.79
+Caoimhin Kelleher,200720,28,13,1.04,1.43,1.18
+Billy Gilmour,243568,28,25,1.02,0.6,0.87
+Anthony Gordon,232826,28,20,4.93,1.46,3.72
+Neco Williams,215136,28,10,2.16,0.19,1.47
+Emile Smith-Rowe,209289,28,21,1.96,1.54,1.81
+Tyrick Mitchell,244723,28,34,3.84,0.0,2.5
+João Pedro,475168,28,25,3.77,2.22,3.23
+Sander Berge,207189,28,21,1.62,1.15,1.46
+Tomas Soucek,215439,28,23,2.89,4.9,3.6
+Daniel Podence,200600,28,6,0.08,1.7,0.65
+Bruno Fernandes,141746,28,1,3.69,3.02,3.46
+Alexis Mac Allister,243016,28,13,3.76,1.12,2.84
+William Smallbone,214466,28,9,0.0,0.0,0.0
+Jarrad Branthwaite,480455,28,26,2.85,1.34,2.32
+Cole Palmer,244851,28,8,6.97,0.53,4.71
+Tommy Doyle,220394,28,6,1.16,0.6,0.96
+Taylor Harwood-Bellis,245719,28,9,1.56,0.38,1.14
+George Hirst,222625,28,5,0.9,0.0,0.58
+Gabriel,226597,28,11,3.99,2.44,3.45
+Alphonse Areola,84182,28,23,1.45,0.62,1.16
+William Saliba,462424,28,11,4.95,3.86,4.57
+Kenny Tete,167074,28,21,1.29,1.79,1.46
+Antonee Robinson,169528,28,21,3.4,3.67,3.5
+Eberechi Eze,232413,28,34,3.81,0.0,2.48
+Jack Harrison,221399,28,26,1.91,3.18,2.35
+Kalvin Phillips,155405,28,5,0.18,1.0,0.47
+Konstantinos Tsimikas,214285,28,13,1.44,0.27,1.03
+Leif Davis,455084,28,5,1.89,0.76,1.49
+Dara O'Shea,216616,28,5,1.67,1.18,1.5
+Sam Johnstone,101982,28,6,0.3,2.12,0.94
+Fabio Silva,449988,28,6,0.0,0.8,0.28
+Wes Foderingham,82143,28,23,1.08,0.19,0.77
+Kai Havertz,219847,28,11,4.41,2.1,3.6
+Ben White,198869,28,11,3.16,1.24,2.49
+Christian Walton,108813,28,5,0.56,0.0,0.36
+Joël Veltman,111478,28,25,1.7,1.86,1.76
+Timo Werner,165153,28,2,0.66,0.38,0.56
+Matthew Cash,199796,28,31,0.96,2.76,1.59
+Ollie Watkins,178301,28,31,5.62,6.7,6.0
+Liam Delap,463034,28,5,3.15,0.45,2.2
+Conor Gallagher,232787,28,8,1.5,0.31,1.09
+Nélson Semedo,200402,28,6,1.55,1.75,1.62
+Jacob Ramsey,232653,28,31,1.95,0.78,1.54
+Rúben Dias,171314,28,32,1.13,4.14,2.19
+Wesley Fofana,444463,28,8,0.08,1.54,0.59
+Vladimir Coufal,164555,28,23,0.77,1.52,1.03
+Robin Olsen,111782,28,31,0.13,0.18,0.15
+Thomas Partey,167199,28,11,2.05,2.39,2.17
+Joachim Andersen,174874,28,21,1.99,2.37,2.13
+Tosin Adarabioyo,109646,28,8,1.21,1.68,1.37
+Rayan Ait Nouri,448514,28,6,2.0,2.78,2.28
+Robert Sánchez,215059,28,8,1.6,1.26,1.48
+Elliot Anderson,215379,28,10,2.35,0.27,1.62
+Jean-Philippe Mateta,231747,28,34,5.15,0.0,3.35
+Amad Diallo Traore,493250,28,1,2.66,0.48,1.9
+Martin Odegaard,184029,28,11,4.4,3.68,4.15
+Iliman Ndiaye,440993,28,26,1.91,0.61,1.45
+Carney Chukwuemeka,478912,28,8,0.23,0.31,0.26
+Jesurun Rak-Sakyi,450542,28,34,0.08,0.0,0.05
+Crysencio Summerville,450070,28,23,1.69,1.14,1.5
+Fabio Carvalho,244858,28,27,0.87,0.38,0.7
+Daniel Jebbison,523700,28,17,0.0,0.31,0.11
+Anthony Elanga,449434,28,10,3.63,1.1,2.75
+Jaden Philogene-Bidace,481624,28,5,1.22,0.0,0.79
+Tim Iroegbunam,490094,28,26,0.54,0.15,0.41
+William Osula,538207,28,20,0.45,1.24,0.72
+Ethan Pinnock,231065,28,27,1.72,0.9,1.44
+Bryan Mbeumo,446008,28,27,5.42,2.8,4.5
+Christian Nørgaard,128295,28,27,1.9,0.52,1.42
+David Raya,154561,28,11,4.38,3.37,4.02
+Frank Onyeka,428580,28,27,0.39,0.53,0.44
+Mathias Jensen,207283,28,27,1.89,1.19,1.65
+Vitaly Janelt,204580,28,27,2.41,1.61,2.13
+Rico Henry,194010,28,27,0.0,0.51,0.18
+Kristoffer Ajer,191866,28,27,1.09,0.4,0.85
+Yoane Wissa,216646,28,27,4.55,2.8,3.93
+Mads Roerslev,226956,28,27,1.83,2.21,1.96
+Jadon Sancho,209243,28,8,1.2,3.97,2.17
+José Sá,149065,28,6,2.19,3.84,2.77
+Boubakary Soumare,225902,28,4,1.03,1.0,1.02
+Adam Armstrong,155511,28,9,1.4,3.29,2.06
+Kiernan Dewsbury-Hall,215413,28,8,0.6,0.0,0.39
+Nathan Collins,432830,28,27,3.0,0.93,2.28
+Marc Guehi,209036,28,34,2.55,0.0,1.66
+Leon Bailey,215711,28,31,3.0,3.19,3.07
+Valentino Livramento,441191,28,20,1.31,1.13,1.25
+Ibrahima Konaté,204716,28,13,2.58,1.43,2.18
+Cristian Romero,221632,28,2,2.02,1.45,1.82
+Samuel Edozie,490503,28,9,0.2,0.18,0.19
+Cameron Archer,433979,28,9,2.14,0.47,1.56
+Odsonne Edouard,199670,28,4,0.48,1.08,0.69
+Hee-Chan Hwang,184754,28,6,1.8,3.12,2.26
+Marc Cucurella,179268,28,8,1.63,2.35,1.88
+Takehiro Tomiyasu,223723,28,11,0.47,1.86,0.96
+Maxwel Cornet,149519,28,9,0.0,0.45,0.16
+Romeo Lavia,514356,28,8,0.55,0.93,0.68
+Lamare Bogarde,515597,28,31,0.22,0.0,0.14
+Lewis Dobbin,461421,28,31,0.22,0.0,0.14
+Conor Bradley,492777,28,13,1.31,0.0,0.85
+James McAtee,432714,28,32,1.6,0.55,1.23
+Jeremy Sarmiento,441192,28,25,0.0,0.0,0.0
+Kasey McAteer,461587,28,4,0.66,0.76,0.7
+Evan Ferguson,487117,28,23,1.53,3.49,2.22
+Archie Gray,547701,28,2,1.26,0.76,1.08
+Jarell Quansah,441428,28,13,1.02,0.0,0.67
+Nathan Patterson,243571,28,26,0.5,0.45,0.48
+Vitalii Mykolenko,224967,28,26,3.01,2.96,3.0
+Lewis Hall,487838,28,20,3.5,0.4,2.41
+Toti,510362,28,6,2.56,1.62,2.23
+Bruno Guimarães,208706,28,20,3.86,1.85,3.16
+Dejan Kulusevski,445044,28,2,3.39,2.37,3.04
+Rodrigo Bentancur,202993,28,2,0.67,1.62,1.01
+Josh Dasilva,183656,28,27,0.0,0.36,0.13
+Luis Díaz,244731,28,13,4.38,0.55,3.04
+Moisés Caicedo,486672,28,8,2.34,3.51,2.75
+Alejandro Garnacho,493105,28,1,3.49,1.0,2.62
+Tyler Dibling,496661,28,9,1.97,1.07,1.66
+Chris Richards,427623,28,34,2.45,0.0,1.59
+Fábio Vieira,438098,28,11,0.0,0.9,0.32
+Cheick Oumar Doucoure,438464,28,34,0.1,0.0,0.07
+Matt Turner,224068,28,34,0.33,0.0,0.21
+Darwin Núñez,447203,28,13,2.1,4.62,2.98
+Jay Stansfield,490146,28,21,0.0,0.0,0.0
+Rodrigo Muniz,244042,28,21,3.58,2.56,3.22
+Sepp van den Berg,444765,28,27,1.17,0.26,0.85
+Manor Solomon,235674,28,2,0.0,0.36,0.13
+Boubacar Kamara,226944,28,31,0.89,0.89,0.89
+Brennan Johnson,242898,28,2,4.09,4.78,4.34
+Diego Carlos,165659,28,31,1.25,0.36,0.94
+Jaidon Anthony,444180,28,17,0.0,0.54,0.19
+Harry Toffolo,114241,28,10,0.35,0.36,0.35
+Hugo Bueno,490721,28,6,0.02,1.5,0.54
+James Hill,463981,28,17,0.57,0.0,0.37
+Joe Ayodele-Aribo,193204,28,9,2.45,0.69,1.83
+Djed Spence,232859,28,2,1.31,0.0,0.85
+Joe Worrall,208912,28,10,0.0,0.0,0.0
+Marcus Tavernier,201658,28,17,2.06,4.01,2.74
+Orel Mangala,179519,28,26,1.37,2.73,1.85
+Pape Sarr,482442,28,2,2.49,2.11,2.36
+Ryan Yates,204968,28,10,1.87,0.82,1.5
+Ryan Christie,158499,28,17,2.87,1.5,2.39
+Tyler Adams,200785,28,17,0.82,0.33,0.65
+Sven Botman,220237,28,20,0.0,0.71,0.25
+Taiwo Awoniyi,210156,28,10,0.71,0.63,0.68
+Jan Paul van Hecke,469142,28,25,2.86,0.46,2.02
+Aaron Hickey,472713,28,27,0.0,0.36,0.13
+Facundo Pellistri,488404,28,1,0.09,0.0,0.06
+Keane Lewis-Potter,249231,28,27,3.04,2.35,2.8
+Lisandro Martínez,221820,28,1,1.52,2.0,1.69
+Julio Enciso,474120,28,5,0.69,0.44,0.61
+Levi Colwill,460028,28,8,2.4,0.76,1.83
+Flynn Downes,220585,28,9,0.83,0.89,0.85
+Rico Lewis,477064,28,32,2.09,0.44,1.51
+Erling Haaland,223094,28,32,4.95,6.72,5.57
+Julián Álvarez,461358,28,32,1.05,2.95,1.72
+Amadou Onana,449871,28,31,1.18,1.68,1.35
+Gonçalo Guedes,181284,28,6,1.28,0.44,0.99
+Kaoru Mitoma,451340,28,25,4.27,1.78,3.4
+Luis Sinisterra,224995,28,17,0.3,0.93,0.52
+Marcos Senesi,221466,28,17,1.42,0.36,1.05
+Neto,69752,28,11,0.74,1.81,1.11
+Mikkel Damsgaard,440089,28,27,3.78,3.99,3.85
+Matheus Nunes,465351,28,32,1.02,2.45,1.52
+Estupiñán,204214,28,25,0.97,2.36,1.46
+Casemiro,61256,28,1,1.02,0.93,0.99
+Alexander Isak,219168,28,20,7.02,6.82,6.95
+Lucas Paquetá,224024,28,23,2.36,4.11,2.98
+Sasa Kalajdzic,429414,28,6,0.13,1.09,0.47
+Manuel Akanji,211975,28,32,1.92,3.32,2.41
+Wout Faes,218218,28,4,0.95,0.0,0.62
+Antony,467169,28,1,0.0,2.09,0.73
+Ethan Nwaneri,499175,28,11,1.59,0.0,1.04
+Ryan Trevitt,591357,28,27,0.03,0.0,0.02
+Kobbie Mainoo,516895,28,1,2.22,0.46,1.61
+Ben Doak,496208,28,13,0.0,0.0,0.0
+Jack Hinshelwood,532529,28,25,1.81,0.0,1.18
+Cody Gakpo,243298,28,13,3.34,3.32,3.33
+Facundo Buonanotte,536916,28,4,2.35,2.09,2.26
+Matheus Cunha,430871,28,6,5.66,4.09,5.11
+Omari Hutchinson,503301,28,5,3.14,0.0,2.04
+João Félix,428399,28,8,0.77,2.07,1.22
+Álex Moreno,106468,28,10,0.63,1.0,0.76
+Carlos Alcaraz,502697,28,26,0.36,4.64,1.86
+Kevin Schade,513418,28,27,3.49,1.98,2.96
+Mykhailo Mudryk,465920,28,8,0.65,2.32,1.23
+Dango Ouattara,533463,28,17,3.52,2.3,3.09
+Danilo,513046,28,10,0.4,0.7,0.5
+Georginio Rutter,463067,28,25,3.77,0.54,2.64
+Pablo Sarabia,88484,28,6,1.37,1.62,1.46
+Enzo Fernández,448047,28,8,2.95,8.75,4.98
+Noni Madueke,248857,28,8,4.1,1.61,3.23
+Sasa Lukic,212314,28,21,1.75,0.93,1.46
+Jakub Kiwior,440854,28,11,0.93,2.6,1.51
+Hamed Junior Traore,424044,28,17,0.0,0.23,0.08
+Antoine Semenyo,437730,28,17,4.57,1.61,3.53
+Illia Zabarnyi,477580,28,17,2.96,2.29,2.73
+Jhon Durán,476344,28,31,1.97,0.23,1.36
+João Gomes,448089,28,6,2.69,2.23,2.53
+Naouirou Ahamada,466117,28,34,0.0,0.0,0.0
+Victor Kristiansen,481510,28,4,1.06,0.54,0.88
+Yasin Ayari,509416,28,25,1.45,0.0,0.95
+Pedro Porro,441164,28,2,3.48,2.4,3.1
+Samuel Amo-Ameyaw,499724,28,9,0.0,0.46,0.16
+Josko Gvardiol,477424,28,32,4.72,9.09,6.25
+Jurriën Timber,445122,28,11,3.82,5.34,4.35
+Alex Scott,503139,28,17,0.56,1.86,1.01
+Bart Verbruggen,489639,28,25,3.69,0.38,2.53
+Chiedozie Ogbene,229164,28,5,0.0,2.16,0.76
+Igor Julio,223434,28,25,0.8,1.0,0.87
+Jake O'Brien,512462,28,26,1.46,0.0,0.95
+Edson Álvarez,213999,28,23,1.28,0.6,1.04
+Calvin Bassey,232892,28,21,2.74,3.24,2.92
+Milos Kerkez,544877,28,17,4.06,3.36,3.82
+Mahmoud Dahoud,168090,28,25,0.0,0.6,0.21
+Justin Kluivert,222683,28,17,6.39,1.76,4.77
+Youssef Chermiti,491012,28,26,0.01,0.0,0.0
+Simon Adingra,535818,28,25,0.97,1.69,1.22
+Moussa Diaby,243557,28,31,0.0,0.93,0.32
+Pau Torres,244954,28,31,0.52,0.93,0.66
+Sandro Tonali,432422,28,20,2.07,1.0,1.7
+Guglielmo Vicario,184254,28,2,1.37,3.09,1.97
+Micky van de Ven,491279,28,2,0.46,1.81,0.93
+Iyenoma Destiny Udogie,487053,28,2,0.9,5.02,2.34
+Mark Flekken,118342,28,27,3.7,2.07,3.13
+Dominik Szoboszlai,424876,28,13,3.85,0.0,2.5
+Ian Maatsen,441302,28,31,0.85,0.69,0.79
+Axel Disasi,220362,28,31,0.19,3.4,1.31
+Christopher Nkunku,213198,28,8,2.43,0.0,1.58
+Chimuanya Ugochukwu,503714,28,9,0.85,0.69,0.8
+Malo Gusto,482609,28,8,1.49,0.0,0.97
+Nicolas Jackson,517052,28,8,4.06,0.0,2.64
+André Onana,202641,28,1,3.07,1.69,2.59
+Rasmus Højlund,497894,28,1,2.19,1.7,2.02
+Wataru Endo,158983,28,13,0.35,0.0,0.22
+Jéremy Doku,248875,28,32,2.28,5.58,3.43
+Wilson Odobert,550839,28,2,0.26,0.62,0.39
+Mohammed Kudus,460842,28,23,2.49,5.88,3.67
+Beto,486385,28,26,2.63,0.46,1.87
+Murillo,575476,28,10,3.67,0.31,2.5
+Carlos Baleba,535301,28,25,2.42,4.36,3.1
+Santiago Bueno,231480,28,6,1.92,0.0,1.25
+Jean-Ricner Bellegarde,231057,28,6,2.28,0.46,1.64
+Ryan Gravenberch,441266,28,13,2.68,0.0,1.74
+Ibrahim Sangare,210462,28,10,0.14,0.31,0.2
+Nicolás Domínguez,250199,28,10,0.79,1.0,0.86
+Yehor Yarmolyuk,508395,28,27,0.92,1.07,0.97
+Myles Lewis-Skelly,499169,28,11,1.01,0.0,0.66
+Radu Dragusin,493125,28,2,1.0,0.0,0.65
+Ben Brereton Díaz,204814,28,9,0.0,0.93,0.32
+Yerson Mosquera,501837,28,6,0.08,0.0,0.05
+Daniel Muñoz,247348,28,34,5.01,0.0,3.25
+Adam Wharton,496221,28,34,0.0,0.0,0.0
+Morgan Rogers,244850,28,31,4.46,7.54,5.53
+Enes Ünal,168636,28,17,0.93,0.0,0.6
+Matz Sels,85633,28,10,4.84,2.0,3.85
+Toby Collyer,490881,28,1,0.22,0.0,0.14
+Mikey Moore,499721,28,2,0.7,0.0,0.46
+Joshua Zirkzee,458249,28,1,1.49,0.0,0.97
+Matthijs de Ligt,209365,28,1,1.21,0.0,0.78
+Noussair Mazraoui,230001,28,1,0.72,0.0,0.47
+Ali Al-Hamadi,462387,28,5,0.33,0.0,0.22
+George Edmundson,214964,28,5,0.0,0.0,0.0
+Luke Woolfenden,220583,28,5,0.67,0.0,0.44
+Conor Chaplin,196411,28,5,0.52,0.0,0.34
+Jack Taylor,231899,28,5,1.37,0.0,0.89
+Marcus Harness,167191,28,5,0.0,0.0,0.0
+Sam Morsy,74944,28,5,0.72,0.0,0.47
+Sammie Szmodics,172453,28,5,0.66,0.0,0.43
+Jacob Greaves,449429,28,5,1.26,0.0,0.82
+Massimo Luongo,106606,28,5,0.0,0.0,0.0
+Wes Burns,149929,28,5,0.98,0.0,0.64
+Jota Silva,510500,28,10,1.47,0.0,0.96
+Dean Huijsen,554605,28,17,4.57,0.0,2.97
+Harrison Armstrong,609873,28,26,0.01,0.0,0.01
+Jesper Lindstrom,463903,28,26,1.97,0.0,1.28
+Jørgen Strand Larsen,247412,28,6,1.35,0.0,0.88
+Nikola Milenkovic,227444,28,10,4.37,0.0,2.84
+Mats Wieffer,467779,28,25,0.47,0.0,0.31
+Julián Araujo,436893,28,17,0.0,0.0,0.0
+Rodrigo Gomes,483081,28,6,1.29,0.0,0.84
+Ross Stewart,230348,28,9,0.0,0.0,0.0
+Yukinari Sugawara,219279,28,9,0.06,0.0,0.04
+Yankuba Minteh,592031,28,25,4.23,0.0,2.75
+Riccardo Calafiori,466075,28,11,1.18,0.0,0.77
+Andy Irving,229384,28,23,0.58,0.0,0.38
+Kosta Nedeljkovic,578545,28,31,0.0,0.0,0.0
+Jean-Clair Todibo,462116,28,23,2.06,0.0,1.34
+Guido Rodríguez,197024,28,23,0.04,0.0,0.03
+Niclas Füllkrug,91889,28,23,1.01,0.0,0.66
+Daichi Kamada,209400,28,34,1.12,0.0,0.73
+Chadi Riad,515621,28,34,0.0,0.0,0.0
+Yunus Konak,628204,28,27,0.12,0.0,0.08
+Marc Guiu,499309,28,8,0.12,0.0,0.08
+Renato Veiga,551230,28,8,0.0,0.0,0.0
+Sávio,510281,28,32,4.17,0.0,2.71
+Abdul Fatawu,531442,28,4,0.0,0.0,0.0
+Lucas Bergvall,570526,28,2,2.21,0.0,1.43
+Caleb Okoli,473341,28,4,0.15,0.0,0.1
+Mads Hermansen,467189,28,4,0.14,0.0,0.09
+Stephy Mavididi,154048,28,4,1.22,0.0,0.79
+Jens Cajuste,454667,28,5,2.18,0.0,1.42
+Roman Dixon,496178,28,26,0.0,0.0,0.0
+Mateus Fernandes,551226,28,9,2.39,0.0,1.55
+Ramón Sosa,502222,28,10,0.07,0.0,0.04
+Evanilson,444102,28,17,0.97,0.0,0.63
+Ferdi Kadioglu,231416,28,25,0.0,0.0,0.0
+Bilal El Khannouss,513527,28,4,3.4,0.0,2.21
+Jack Clarke,443261,28,5,1.42,0.0,0.92
+André,509291,28,6,2.4,0.0,1.56
+Federico Chiesa,223541,28,13,0.12,0.0,0.08
+Manuel Ugarte,232112,28,1,2.17,0.0,1.41
+Carlos Soler,224860,28,23,2.37,0.0,1.54
+Morato,485047,28,10,1.98,0.0,1.29
+Maxence Lacroix,437499,28,34,5.11,0.0,3.32
+Carlos Forbs,463212,28,6,0.03,0.0,0.02
+Stefan Ortega Moreno,88248,28,32,1.33,0.0,0.87
+Nico O'Reilly,472769,28,32,0.28,0.0,0.18
+Martin Dubravka,67089,28,20,3.64,0.0,2.36
+Lewis Miley,547719,28,20,2.33,0.0,1.51
+Kaelan Casey,518438,28,23,0.05,0.0,0.03
+Eric da Silva Moreira,569014,28,10,0.0,0.0,0.0
+Luis Guilherme,577114,28,23,0.45,0.0,0.29
+Mikel Merino,195384,28,11,4.06,0.0,2.64
+Kieran Tierney,192895,28,11,0.58,0.0,0.38
+Kim Ji-Soo,570241,28,27,0.14,0.0,0.09
+Will Alves,532534,28,4,0.07,0.0,0.05
+Danny Ward,95463,28,4,0.1,0.0,0.06
+Jayden Meghoma,499717,28,27,0.04,0.0,0.03
+Jakub Moder,243505,28,25,0.11,0.0,0.07
+Tariq Lamptey,232792,28,25,3.36,0.0,2.18
+Benoit Badiashile Mukinayi,242880,28,8,0.0,0.0,0.0
+Thiago,502500,28,27,0.09,0.0,0.06
+Hákon Valdimarsson,507433,28,27,0.21,0.0,0.13
+Brajan Gruda,513433,28,25,1.16,0.0,0.75
+Matt O'Riley,219249,28,25,1.25,0.0,0.81
+Jakub Stolarczyk,436680,28,4,0.91,0.0,0.59
+Luke Thomas,244619,28,4,0.27,0.0,0.18
+Carlos Vinicius,245824,28,21,0.06,0.0,0.04
+Ryan Sessegnon,184349,28,21,1.87,0.0,1.22
+Jorge Cuenca,246301,28,21,0.41,0.0,0.27
+Joshua King,577725,28,21,0.48,0.0,0.31
+Martial Godo,573062,28,21,0.06,0.0,0.04
+Asher Agbinone,579075,28,34,0.0,0.0,0.0
+Justin Devenny,489706,28,34,0.87,0.0,0.57
+Timothy Castagne,166477,28,21,2.87,0.0,1.87
+Armando Broja,440323,28,26,0.28,0.0,0.18
+Patson Daka,245419,28,4,1.35,0.0,0.88
+Ricardo Pereira,111931,28,4,0.0,0.0,0.0
+Filip Jorgensen,508479,28,8,2.46,0.0,1.6
+Trevoh Chalobah,180736,28,8,2.11,0.0,1.37
+Pedro Lima,641221,28,6,0.35,0.0,0.22
+Alfie Pond,517179,28,6,0.0,0.0,0.0
+Vítezslav Jaros,432987,28,13,0.0,0.0,0.0
+Chiquinho,510363,28,6,0.0,0.0,0.0
+Harry Clarke,232228,28,5,0.37,0.0,0.24
+Conor Townsend,108053,28,5,0.4,0.0,0.26
+Nathan Broadhead,173818,28,5,1.43,0.0,0.93
+Cameron Burgess,122411,28,5,0.0,0.0,0.0
+Sergio Reguilón,199249,28,2,0.07,0.0,0.05
+Will Lankshear,552427,28,2,0.18,0.0,0.12
+Leny Yoro,550864,28,1,0.97,0.0,0.63
+Fraser Forster,40383,28,2,0.72,0.0,0.47
+Brandon Austin,214572,28,2,0.08,0.0,0.05
+Tyrell Malacia,222690,28,1,0.18,0.0,0.12
+James Bree,184386,28,9,1.41,0.0,0.92
+Joe Lumley,167888,28,9,0.16,0.0,0.1
+Ryan Manning,204863,28,9,0.01,0.0,0.0
+Nathan Wood,244845,28,9,0.75,0.0,0.49
+Paul Onuachu,147611,28,9,3.07,0.0,1.99
+Ronnie Edwards,500926,28,9,0.02,0.0,0.01
+Kamaldeen Sulemana,504783,28,9,3.31,0.0,2.15
+Caleb Kporha,590012,28,34,0.01,0.0,0.0
+Jahmai Simpson-Pusey,554194,28,32,0.04,0.0,0.03
+Paris Maghoma,220695,28,27,0.57,0.0,0.37
+Oliver Scarles,536109,28,23,4.15,0.0,2.7
+Ben Winterburn,606775,28,17,0.12,0.0,0.08
+Divin Mubama,487837,28,32,0.09,0.0,0.06
+Alfie Dorrington,519321,28,2,0.0,0.0,0.0
+Tyrique George,550615,28,8,1.73,0.0,1.13
+Josh Acheampong,577016,28,8,0.37,0.0,0.24
+Lewis Orford,518442,28,23,0.28,0.0,0.18
+Remy Rees-Dottin,606774,28,17,0.0,0.0,0.0
+Emmanuel Agbadou,516939,28,6,0.19,0.0,0.12
+Antonín Kinsky,485055,28,2,0.0,0.0,0.0
+Diego Gómez,514254,28,25,1.86,0.0,1.21
+Ben Godfrey,198826,28,5,0.0,0.0,0.0
+Armel Bella Kotchap,477386,28,9,0.0,0.0,0.0
+Welington,500016,28,9,1.07,0.0,0.7
+Zain Silcott-Duberry,530121,28,17,0.0,0.0,0.0
+Jayden Danns,500058,28,13,0.0,0.0,0.0
+Albert Grønbæk,494779,28,9,0.25,0.0,0.16
+Omar Marmoush,438234,28,32,6.44,0.0,4.19
+Abduqodir Khusanov,578153,28,32,6.22,0.0,4.04
+Woyo Coulibaly,488439,28,4,0.0,0.0,0.0
+Romain Esse,606921,28,34,0.0,0.0,0.0
+Dane Scarlett,490145,28,2,2.03,0.0,1.32
+Donyell Malen,204646,28,31,0.68,0.0,0.44
+Andrés García,606798,28,31,1.63,0.0,1.06
+Michael Kayode,607464,28,27,1.0,0.0,0.65
+Mathis Amougou,609640,28,8,1.54,0.0,1.0
+Marco Asensio,174292,28,31,11.44,0.0,7.43
+Nico González,465694,28,32,2.29,0.0,1.49
+Alex Palmer,112520,28,5,0.0,0.0,0.0
+Willian,47431,28,21,1.0,0.0,0.65
+Marshall Munetsi,433312,28,6,6.21,0.0,4.04
+Nasser Djiga,531170,28,6,0.69,0.0,0.45
+Chido Obi-Martin,596047,28,1,0.0,0.0,0.0
+Kevin Danso,135720,28,2,0.0,0.0,0.0
+Patrick Dorgu,596777,28,1,0.0,0.0,0.0
+Mathys Tel,511499,28,2,0.68,0.0,0.44
+Shumaira Mheuka,567119,28,8,5.0,0.0,3.25

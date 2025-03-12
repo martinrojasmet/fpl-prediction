@@ -1,0 +1,52 @@
+[
+    {
+        "homeName": "Brentford",
+        "awayName": "Aston Villa",
+        "result": 0
+    },
+    {
+        "homeName": "Nottingham Forest",
+        "awayName": "Manchester City",
+        "result": 1
+    },
+    {
+        "homeName": "Liverpool",
+        "awayName": "Southampton",
+        "result": 1
+    },
+    {
+        "homeName": "Brighton",
+        "awayName": "Fulham",
+        "result": 0
+    },
+    {
+        "homeName": "Crystal Palace",
+        "awayName": "Ipswich",
+        "result": 0
+    },
+    {
+        "homeName": "Wolverhampton Wanderers",
+        "awayName": "Everton",
+        "result": 2
+    },
+    {
+        "homeName": "Tottenham",
+        "awayName": "Bournemouth",
+        "result": 0
+    },
+    {
+        "homeName": "Manchester United",
+        "awayName": "Arsenal",
+        "result": 0
+    },
+    {
+        "homeName": "Chelsea",
+        "awayName": "Leicester",
+        "result": 1
+    },
+    {
+        "homeName": "West Ham",
+        "awayName": "Newcastle United",
+        "result": 2
+    }
+]
