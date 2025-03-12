@@ -1,0 +1,7954 @@
+[
+    {
+        "id": 122798,
+        "name": "Andrew Robertson",
+        "imageUrl": "http://localhost:5000/api/assets/players/122798.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 3.33,
+        "previousPoints": [
+            2.0,
+            7.0,
+            1.0,
+            2.0,
+            6.0
+        ]
+    },
+    {
+        "id": 95658,
+        "name": "Harry Maguire",
+        "imageUrl": "http://localhost:5000/api/assets/players/95658.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 2.52,
+        "previousPoints": [
+            0.0,
+            8.0,
+            0.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 101668,
+        "name": "Jamie Vardy",
+        "imageUrl": "http://localhost:5000/api/assets/players/101668.png",
+        "opponent": "West Ham",
+        "expectedPoints": 2.9,
+        "previousPoints": [
+            2.0,
+            9.0,
+            1.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 178186,
+        "name": "Jarrod Bowen",
+        "imageUrl": "http://localhost:5000/api/assets/players/178186.png",
+        "opponent": "Leicester",
+        "expectedPoints": 5.27,
+        "previousPoints": [
+            0.0,
+            0.0,
+            10.0,
+            2.0,
+            10.0
+        ]
+    },
+    {
+        "id": 86417,
+        "name": "Jeffrey Schlupp",
+        "imageUrl": "http://localhost:5000/api/assets/players/86417.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 1.58,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 121599,
+        "name": "Abdoulaye Doucour\u00e9",
+        "imageUrl": "http://localhost:5000/api/assets/players/121599.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.57,
+        "previousPoints": [
+            3.0,
+            8.0,
+            -1.0,
+            0.0,
+            12.0
+        ]
+    },
+    {
+        "id": 58376,
+        "name": "Alex McCarthy",
+        "imageUrl": "http://localhost:5000/api/assets/players/58376.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 1.04,
+        "previousPoints": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 98747,
+        "name": "Nick Pope",
+        "imageUrl": "http://localhost:5000/api/assets/players/98747.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 2.59,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 88900,
+        "name": "Jack Stephens",
+        "imageUrl": "http://localhost:5000/api/assets/players/88900.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.38,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 80607,
+        "name": "Christian Eriksen",
+        "imageUrl": "http://localhost:5000/api/assets/players/80607.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.98,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 55494,
+        "name": "Joel Ward",
+        "imageUrl": "http://localhost:5000/api/assets/players/55494.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 1.1,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 101178,
+        "name": "James Ward-Prowse",
+        "imageUrl": "http://localhost:5000/api/assets/players/101178.png",
+        "opponent": "Leicester",
+        "expectedPoints": 3.5,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 157668,
+        "name": "Harry Winks",
+        "imageUrl": "http://localhost:5000/api/assets/players/157668.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.82,
+        "previousPoints": [
+            2.0,
+            1.0,
+            2.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 80801,
+        "name": "Idrissa Gueye",
+        "imageUrl": "http://localhost:5000/api/assets/players/80801.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.56,
+        "previousPoints": [
+            3.0,
+            3.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 132015,
+        "name": "Pierre-Emile H\u00f8jbjerg",
+        "imageUrl": "http://localhost:5000/api/assets/players/132015.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.8,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 153366,
+        "name": "Harrison Reed",
+        "imageUrl": "http://localhost:5000/api/assets/players/153366.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.48,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 115556,
+        "name": "Ben Davies",
+        "imageUrl": "http://localhost:5000/api/assets/players/115556.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.64,
+        "previousPoints": [
+            1.0,
+            1.0,
+            6.0,
+            5.0,
+            0.0
+        ]
+    },
+    {
+        "id": 169359,
+        "name": "Matt Targett",
+        "imageUrl": "http://localhost:5000/api/assets/players/169359.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 0.99,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 194164,
+        "name": "Mason Holgate",
+        "imageUrl": "http://localhost:5000/api/assets/players/194164.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.75,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 59949,
+        "name": "Seamus Coleman",
+        "imageUrl": "http://localhost:5000/api/assets/players/59949.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.73,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 37642,
+        "name": "Jonny Evans",
+        "imageUrl": "http://localhost:5000/api/assets/players/37642.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.73,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 17761,
+        "name": "James Tarkowski",
+        "imageUrl": "http://localhost:5000/api/assets/players/17761.png",
+        "opponent": "Brentford",
+        "expectedPoints": 3.91,
+        "previousPoints": [
+            7.0,
+            10.0,
+            7.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 77794,
+        "name": "Kieran Trippier",
+        "imageUrl": "http://localhost:5000/api/assets/players/77794.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 2.06,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 106611,
+        "name": "Michael Keane",
+        "imageUrl": "http://localhost:5000/api/assets/players/106611.png",
+        "opponent": "Brentford",
+        "expectedPoints": 1.08,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 88894,
+        "name": "Ross Barkley",
+        "imageUrl": "http://localhost:5000/api/assets/players/88894.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 1.11,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 51927,
+        "name": "Ben Mee",
+        "imageUrl": "http://localhost:5000/api/assets/players/51927.png",
+        "opponent": "Everton",
+        "expectedPoints": 1.58,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 37096,
+        "name": "Lukasz Fabianski",
+        "imageUrl": "http://localhost:5000/api/assets/players/37096.png",
+        "opponent": "Leicester",
+        "expectedPoints": 2.94,
+        "previousPoints": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 58621,
+        "name": "Kyle Walker",
+        "imageUrl": "http://localhost:5000/api/assets/players/58621.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.54,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 60232,
+        "name": "Craig Dawson",
+        "imageUrl": "http://localhost:5000/api/assets/players/60232.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.46,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 97032,
+        "name": "Virgil van Dijk",
+        "imageUrl": "http://localhost:5000/api/assets/players/97032.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 3.64,
+        "previousPoints": [
+            2.0,
+            5.0,
+            1.0,
+            1.0,
+            6.0
+        ]
+    },
+    {
+        "id": 103955,
+        "name": "Raheem Sterling",
+        "imageUrl": "http://localhost:5000/api/assets/players/103955.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 3.45,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            3.0,
+            1.0
+        ]
+    },
+    {
+        "id": 206325,
+        "name": "Oleksandr Zinchenko",
+        "imageUrl": "http://localhost:5000/api/assets/players/206325.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 2.11,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 61366,
+        "name": "Kevin De Bruyne",
+        "imageUrl": "http://localhost:5000/api/assets/players/61366.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 3.12,
+        "previousPoints": [
+            12.0,
+            1.0,
+            1.0,
+            0.0,
+            2.0
+        ]
+    },
+    {
+        "id": 97299,
+        "name": "John Stones",
+        "imageUrl": "http://localhost:5000/api/assets/players/97299.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.58,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            7.0,
+            0.0
+        ]
+    },
+    {
+        "id": 59859,
+        "name": "Ilkay G\u00fcndogan",
+        "imageUrl": "http://localhost:5000/api/assets/players/59859.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 3.55,
+        "previousPoints": [
+            3.0,
+            2.0,
+            0.0,
+            6.0,
+            1.0
+        ]
+    },
+    {
+        "id": 111234,
+        "name": "Jordan Pickford",
+        "imageUrl": "http://localhost:5000/api/assets/players/111234.png",
+        "opponent": "Brentford",
+        "expectedPoints": 3.92,
+        "previousPoints": [
+            5.0,
+            9.0,
+            1.0,
+            3.0,
+            1.0
+        ]
+    },
+    {
+        "id": 126184,
+        "name": "Nathan Ak\u00e9",
+        "imageUrl": "http://localhost:5000/api/assets/players/126184.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.65,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 149484,
+        "name": "Tyrone Mings",
+        "imageUrl": "http://localhost:5000/api/assets/players/149484.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 1.82,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 106760,
+        "name": "Luke Shaw",
+        "imageUrl": "http://localhost:5000/api/assets/players/106760.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 1.18,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 176297,
+        "name": "Marcus Rashford",
+        "imageUrl": "http://localhost:5000/api/assets/players/176297.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 3.2,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            7.0,
+            9.0
+        ]
+    },
+    {
+        "id": 75115,
+        "name": "Callum Wilson",
+        "imageUrl": "http://localhost:5000/api/assets/players/75115.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.83,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 18892,
+        "name": "Ashley Young",
+        "imageUrl": "http://localhost:5000/api/assets/players/18892.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.62,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            4.0,
+            -1.0
+        ]
+    },
+    {
+        "id": 54469,
+        "name": "Adam Smith",
+        "imageUrl": "http://localhost:5000/api/assets/players/54469.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.75,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 155408,
+        "name": "Lewis Cook",
+        "imageUrl": "http://localhost:5000/api/assets/players/155408.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.73,
+        "previousPoints": [
+            2.0,
+            2.0,
+            2.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 50175,
+        "name": "Danny Welbeck",
+        "imageUrl": "http://localhost:5000/api/assets/players/50175.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 2.83,
+        "previousPoints": [
+            2.0,
+            2.0,
+            1.0,
+            8.0,
+            0.0
+        ]
+    },
+    {
+        "id": 169187,
+        "name": "Trent Alexander-Arnold",
+        "imageUrl": "http://localhost:5000/api/assets/players/169187.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 5.2,
+        "previousPoints": [
+            5.0,
+            6.0,
+            1.0,
+            6.0,
+            6.0
+        ]
+    },
+    {
+        "id": 153133,
+        "name": "Alex Iwobi",
+        "imageUrl": "http://localhost:5000/api/assets/players/153133.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 3.35,
+        "previousPoints": [
+            1.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 39155,
+        "name": "Adam Lallana",
+        "imageUrl": "http://localhost:5000/api/assets/players/39155.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.59,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 84939,
+        "name": "Danny Ings",
+        "imageUrl": "http://localhost:5000/api/assets/players/84939.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.91,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 57328,
+        "name": "Nathaniel Clyne",
+        "imageUrl": "http://localhost:5000/api/assets/players/57328.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.92,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 15157,
+        "name": "James Milner",
+        "imageUrl": "http://localhost:5000/api/assets/players/15157.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.48,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 55459,
+        "name": "Aaron Cresswell",
+        "imageUrl": "http://localhost:5000/api/assets/players/55459.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.99,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            6.0
+        ]
+    },
+    {
+        "id": 103192,
+        "name": "Kurt Zouma",
+        "imageUrl": "http://localhost:5000/api/assets/players/103192.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.45,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 57531,
+        "name": "Michail Antonio",
+        "imageUrl": "http://localhost:5000/api/assets/players/57531.png",
+        "opponent": "Leicester",
+        "expectedPoints": 2.41,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 159506,
+        "name": "Ola Aina",
+        "imageUrl": "http://localhost:5000/api/assets/players/159506.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 3.11,
+        "previousPoints": [
+            4.0,
+            1.0,
+            6.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 90105,
+        "name": "Ryan Fraser",
+        "imageUrl": "http://localhost:5000/api/assets/players/90105.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.43,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 159533,
+        "name": "Adama Traor\u00e9",
+        "imageUrl": "http://localhost:5000/api/assets/players/159533.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 2.15,
+        "previousPoints": [
+            6.0,
+            1.0,
+            2.0,
+            6.0,
+            2.0
+        ]
+    },
+    {
+        "id": 85971,
+        "name": "Son Heung-Min",
+        "imageUrl": "http://localhost:5000/api/assets/players/85971.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 5.13,
+        "previousPoints": [
+            2.0,
+            2.0,
+            10.0,
+            3.0,
+            8.0
+        ]
+    },
+    {
+        "id": 177815,
+        "name": "Dominic Calvert-Lewin",
+        "imageUrl": "http://localhost:5000/api/assets/players/177815.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.19,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 214590,
+        "name": "Aaron Wan-Bissaka",
+        "imageUrl": "http://localhost:5000/api/assets/players/214590.png",
+        "opponent": "Leicester",
+        "expectedPoints": 2.32,
+        "previousPoints": [
+            1.0,
+            2.0,
+            -1.0,
+            2.0,
+            12.0
+        ]
+    },
+    {
+        "id": 204480,
+        "name": "Declan Rice",
+        "imageUrl": "http://localhost:5000/api/assets/players/204480.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 3.53,
+        "previousPoints": [
+            2.0,
+            3.0,
+            10.0,
+            3.0,
+            1.0
+        ]
+    },
+    {
+        "id": 172850,
+        "name": "Ben Chilwell",
+        "imageUrl": "http://localhost:5000/api/assets/players/172850.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 1.38,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 203341,
+        "name": "Wilfred Ndidi",
+        "imageUrl": "http://localhost:5000/api/assets/players/203341.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.31,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 205651,
+        "name": "Gabriel Jesus",
+        "imageUrl": "http://localhost:5000/api/assets/players/205651.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 2.65,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 80146,
+        "name": "Jordan Ayew",
+        "imageUrl": "http://localhost:5000/api/assets/players/80146.png",
+        "opponent": "West Ham",
+        "expectedPoints": 2.65,
+        "previousPoints": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 153682,
+        "name": "Harry Wilson",
+        "imageUrl": "http://localhost:5000/api/assets/players/153682.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.9,
+        "previousPoints": [
+            7.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 180804,
+        "name": "Axel Tuanzebe",
+        "imageUrl": "http://localhost:5000/api/assets/players/180804.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.07,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            -2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 98980,
+        "name": "Emiliano Martinez",
+        "imageUrl": "http://localhost:5000/api/assets/players/98980.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 2.87,
+        "previousPoints": [
+            2.0,
+            2.0,
+            2.0,
+            3.0,
+            3.0
+        ]
+    },
+    {
+        "id": 195851,
+        "name": "Scott McTominay",
+        "imageUrl": "http://localhost:5000/api/assets/players/195851.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 1.08,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 225321,
+        "name": "Aaron Ramsdale",
+        "imageUrl": "http://localhost:5000/api/assets/players/225321.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 2.43,
+        "previousPoints": [
+            1.0,
+            0.0,
+            3.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 200641,
+        "name": "Reiss Nelson",
+        "imageUrl": "http://localhost:5000/api/assets/players/200641.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 0.63,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 171287,
+        "name": "Joseph Gomez",
+        "imageUrl": "http://localhost:5000/api/assets/players/171287.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 1.52,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 108413,
+        "name": "Will Hughes",
+        "imageUrl": "http://localhost:5000/api/assets/players/108413.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 1.11,
+        "previousPoints": [
+            3.0,
+            2.0,
+            2.0,
+            2.0,
+            5.0
+        ]
+    },
+    {
+        "id": 118748,
+        "name": "Mohamed Salah",
+        "imageUrl": "http://localhost:5000/api/assets/players/118748.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 7.19,
+        "previousPoints": [
+            8.0,
+            16.0,
+            13.0,
+            8.0,
+            14.0
+        ]
+    },
+    {
+        "id": 212319,
+        "name": "Richarlison",
+        "imageUrl": "http://localhost:5000/api/assets/players/212319.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.73,
+        "previousPoints": [
+            5.0,
+            5.0,
+            2.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 103914,
+        "name": "Charlie Taylor",
+        "imageUrl": "http://localhost:5000/api/assets/players/103914.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.97,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 171771,
+        "name": "Jan Bednarek",
+        "imageUrl": "http://localhost:5000/api/assets/players/171771.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 1.97,
+        "previousPoints": [
+            7.0,
+            7.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 151086,
+        "name": "Mario Lemina",
+        "imageUrl": "http://localhost:5000/api/assets/players/151086.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.93,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 168991,
+        "name": "Philip Billing",
+        "imageUrl": "http://localhost:5000/api/assets/players/168991.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.58,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 165809,
+        "name": "Bernardo Silva",
+        "imageUrl": "http://localhost:5000/api/assets/players/165809.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 2.79,
+        "previousPoints": [
+            0.0,
+            1.0,
+            2.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 121160,
+        "name": "Ederson",
+        "imageUrl": "http://localhost:5000/api/assets/players/121160.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 3.37,
+        "previousPoints": [
+            7.0,
+            8.0,
+            0.0,
+            11.0,
+            1.0
+        ]
+    },
+    {
+        "id": 60307,
+        "name": "Pascal Gro\u00df",
+        "imageUrl": "http://localhost:5000/api/assets/players/60307.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 2.13,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 83299,
+        "name": "Lewis Dunk",
+        "imageUrl": "http://localhost:5000/api/assets/players/83299.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 2.1,
+        "previousPoints": [
+            2.0,
+            2.0,
+            -3.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 209244,
+        "name": "Phil Foden",
+        "imageUrl": "http://localhost:5000/api/assets/players/209244.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 4.36,
+        "previousPoints": [
+            19.0,
+            7.0,
+            2.0,
+            3.0,
+            2.0
+        ]
+    },
+    {
+        "id": 109345,
+        "name": "Solly March",
+        "imageUrl": "http://localhost:5000/api/assets/players/109345.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.52,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 114243,
+        "name": "Jacob Murphy",
+        "imageUrl": "http://localhost:5000/api/assets/players/114243.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 2.23,
+        "previousPoints": [
+            2.0,
+            6.0,
+            8.0,
+            2.0,
+            7.0
+        ]
+    },
+    {
+        "id": 158534,
+        "name": "Kyle Walker-Peters",
+        "imageUrl": "http://localhost:5000/api/assets/players/158534.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 1.6,
+        "previousPoints": [
+            0.0,
+            1.0,
+            2.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 184667,
+        "name": "Victor Lindel\u00f6f",
+        "imageUrl": "http://localhost:5000/api/assets/players/184667.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 1.02,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 154566,
+        "name": "Dominic Solanke",
+        "imageUrl": "http://localhost:5000/api/assets/players/154566.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 3.53,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 60689,
+        "name": "Chris Wood",
+        "imageUrl": "http://localhost:5000/api/assets/players/60689.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 3.09,
+        "previousPoints": [
+            12.0,
+            2.0,
+            17.0,
+            9.0,
+            5.0
+        ]
+    },
+    {
+        "id": 197469,
+        "name": "Hamza Choudhury",
+        "imageUrl": "http://localhost:5000/api/assets/players/197469.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.09,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 222018,
+        "name": "Ben Johnson",
+        "imageUrl": "http://localhost:5000/api/assets/players/222018.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.74,
+        "previousPoints": [
+            -1.0,
+            1.0,
+            0.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 209046,
+        "name": "Callum Hudson-Odoi",
+        "imageUrl": "http://localhost:5000/api/assets/players/209046.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 2.11,
+        "previousPoints": [
+            6.0,
+            0.0,
+            0.0,
+            1.0,
+            8.0
+        ]
+    },
+    {
+        "id": 233963,
+        "name": "Konstantinos Mavropanos",
+        "imageUrl": "http://localhost:5000/api/assets/players/233963.png",
+        "opponent": "Leicester",
+        "expectedPoints": 0.72,
+        "previousPoints": [
+            -2.0,
+            0.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 109533,
+        "name": "Emerson",
+        "imageUrl": "http://localhost:5000/api/assets/players/109533.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.43,
+        "previousPoints": [
+            1.0,
+            10.0,
+            2.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 205533,
+        "name": "Eddie Nketiah",
+        "imageUrl": "http://localhost:5000/api/assets/players/205533.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 1.64,
+        "previousPoints": [
+            4.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 206915,
+        "name": "Curtis Jones",
+        "imageUrl": "http://localhost:5000/api/assets/players/206915.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 1.93,
+        "previousPoints": [
+            0.0,
+            4.0,
+            1.0,
+            0.0,
+            3.0
+        ]
+    },
+    {
+        "id": 201666,
+        "name": "Harvey Barnes",
+        "imageUrl": "http://localhost:5000/api/assets/players/201666.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 2.31,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 200089,
+        "name": "Joe Willock",
+        "imageUrl": "http://localhost:5000/api/assets/players/200089.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.56,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            5.0
+        ]
+    },
+    {
+        "id": 433154,
+        "name": "Dwight McNeil",
+        "imageUrl": "http://localhost:5000/api/assets/players/433154.png",
+        "opponent": "Brentford",
+        "expectedPoints": 3.22,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 172780,
+        "name": "James Maddison",
+        "imageUrl": "http://localhost:5000/api/assets/players/172780.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 3.71,
+        "previousPoints": [
+            2.0,
+            0.0,
+            0.0,
+            10.0,
+            4.0
+        ]
+    },
+    {
+        "id": 156689,
+        "name": "Andreas Pereira",
+        "imageUrl": "http://localhost:5000/api/assets/players/156689.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 2.82,
+        "previousPoints": [
+            0.0,
+            1.0,
+            3.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 119471,
+        "name": "Fabian Sch\u00e4r",
+        "imageUrl": "http://localhost:5000/api/assets/players/119471.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 2.48,
+        "previousPoints": [
+            0.0,
+            2.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 111317,
+        "name": "David Brooks",
+        "imageUrl": "http://localhost:5000/api/assets/players/111317.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.44,
+        "previousPoints": [
+            3.0,
+            3.0,
+            2.0,
+            3.0,
+            1.0
+        ]
+    },
+    {
+        "id": 96994,
+        "name": "Bobby Reid",
+        "imageUrl": "http://localhost:5000/api/assets/players/96994.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.68,
+        "previousPoints": [
+            0.0,
+            7.0,
+            2.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 85955,
+        "name": "Jorginho",
+        "imageUrl": "http://localhost:5000/api/assets/players/85955.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 1.19,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 49262,
+        "name": "Jason Steele",
+        "imageUrl": "http://localhost:5000/api/assets/players/49262.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.98,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 109745,
+        "name": "Kepa",
+        "imageUrl": "http://localhost:5000/api/assets/players/109745.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.48,
+        "previousPoints": [
+            3.0,
+            7.0,
+            2.0,
+            3.0,
+            2.0
+        ]
+    },
+    {
+        "id": 227127,
+        "name": "Yves Bissouma",
+        "imageUrl": "http://localhost:5000/api/assets/players/227127.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.19,
+        "previousPoints": [
+            0.0,
+            0.0,
+            3.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 82514,
+        "name": "Tim Ream",
+        "imageUrl": "http://localhost:5000/api/assets/players/82514.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.07,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 91651,
+        "name": "Mateo Kovacic",
+        "imageUrl": "http://localhost:5000/api/assets/players/91651.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 2.16,
+        "previousPoints": [
+            13.0,
+            1.0,
+            2.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 76357,
+        "name": "Tom Cairney",
+        "imageUrl": "http://localhost:5000/api/assets/players/76357.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.14,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 194634,
+        "name": "Diogo Jota",
+        "imageUrl": "http://localhost:5000/api/assets/players/194634.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 2.9,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            3.0,
+            0.0
+        ]
+    },
+    {
+        "id": 94147,
+        "name": "Conor Coady",
+        "imageUrl": "http://localhost:5000/api/assets/players/94147.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.99,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 101188,
+        "name": "Lucas Digne",
+        "imageUrl": "http://localhost:5000/api/assets/players/101188.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 2.03,
+        "previousPoints": [
+            4.0,
+            2.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 87835,
+        "name": "Matt Doherty",
+        "imageUrl": "http://localhost:5000/api/assets/players/87835.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.17,
+        "previousPoints": [
+            7.0,
+            2.0,
+            6.0,
+            0.0,
+            5.0
+        ]
+    },
+    {
+        "id": 90585,
+        "name": "Willy Boly",
+        "imageUrl": "http://localhost:5000/api/assets/players/90585.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 0.36,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 222531,
+        "name": "Morgan Gibbs-White",
+        "imageUrl": "http://localhost:5000/api/assets/players/222531.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 3.11,
+        "previousPoints": [
+            5.0,
+            2.0,
+            16.0,
+            5.0,
+            5.0
+        ]
+    },
+    {
+        "id": 102057,
+        "name": "Ra\u00fal Jim\u00e9nez",
+        "imageUrl": "http://localhost:5000/api/assets/players/102057.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.39,
+        "previousPoints": [
+            2.0,
+            2.0,
+            8.0,
+            5.0,
+            2.0
+        ]
+    },
+    {
+        "id": 116535,
+        "name": "Alisson",
+        "imageUrl": "http://localhost:5000/api/assets/players/116535.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 3.47,
+        "previousPoints": [
+            2.0,
+            9.0,
+            1.0,
+            3.0,
+            8.0
+        ]
+    },
+    {
+        "id": 219924,
+        "name": "Issa Diop",
+        "imageUrl": "http://localhost:5000/api/assets/players/219924.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 0.93,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 93100,
+        "name": "Jannik Vestergaard",
+        "imageUrl": "http://localhost:5000/api/assets/players/93100.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.08,
+        "previousPoints": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 80201,
+        "name": "Bernd Leno",
+        "imageUrl": "http://localhost:5000/api/assets/players/80201.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 2.45,
+        "previousPoints": [
+            7.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 232917,
+        "name": "Arijanet Muric",
+        "imageUrl": "http://localhost:5000/api/assets/players/232917.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.73,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 180135,
+        "name": "Sean Longstaff",
+        "imageUrl": "http://localhost:5000/api/assets/players/180135.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.99,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 152551,
+        "name": "Jefferson Lerma",
+        "imageUrl": "http://localhost:5000/api/assets/players/152551.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 1.64,
+        "previousPoints": [
+            0.0,
+            2.0,
+            3.0,
+            1.0,
+            3.0
+        ]
+    },
+    {
+        "id": 209042,
+        "name": "Oliver Skipp",
+        "imageUrl": "http://localhost:5000/api/assets/players/209042.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.7,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 216051,
+        "name": "Diogo Dalot",
+        "imageUrl": "http://localhost:5000/api/assets/players/216051.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 2.99,
+        "previousPoints": [
+            1.0,
+            7.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 223340,
+        "name": "Bukayo Saka",
+        "imageUrl": "http://localhost:5000/api/assets/players/223340.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 6.13,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 214048,
+        "name": "Max Kilman",
+        "imageUrl": "http://localhost:5000/api/assets/players/214048.png",
+        "opponent": "Leicester",
+        "expectedPoints": 2.76,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            2.0,
+            8.0
+        ]
+    },
+    {
+        "id": 78916,
+        "name": "Dan Burn",
+        "imageUrl": "http://localhost:5000/api/assets/players/78916.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 2.51,
+        "previousPoints": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 223911,
+        "name": "Chris Mepham",
+        "imageUrl": "http://localhost:5000/api/assets/players/223911.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.44,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 166989,
+        "name": "Youri Tielemans",
+        "imageUrl": "http://localhost:5000/api/assets/players/166989.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 2.05,
+        "previousPoints": [
+            8.0,
+            1.0,
+            2.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 179018,
+        "name": "Miguel Almir\u00f3n",
+        "imageUrl": "http://localhost:5000/api/assets/players/179018.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.48,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 232928,
+        "name": "James Garner",
+        "imageUrl": "http://localhost:5000/api/assets/players/232928.png",
+        "opponent": "Brentford",
+        "expectedPoints": 1.76,
+        "previousPoints": [
+            1.0,
+            6.0,
+            2.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 444884,
+        "name": "Harvey Elliott",
+        "imageUrl": "http://localhost:5000/api/assets/players/444884.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 1.33,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 229600,
+        "name": "Mark Travers",
+        "imageUrl": "http://localhost:5000/api/assets/players/229600.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.7,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 195546,
+        "name": "Emiliano Buend\u00eda",
+        "imageUrl": "http://localhost:5000/api/assets/players/195546.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.87,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 232980,
+        "name": "Max Aarons",
+        "imageUrl": "http://localhost:5000/api/assets/players/232980.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.69,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 220566,
+        "name": "Rodri",
+        "imageUrl": "http://localhost:5000/api/assets/players/220566.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 2.46,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 110735,
+        "name": "Adam Webster",
+        "imageUrl": "http://localhost:5000/api/assets/players/110735.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.19,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            6.0,
+            6.0
+        ]
+    },
+    {
+        "id": 232185,
+        "name": "Ismaila Sarr",
+        "imageUrl": "http://localhost:5000/api/assets/players/232185.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 5.42,
+        "previousPoints": [
+            3.0,
+            2.0,
+            3.0,
+            2.0,
+            3.0
+        ]
+    },
+    {
+        "id": 172649,
+        "name": "Dean Henderson",
+        "imageUrl": "http://localhost:5000/api/assets/players/172649.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 2.14,
+        "previousPoints": [
+            6.0,
+            1.0,
+            6.0,
+            2.0,
+            6.0
+        ]
+    },
+    {
+        "id": 116216,
+        "name": "Leandro Trossard",
+        "imageUrl": "http://localhost:5000/api/assets/players/116216.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 3.4,
+        "previousPoints": [
+            10.0,
+            3.0,
+            2.0,
+            6.0,
+            2.0
+        ]
+    },
+    {
+        "id": 115382,
+        "name": "Neal Maupay",
+        "imageUrl": "http://localhost:5000/api/assets/players/115382.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.71,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 235530,
+        "name": "Lloyd Kelly",
+        "imageUrl": "http://localhost:5000/api/assets/players/235530.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.08,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 114283,
+        "name": "Jack Grealish",
+        "imageUrl": "http://localhost:5000/api/assets/players/114283.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.14,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 199798,
+        "name": "Ezri Konsa Ngoyo",
+        "imageUrl": "http://localhost:5000/api/assets/players/199798.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 2.1,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            0.0,
+            2.0
+        ]
+    },
+    {
+        "id": 200826,
+        "name": "Giovani Lo Celso",
+        "imageUrl": "http://localhost:5000/api/assets/players/200826.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.87,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 122806,
+        "name": "John McGinn",
+        "imageUrl": "http://localhost:5000/api/assets/players/122806.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 2.7,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 111773,
+        "name": "Emil Krafth",
+        "imageUrl": "http://localhost:5000/api/assets/players/111773.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 0.43,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 444145,
+        "name": "Gabriel Martinelli",
+        "imageUrl": "http://localhost:5000/api/assets/players/444145.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 3.27,
+        "previousPoints": [
+            7.0,
+            3.0,
+            5.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 247632,
+        "name": "Pedro Neto",
+        "imageUrl": "http://localhost:5000/api/assets/players/247632.png",
+        "opponent": "Southampton",
+        "expectedPoints": 2.55,
+        "previousPoints": [
+            2.0,
+            1.0,
+            7.0,
+            2.0,
+            5.0
+        ]
+    },
+    {
+        "id": 220627,
+        "name": "James Justin",
+        "imageUrl": "http://localhost:5000/api/assets/players/220627.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.15,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 180974,
+        "name": "Joelinton",
+        "imageUrl": "http://localhost:5000/api/assets/players/180974.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.9,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 225796,
+        "name": "Reece James",
+        "imageUrl": "http://localhost:5000/api/assets/players/225796.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.54,
+        "previousPoints": [
+            6.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 184341,
+        "name": "Mason Mount",
+        "imageUrl": "http://localhost:5000/api/assets/players/184341.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.33,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 200720,
+        "name": "Caoimhin Kelleher",
+        "imageUrl": "http://localhost:5000/api/assets/players/200720.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 0.73,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 243568,
+        "name": "Billy Gilmour",
+        "imageUrl": "http://localhost:5000/api/assets/players/243568.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.98,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 232826,
+        "name": "Anthony Gordon",
+        "imageUrl": "http://localhost:5000/api/assets/players/232826.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 4.1,
+        "previousPoints": [
+            2.0,
+            5.0,
+            1.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 215136,
+        "name": "Neco Williams",
+        "imageUrl": "http://localhost:5000/api/assets/players/215136.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 2.01,
+        "previousPoints": [
+            1.0,
+            1.0,
+            12.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 209289,
+        "name": "Emile Smith-Rowe",
+        "imageUrl": "http://localhost:5000/api/assets/players/209289.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.51,
+        "previousPoints": [
+            11.0,
+            2.0,
+            2.0,
+            9.0,
+            1.0
+        ]
+    },
+    {
+        "id": 244723,
+        "name": "Tyrick Mitchell",
+        "imageUrl": "http://localhost:5000/api/assets/players/244723.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 3.67,
+        "previousPoints": [
+            6.0,
+            1.0,
+            6.0,
+            1.0,
+            7.0
+        ]
+    },
+    {
+        "id": 475168,
+        "name": "Jo\u00e3o Pedro",
+        "imageUrl": "http://localhost:5000/api/assets/players/475168.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 4.23,
+        "previousPoints": [
+            2.0,
+            1.0,
+            1.0,
+            1.0,
+            12.0
+        ]
+    },
+    {
+        "id": 207189,
+        "name": "Sander Berge",
+        "imageUrl": "http://localhost:5000/api/assets/players/207189.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.45,
+        "previousPoints": [
+            3.0,
+            2.0,
+            2.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 215439,
+        "name": "Tomas Soucek",
+        "imageUrl": "http://localhost:5000/api/assets/players/215439.png",
+        "opponent": "Leicester",
+        "expectedPoints": 3.15,
+        "previousPoints": [
+            2.0,
+            1.0,
+            2.0,
+            0.0,
+            3.0
+        ]
+    },
+    {
+        "id": 200600,
+        "name": "Daniel Podence",
+        "imageUrl": "http://localhost:5000/api/assets/players/200600.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.41,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 141746,
+        "name": "Bruno Fernandes",
+        "imageUrl": "http://localhost:5000/api/assets/players/141746.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 4.61,
+        "previousPoints": [
+            8.0,
+            3.0,
+            1.0,
+            2.0,
+            10.0
+        ]
+    },
+    {
+        "id": 243016,
+        "name": "Alexis Mac Allister",
+        "imageUrl": "http://localhost:5000/api/assets/players/243016.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 3.17,
+        "previousPoints": [
+            3.0,
+            2.0,
+            8.0,
+            2.0,
+            3.0
+        ]
+    },
+    {
+        "id": 214466,
+        "name": "William Smallbone",
+        "imageUrl": "http://localhost:5000/api/assets/players/214466.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.25,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 480455,
+        "name": "Jarrad Branthwaite",
+        "imageUrl": "http://localhost:5000/api/assets/players/480455.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.38,
+        "previousPoints": [
+            8.0,
+            6.0,
+            4.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 244851,
+        "name": "Cole Palmer",
+        "imageUrl": "http://localhost:5000/api/assets/players/244851.png",
+        "opponent": "Southampton",
+        "expectedPoints": 5.03,
+        "previousPoints": [
+            2.0,
+            2.0,
+            6.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 220394,
+        "name": "Tommy Doyle",
+        "imageUrl": "http://localhost:5000/api/assets/players/220394.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.04,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 245719,
+        "name": "Taylor Harwood-Bellis",
+        "imageUrl": "http://localhost:5000/api/assets/players/245719.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 1.09,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 222625,
+        "name": "George Hirst",
+        "imageUrl": "http://localhost:5000/api/assets/players/222625.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.82,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 226597,
+        "name": "Gabriel",
+        "imageUrl": "http://localhost:5000/api/assets/players/226597.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 4.02,
+        "previousPoints": [
+            1.0,
+            7.0,
+            2.0,
+            6.0,
+            2.0
+        ]
+    },
+    {
+        "id": 84182,
+        "name": "Alphonse Areola",
+        "imageUrl": "http://localhost:5000/api/assets/players/84182.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.5,
+        "previousPoints": [
+            0.0,
+            3.0,
+            2.0,
+            3.0,
+            6.0
+        ]
+    },
+    {
+        "id": 462424,
+        "name": "William Saliba",
+        "imageUrl": "http://localhost:5000/api/assets/players/462424.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 4.98,
+        "previousPoints": [
+            0.0,
+            9.0,
+            2.0,
+            6.0,
+            2.0
+        ]
+    },
+    {
+        "id": 167074,
+        "name": "Kenny Tete",
+        "imageUrl": "http://localhost:5000/api/assets/players/167074.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.36,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 169528,
+        "name": "Antonee Robinson",
+        "imageUrl": "http://localhost:5000/api/assets/players/169528.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 3.07,
+        "previousPoints": [
+            8.0,
+            2.0,
+            4.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 232413,
+        "name": "Eberechi Eze",
+        "imageUrl": "http://localhost:5000/api/assets/players/232413.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 3.96,
+        "previousPoints": [
+            6.0,
+            2.0,
+            1.0,
+            1.0,
+            3.0
+        ]
+    },
+    {
+        "id": 221399,
+        "name": "Jack Harrison",
+        "imageUrl": "http://localhost:5000/api/assets/players/221399.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.11,
+        "previousPoints": [
+            0.0,
+            1.0,
+            2.0,
+            2.0,
+            5.0
+        ]
+    },
+    {
+        "id": 155405,
+        "name": "Kalvin Phillips",
+        "imageUrl": "http://localhost:5000/api/assets/players/155405.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.28,
+        "previousPoints": [
+            0.0,
+            2.0,
+            0.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 214285,
+        "name": "Konstantinos Tsimikas",
+        "imageUrl": "http://localhost:5000/api/assets/players/214285.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 1.31,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 455084,
+        "name": "Leif Davis",
+        "imageUrl": "http://localhost:5000/api/assets/players/455084.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.57,
+        "previousPoints": [
+            -1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 216616,
+        "name": "Dara O'Shea",
+        "imageUrl": "http://localhost:5000/api/assets/players/216616.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.3,
+        "previousPoints": [
+            -1.0,
+            0.0,
+            1.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 101982,
+        "name": "Sam Johnstone",
+        "imageUrl": "http://localhost:5000/api/assets/players/101982.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.68,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 449988,
+        "name": "Fabio Silva",
+        "imageUrl": "http://localhost:5000/api/assets/players/449988.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.15,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 82143,
+        "name": "Wes Foderingham",
+        "imageUrl": "http://localhost:5000/api/assets/players/82143.png",
+        "opponent": "Leicester",
+        "expectedPoints": 0.7,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 219847,
+        "name": "Kai Havertz",
+        "imageUrl": "http://localhost:5000/api/assets/players/219847.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 3.17,
+        "previousPoints": [
+            7.0,
+            2.0,
+            12.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 198869,
+        "name": "Ben White",
+        "imageUrl": "http://localhost:5000/api/assets/players/198869.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 2.71,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 108813,
+        "name": "Christian Walton",
+        "imageUrl": "http://localhost:5000/api/assets/players/108813.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.36,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 111478,
+        "name": "Jo\u00ebl Veltman",
+        "imageUrl": "http://localhost:5000/api/assets/players/111478.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.93,
+        "previousPoints": [
+            2.0,
+            2.0,
+            -1.0,
+            6.0,
+            0.0
+        ]
+    },
+    {
+        "id": 165153,
+        "name": "Timo Werner",
+        "imageUrl": "http://localhost:5000/api/assets/players/165153.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 199796,
+        "name": "Matthew Cash",
+        "imageUrl": "http://localhost:5000/api/assets/players/199796.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 1.48,
+        "previousPoints": [
+            4.0,
+            2.0,
+            0.0,
+            0.0,
+            2.0
+        ]
+    },
+    {
+        "id": 178301,
+        "name": "Ollie Watkins",
+        "imageUrl": "http://localhost:5000/api/assets/players/178301.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 5.49,
+        "previousPoints": [
+            8.0,
+            5.0,
+            1.0,
+            8.0,
+            2.0
+        ]
+    },
+    {
+        "id": 463034,
+        "name": "Liam Delap",
+        "imageUrl": "http://localhost:5000/api/assets/players/463034.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 2.21,
+        "previousPoints": [
+            2.0,
+            1.0,
+            9.0,
+            8.0,
+            2.0
+        ]
+    },
+    {
+        "id": 232787,
+        "name": "Conor Gallagher",
+        "imageUrl": "http://localhost:5000/api/assets/players/232787.png",
+        "opponent": "Southampton",
+        "expectedPoints": 1.22,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 200402,
+        "name": "N\u00e9lson Semedo",
+        "imageUrl": "http://localhost:5000/api/assets/players/200402.png",
+        "opponent": "Fulham",
+        "expectedPoints": 2.29,
+        "previousPoints": [
+            0.0,
+            2.0,
+            6.0,
+            1.0,
+            6.0
+        ]
+    },
+    {
+        "id": 232653,
+        "name": "Jacob Ramsey",
+        "imageUrl": "http://localhost:5000/api/assets/players/232653.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 1.77,
+        "previousPoints": [
+            2.0,
+            10.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 171314,
+        "name": "R\u00faben Dias",
+        "imageUrl": "http://localhost:5000/api/assets/players/171314.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.59,
+        "previousPoints": [
+            6.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 444463,
+        "name": "Wesley Fofana",
+        "imageUrl": "http://localhost:5000/api/assets/players/444463.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.22,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 164555,
+        "name": "Vladimir Coufal",
+        "imageUrl": "http://localhost:5000/api/assets/players/164555.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.14,
+        "previousPoints": [
+            0.0,
+            3.0,
+            2.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 111782,
+        "name": "Robin Olsen",
+        "imageUrl": "http://localhost:5000/api/assets/players/111782.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.25,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 167199,
+        "name": "Thomas Partey",
+        "imageUrl": "http://localhost:5000/api/assets/players/167199.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 2.55,
+        "previousPoints": [
+            2.0,
+            3.0,
+            8.0,
+            3.0,
+            1.0
+        ]
+    },
+    {
+        "id": 174874,
+        "name": "Joachim Andersen",
+        "imageUrl": "http://localhost:5000/api/assets/players/174874.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 2.07,
+        "previousPoints": [
+            6.0,
+            2.0,
+            1.0,
+            2.0,
+            -1.0
+        ]
+    },
+    {
+        "id": 109646,
+        "name": "Tosin Adarabioyo",
+        "imageUrl": "http://localhost:5000/api/assets/players/109646.png",
+        "opponent": "Southampton",
+        "expectedPoints": 2.38,
+        "previousPoints": [
+            7.0,
+            0.0,
+            2.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 448514,
+        "name": "Rayan Ait Nouri",
+        "imageUrl": "http://localhost:5000/api/assets/players/448514.png",
+        "opponent": "Fulham",
+        "expectedPoints": 2.58,
+        "previousPoints": [
+            1.0,
+            2.0,
+            7.0,
+            1.0,
+            6.0
+        ]
+    },
+    {
+        "id": 215059,
+        "name": "Robert S\u00e1nchez",
+        "imageUrl": "http://localhost:5000/api/assets/players/215059.png",
+        "opponent": "Southampton",
+        "expectedPoints": 1.72,
+        "previousPoints": [
+            2.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 215379,
+        "name": "Elliot Anderson",
+        "imageUrl": "http://localhost:5000/api/assets/players/215379.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 1.75,
+        "previousPoints": [
+            8.0,
+            2.0,
+            3.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 231747,
+        "name": "Jean-Philippe Mateta",
+        "imageUrl": "http://localhost:5000/api/assets/players/231747.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 5.18,
+        "previousPoints": [
+            13.0,
+            2.0,
+            13.0,
+            7.0,
+            5.0
+        ]
+    },
+    {
+        "id": 493250,
+        "name": "Amad Diallo Traore",
+        "imageUrl": "http://localhost:5000/api/assets/players/493250.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 3.01,
+        "previousPoints": [
+            2.0,
+            3.0,
+            2.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 184029,
+        "name": "Martin Odegaard",
+        "imageUrl": "http://localhost:5000/api/assets/players/184029.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 4.28,
+        "previousPoints": [
+            2.0,
+            0.0,
+            6.0,
+            3.0,
+            2.0
+        ]
+    },
+    {
+        "id": 440993,
+        "name": "Iliman Ndiaye",
+        "imageUrl": "http://localhost:5000/api/assets/players/440993.png",
+        "opponent": "Brentford",
+        "expectedPoints": 1.39,
+        "previousPoints": [
+            8.0,
+            8.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 478912,
+        "name": "Carney Chukwuemeka",
+        "imageUrl": "http://localhost:5000/api/assets/players/478912.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.15,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 450542,
+        "name": "Jesurun Rak-Sakyi",
+        "imageUrl": "http://localhost:5000/api/assets/players/450542.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.08,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 450070,
+        "name": "Crysencio Summerville",
+        "imageUrl": "http://localhost:5000/api/assets/players/450070.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.47,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 244858,
+        "name": "Fabio Carvalho",
+        "imageUrl": "http://localhost:5000/api/assets/players/244858.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.64,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            6.0
+        ]
+    },
+    {
+        "id": 523700,
+        "name": "Daniel Jebbison",
+        "imageUrl": "http://localhost:5000/api/assets/players/523700.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 449434,
+        "name": "Anthony Elanga",
+        "imageUrl": "http://localhost:5000/api/assets/players/449434.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 2.87,
+        "previousPoints": [
+            2.0,
+            2.0,
+            13.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 481624,
+        "name": "Jaden Philogene-Bidace",
+        "imageUrl": "http://localhost:5000/api/assets/players/481624.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 4.09,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            0.0,
+            2.0
+        ]
+    },
+    {
+        "id": 490094,
+        "name": "Tim Iroegbunam",
+        "imageUrl": "http://localhost:5000/api/assets/players/490094.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.42,
+        "previousPoints": [
+            0.0,
+            1.0,
+            4.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 538207,
+        "name": "William Osula",
+        "imageUrl": "http://localhost:5000/api/assets/players/538207.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 0.64,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 231065,
+        "name": "Ethan Pinnock",
+        "imageUrl": "http://localhost:5000/api/assets/players/231065.png",
+        "opponent": "Everton",
+        "expectedPoints": 1.95,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            6.0
+        ]
+    },
+    {
+        "id": 446008,
+        "name": "Bryan Mbeumo",
+        "imageUrl": "http://localhost:5000/api/assets/players/446008.png",
+        "opponent": "Everton",
+        "expectedPoints": 4.37,
+        "previousPoints": [
+            2.0,
+            7.0,
+            2.0,
+            3.0,
+            14.0
+        ]
+    },
+    {
+        "id": 128295,
+        "name": "Christian N\u00f8rgaard",
+        "imageUrl": "http://localhost:5000/api/assets/players/128295.png",
+        "opponent": "Everton",
+        "expectedPoints": 1.68,
+        "previousPoints": [
+            1.0,
+            1.0,
+            2.0,
+            3.0,
+            6.0
+        ]
+    },
+    {
+        "id": 154561,
+        "name": "David Raya",
+        "imageUrl": "http://localhost:5000/api/assets/players/154561.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 4.18,
+        "previousPoints": [
+            1.0,
+            9.0,
+            3.0,
+            7.0,
+            2.0
+        ]
+    },
+    {
+        "id": 428580,
+        "name": "Frank Onyeka",
+        "imageUrl": "http://localhost:5000/api/assets/players/428580.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.53,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 207283,
+        "name": "Mathias Jensen",
+        "imageUrl": "http://localhost:5000/api/assets/players/207283.png",
+        "opponent": "Everton",
+        "expectedPoints": 2.04,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 204580,
+        "name": "Vitaly Janelt",
+        "imageUrl": "http://localhost:5000/api/assets/players/204580.png",
+        "opponent": "Everton",
+        "expectedPoints": 2.59,
+        "previousPoints": [
+            3.0,
+            1.0,
+            0.0,
+            3.0,
+            3.0
+        ]
+    },
+    {
+        "id": 194010,
+        "name": "Rico Henry",
+        "imageUrl": "http://localhost:5000/api/assets/players/194010.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.66,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 191866,
+        "name": "Kristoffer Ajer",
+        "imageUrl": "http://localhost:5000/api/assets/players/191866.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.88,
+        "previousPoints": [
+            0.0,
+            0.0,
+            2.0,
+            6.0,
+            6.0
+        ]
+    },
+    {
+        "id": 216646,
+        "name": "Yoane Wissa",
+        "imageUrl": "http://localhost:5000/api/assets/players/216646.png",
+        "opponent": "Everton",
+        "expectedPoints": 4.35,
+        "previousPoints": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            8.0
+        ]
+    },
+    {
+        "id": 226956,
+        "name": "Mads Roerslev",
+        "imageUrl": "http://localhost:5000/api/assets/players/226956.png",
+        "opponent": "Everton",
+        "expectedPoints": 1.38,
+        "previousPoints": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 209243,
+        "name": "Jadon Sancho",
+        "imageUrl": "http://localhost:5000/api/assets/players/209243.png",
+        "opponent": "Southampton",
+        "expectedPoints": 2.21,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 149065,
+        "name": "Jos\u00e9 S\u00e1",
+        "imageUrl": "http://localhost:5000/api/assets/players/149065.png",
+        "opponent": "Fulham",
+        "expectedPoints": 2.92,
+        "previousPoints": [
+            2.0,
+            2.0,
+            7.0,
+            1.0,
+            9.0
+        ]
+    },
+    {
+        "id": 225902,
+        "name": "Boubakary Soumare",
+        "imageUrl": "http://localhost:5000/api/assets/players/225902.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.21,
+        "previousPoints": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 155511,
+        "name": "Adam Armstrong",
+        "imageUrl": "http://localhost:5000/api/assets/players/155511.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 1.67,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 215413,
+        "name": "Kiernan Dewsbury-Hall",
+        "imageUrl": "http://localhost:5000/api/assets/players/215413.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.91,
+        "previousPoints": [
+            6.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 432830,
+        "name": "Nathan Collins",
+        "imageUrl": "http://localhost:5000/api/assets/players/432830.png",
+        "opponent": "Everton",
+        "expectedPoints": 2.82,
+        "previousPoints": [
+            1.0,
+            7.0,
+            1.0,
+            8.0,
+            6.0
+        ]
+    },
+    {
+        "id": 209036,
+        "name": "Marc Guehi",
+        "imageUrl": "http://localhost:5000/api/assets/players/209036.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 2.9,
+        "previousPoints": [
+            8.0,
+            1.0,
+            6.0,
+            4.0,
+            5.0
+        ]
+    },
+    {
+        "id": 215711,
+        "name": "Leon Bailey",
+        "imageUrl": "http://localhost:5000/api/assets/players/215711.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 2.59,
+        "previousPoints": [
+            1.0,
+            3.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 441191,
+        "name": "Valentino Livramento",
+        "imageUrl": "http://localhost:5000/api/assets/players/441191.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.0,
+        "previousPoints": [
+            0.0,
+            2.0,
+            2.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 204716,
+        "name": "Ibrahima Konat\u00e9",
+        "imageUrl": "http://localhost:5000/api/assets/players/204716.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 2.18,
+        "previousPoints": [
+            5.0,
+            6.0,
+            1.0,
+            0.0,
+            6.0
+        ]
+    },
+    {
+        "id": 221632,
+        "name": "Cristian Romero",
+        "imageUrl": "http://localhost:5000/api/assets/players/221632.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.43,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 490503,
+        "name": "Samuel Edozie",
+        "imageUrl": "http://localhost:5000/api/assets/players/490503.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.13,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 433979,
+        "name": "Cameron Archer",
+        "imageUrl": "http://localhost:5000/api/assets/players/433979.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 1.77,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 199670,
+        "name": "Odsonne Edouard",
+        "imageUrl": "http://localhost:5000/api/assets/players/199670.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.07,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 184754,
+        "name": "Hee-Chan Hwang",
+        "imageUrl": "http://localhost:5000/api/assets/players/184754.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.66,
+        "previousPoints": [
+            0.0,
+            1.0,
+            4.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 179268,
+        "name": "Marc Cucurella",
+        "imageUrl": "http://localhost:5000/api/assets/players/179268.png",
+        "opponent": "Southampton",
+        "expectedPoints": 2.53,
+        "previousPoints": [
+            9.0,
+            1.0,
+            2.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 223723,
+        "name": "Takehiro Tomiyasu",
+        "imageUrl": "http://localhost:5000/api/assets/players/223723.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 0.89,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 149519,
+        "name": "Maxwel Cornet",
+        "imageUrl": "http://localhost:5000/api/assets/players/149519.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.12,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 514356,
+        "name": "Romeo Lavia",
+        "imageUrl": "http://localhost:5000/api/assets/players/514356.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.36,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 515597,
+        "name": "Lamare Bogarde",
+        "imageUrl": "http://localhost:5000/api/assets/players/515597.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.14,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 461421,
+        "name": "Lewis Dobbin",
+        "imageUrl": "http://localhost:5000/api/assets/players/461421.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.14,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 492777,
+        "name": "Conor Bradley",
+        "imageUrl": "http://localhost:5000/api/assets/players/492777.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 0.85,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 432714,
+        "name": "James McAtee",
+        "imageUrl": "http://localhost:5000/api/assets/players/432714.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.24,
+        "previousPoints": [
+            6.0,
+            0.0,
+            1.0,
+            6.0,
+            1.0
+        ]
+    },
+    {
+        "id": 441192,
+        "name": "Jeremy Sarmiento",
+        "imageUrl": "http://localhost:5000/api/assets/players/441192.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.21,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 461587,
+        "name": "Kasey McAteer",
+        "imageUrl": "http://localhost:5000/api/assets/players/461587.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.91,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 487117,
+        "name": "Evan Ferguson",
+        "imageUrl": "http://localhost:5000/api/assets/players/487117.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.6,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 547701,
+        "name": "Archie Gray",
+        "imageUrl": "http://localhost:5000/api/assets/players/547701.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.99,
+        "previousPoints": [
+            0.0,
+            2.0,
+            3.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 441428,
+        "name": "Jarell Quansah",
+        "imageUrl": "http://localhost:5000/api/assets/players/441428.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 0.82,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 243571,
+        "name": "Nathan Patterson",
+        "imageUrl": "http://localhost:5000/api/assets/players/243571.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.41,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 224967,
+        "name": "Vitalii Mykolenko",
+        "imageUrl": "http://localhost:5000/api/assets/players/224967.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.97,
+        "previousPoints": [
+            6.0,
+            6.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 487838,
+        "name": "Lewis Hall",
+        "imageUrl": "http://localhost:5000/api/assets/players/487838.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 2.44,
+        "previousPoints": [
+            4.0,
+            2.0,
+            1.0,
+            0.0,
+            9.0
+        ]
+    },
+    {
+        "id": 510362,
+        "name": "Toti",
+        "imageUrl": "http://localhost:5000/api/assets/players/510362.png",
+        "opponent": "Fulham",
+        "expectedPoints": 2.11,
+        "previousPoints": [
+            0.0,
+            0.0,
+            7.0,
+            1.0,
+            6.0
+        ]
+    },
+    {
+        "id": 208706,
+        "name": "Bruno Guimar\u00e3es",
+        "imageUrl": "http://localhost:5000/api/assets/players/208706.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 3.25,
+        "previousPoints": [
+            9.0,
+            2.0,
+            2.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 445044,
+        "name": "Dejan Kulusevski",
+        "imageUrl": "http://localhost:5000/api/assets/players/445044.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 4.23,
+        "previousPoints": [
+            9.0,
+            2.0,
+            3.0,
+            3.0,
+            9.0
+        ]
+    },
+    {
+        "id": 202993,
+        "name": "Rodrigo Bentancur",
+        "imageUrl": "http://localhost:5000/api/assets/players/202993.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.8,
+        "previousPoints": [
+            0.0,
+            2.0,
+            3.0,
+            3.0,
+            2.0
+        ]
+    },
+    {
+        "id": 183656,
+        "name": "Josh Dasilva",
+        "imageUrl": "http://localhost:5000/api/assets/players/183656.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.18,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 244731,
+        "name": "Luis D\u00edaz",
+        "imageUrl": "http://localhost:5000/api/assets/players/244731.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 3.78,
+        "previousPoints": [
+            3.0,
+            3.0,
+            2.0,
+            12.0,
+            3.0
+        ]
+    },
+    {
+        "id": 486672,
+        "name": "Mois\u00e9s Caicedo",
+        "imageUrl": "http://localhost:5000/api/assets/players/486672.png",
+        "opponent": "Southampton",
+        "expectedPoints": 2.16,
+        "previousPoints": [
+            1.0,
+            1.0,
+            2.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 493105,
+        "name": "Alejandro Garnacho",
+        "imageUrl": "http://localhost:5000/api/assets/players/493105.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 2.76,
+        "previousPoints": [
+            1.0,
+            3.0,
+            2.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 496661,
+        "name": "Tyler Dibling",
+        "imageUrl": "http://localhost:5000/api/assets/players/496661.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 1.46,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 427623,
+        "name": "Chris Richards",
+        "imageUrl": "http://localhost:5000/api/assets/players/427623.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 2.46,
+        "previousPoints": [
+            6.0,
+            1.0,
+            6.0,
+            1.0,
+            7.0
+        ]
+    },
+    {
+        "id": 438098,
+        "name": "F\u00e1bio Vieira",
+        "imageUrl": "http://localhost:5000/api/assets/players/438098.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 0.1,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 438464,
+        "name": "Cheick Oumar Doucoure",
+        "imageUrl": "http://localhost:5000/api/assets/players/438464.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.35,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 224068,
+        "name": "Matt Turner",
+        "imageUrl": "http://localhost:5000/api/assets/players/224068.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.21,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 447203,
+        "name": "Darwin N\u00fa\u00f1ez",
+        "imageUrl": "http://localhost:5000/api/assets/players/447203.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 2.62,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 490146,
+        "name": "Jay Stansfield",
+        "imageUrl": "http://localhost:5000/api/assets/players/490146.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 0.05,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 244042,
+        "name": "Rodrigo Muniz",
+        "imageUrl": "http://localhost:5000/api/assets/players/244042.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 3.18,
+        "previousPoints": [
+            1.0,
+            1.0,
+            8.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 444765,
+        "name": "Sepp van den Berg",
+        "imageUrl": "http://localhost:5000/api/assets/players/444765.png",
+        "opponent": "Everton",
+        "expectedPoints": 1.08,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 235674,
+        "name": "Manor Solomon",
+        "imageUrl": "http://localhost:5000/api/assets/players/235674.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.05,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 226944,
+        "name": "Boubacar Kamara",
+        "imageUrl": "http://localhost:5000/api/assets/players/226944.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.79,
+        "previousPoints": [
+            1.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 242898,
+        "name": "Brennan Johnson",
+        "imageUrl": "http://localhost:5000/api/assets/players/242898.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 3.68,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            14.0
+        ]
+    },
+    {
+        "id": 165659,
+        "name": "Diego Carlos",
+        "imageUrl": "http://localhost:5000/api/assets/players/165659.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.81,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 444180,
+        "name": "Jaidon Anthony",
+        "imageUrl": "http://localhost:5000/api/assets/players/444180.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.15,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 114241,
+        "name": "Harry Toffolo",
+        "imageUrl": "http://localhost:5000/api/assets/players/114241.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 0.29,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 490721,
+        "name": "Hugo Bueno",
+        "imageUrl": "http://localhost:5000/api/assets/players/490721.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.13,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 463981,
+        "name": "James Hill",
+        "imageUrl": "http://localhost:5000/api/assets/players/463981.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.5,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 193204,
+        "name": "Joe Ayodele-Aribo",
+        "imageUrl": "http://localhost:5000/api/assets/players/193204.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 2.53,
+        "previousPoints": [
+            1.0,
+            2.0,
+            10.0,
+            3.0,
+            2.0
+        ]
+    },
+    {
+        "id": 232859,
+        "name": "Djed Spence",
+        "imageUrl": "http://localhost:5000/api/assets/players/232859.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.98,
+        "previousPoints": [
+            1.0,
+            0.0,
+            9.0,
+            9.0,
+            8.0
+        ]
+    },
+    {
+        "id": 208912,
+        "name": "Joe Worrall",
+        "imageUrl": "http://localhost:5000/api/assets/players/208912.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 0.42,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 201658,
+        "name": "Marcus Tavernier",
+        "imageUrl": "http://localhost:5000/api/assets/players/201658.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.69,
+        "previousPoints": [
+            0.0,
+            7.0,
+            1.0,
+            5.0,
+            2.0
+        ]
+    },
+    {
+        "id": 179519,
+        "name": "Orel Mangala",
+        "imageUrl": "http://localhost:5000/api/assets/players/179519.png",
+        "opponent": "Brentford",
+        "expectedPoints": 1.27,
+        "previousPoints": [
+            3.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 482442,
+        "name": "Pape Sarr",
+        "imageUrl": "http://localhost:5000/api/assets/players/482442.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.76,
+        "previousPoints": [
+            2.0,
+            1.0,
+            6.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 204968,
+        "name": "Ryan Yates",
+        "imageUrl": "http://localhost:5000/api/assets/players/204968.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 1.77,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            5.0
+        ]
+    },
+    {
+        "id": 158499,
+        "name": "Ryan Christie",
+        "imageUrl": "http://localhost:5000/api/assets/players/158499.png",
+        "opponent": "Brighton",
+        "expectedPoints": 2.51,
+        "previousPoints": [
+            1.0,
+            3.0,
+            1.0,
+            13.0,
+            1.0
+        ]
+    },
+    {
+        "id": 200785,
+        "name": "Tyler Adams",
+        "imageUrl": "http://localhost:5000/api/assets/players/200785.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.03,
+        "previousPoints": [
+            5.0,
+            9.0,
+            2.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 220237,
+        "name": "Sven Botman",
+        "imageUrl": "http://localhost:5000/api/assets/players/220237.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 0.48,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 210156,
+        "name": "Taiwo Awoniyi",
+        "imageUrl": "http://localhost:5000/api/assets/players/210156.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 1.74,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 469142,
+        "name": "Jan Paul van Hecke",
+        "imageUrl": "http://localhost:5000/api/assets/players/469142.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.97,
+        "previousPoints": [
+            2.0,
+            2.0,
+            -1.0,
+            6.0,
+            7.0
+        ]
+    },
+    {
+        "id": 472713,
+        "name": "Aaron Hickey",
+        "imageUrl": "http://localhost:5000/api/assets/players/472713.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.21,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 488404,
+        "name": "Facundo Pellistri",
+        "imageUrl": "http://localhost:5000/api/assets/players/488404.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.06,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 249231,
+        "name": "Keane Lewis-Potter",
+        "imageUrl": "http://localhost:5000/api/assets/players/249231.png",
+        "opponent": "Everton",
+        "expectedPoints": 2.65,
+        "previousPoints": [
+            2.0,
+            1.0,
+            2.0,
+            3.0,
+            3.0
+        ]
+    },
+    {
+        "id": 221820,
+        "name": "Lisandro Mart\u00ednez",
+        "imageUrl": "http://localhost:5000/api/assets/players/221820.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.99,
+        "previousPoints": [
+            0.0,
+            15.0,
+            2.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 474120,
+        "name": "Julio Enciso",
+        "imageUrl": "http://localhost:5000/api/assets/players/474120.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.69,
+        "previousPoints": [
+            1.0,
+            3.0,
+            2.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 460028,
+        "name": "Levi Colwill",
+        "imageUrl": "http://localhost:5000/api/assets/players/460028.png",
+        "opponent": "Southampton",
+        "expectedPoints": 3.69,
+        "previousPoints": [
+            0.0,
+            0.0,
+            2.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 220585,
+        "name": "Flynn Downes",
+        "imageUrl": "http://localhost:5000/api/assets/players/220585.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.75,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 477064,
+        "name": "Rico Lewis",
+        "imageUrl": "http://localhost:5000/api/assets/players/477064.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.55,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            6.0,
+            1.0
+        ]
+    },
+    {
+        "id": 223094,
+        "name": "Erling Haaland",
+        "imageUrl": "http://localhost:5000/api/assets/players/223094.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 5.49,
+        "previousPoints": [
+            6.0,
+            12.0,
+            6.0,
+            5.0,
+            0.0
+        ]
+    },
+    {
+        "id": 461358,
+        "name": "Juli\u00e1n \u00c1lvarez",
+        "imageUrl": "http://localhost:5000/api/assets/players/461358.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.5,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 449871,
+        "name": "Amadou Onana",
+        "imageUrl": "http://localhost:5000/api/assets/players/449871.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 1.36,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 181284,
+        "name": "Gon\u00e7alo Guedes",
+        "imageUrl": "http://localhost:5000/api/assets/players/181284.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.2,
+        "previousPoints": [
+            1.0,
+            1.0,
+            3.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 451340,
+        "name": "Kaoru Mitoma",
+        "imageUrl": "http://localhost:5000/api/assets/players/451340.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 5.62,
+        "previousPoints": [
+            12.0,
+            2.0,
+            1.0,
+            10.0,
+            8.0
+        ]
+    },
+    {
+        "id": 224995,
+        "name": "Luis Sinisterra",
+        "imageUrl": "http://localhost:5000/api/assets/players/224995.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.4,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 221466,
+        "name": "Marcos Senesi",
+        "imageUrl": "http://localhost:5000/api/assets/players/221466.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.9,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 69752,
+        "name": "Neto",
+        "imageUrl": "http://localhost:5000/api/assets/players/69752.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 1.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 440089,
+        "name": "Mikkel Damsgaard",
+        "imageUrl": "http://localhost:5000/api/assets/players/440089.png",
+        "opponent": "Everton",
+        "expectedPoints": 2.99,
+        "previousPoints": [
+            3.0,
+            7.0,
+            3.0,
+            2.0,
+            10.0
+        ]
+    },
+    {
+        "id": 465351,
+        "name": "Matheus Nunes",
+        "imageUrl": "http://localhost:5000/api/assets/players/465351.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.18,
+        "previousPoints": [
+            2.0,
+            5.0,
+            2.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 204214,
+        "name": "Estupi\u00f1\u00e1n",
+        "imageUrl": "http://localhost:5000/api/assets/players/204214.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.85,
+        "previousPoints": [
+            2.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 61256,
+        "name": "Casemiro",
+        "imageUrl": "http://localhost:5000/api/assets/players/61256.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 1.03,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 219168,
+        "name": "Alexander Isak",
+        "imageUrl": "http://localhost:5000/api/assets/players/219168.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 6.03,
+        "previousPoints": [
+            2.0,
+            13.0,
+            2.0,
+            2.0,
+            13.0
+        ]
+    },
+    {
+        "id": 224024,
+        "name": "Lucas Paquet\u00e1",
+        "imageUrl": "http://localhost:5000/api/assets/players/224024.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.87,
+        "previousPoints": [
+            1.0,
+            2.0,
+            0.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 429414,
+        "name": "Sasa Kalajdzic",
+        "imageUrl": "http://localhost:5000/api/assets/players/429414.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.15,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 211975,
+        "name": "Manuel Akanji",
+        "imageUrl": "http://localhost:5000/api/assets/players/211975.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.72,
+        "previousPoints": [
+            6.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 218218,
+        "name": "Wout Faes",
+        "imageUrl": "http://localhost:5000/api/assets/players/218218.png",
+        "opponent": "West Ham",
+        "expectedPoints": 2.09,
+        "previousPoints": [
+            0.0,
+            2.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 467169,
+        "name": "Antony",
+        "imageUrl": "http://localhost:5000/api/assets/players/467169.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.01,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 499175,
+        "name": "Ethan Nwaneri",
+        "imageUrl": "http://localhost:5000/api/assets/players/499175.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 1.7,
+        "previousPoints": [
+            0.0,
+            1.0,
+            6.0,
+            9.0,
+            2.0
+        ]
+    },
+    {
+        "id": 591357,
+        "name": "Ryan Trevitt",
+        "imageUrl": "http://localhost:5000/api/assets/players/591357.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.02,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 516895,
+        "name": "Kobbie Mainoo",
+        "imageUrl": "http://localhost:5000/api/assets/players/516895.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 1.43,
+        "previousPoints": [
+            2.0,
+            1.0,
+            2.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 496208,
+        "name": "Ben Doak",
+        "imageUrl": "http://localhost:5000/api/assets/players/496208.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 532529,
+        "name": "Jack Hinshelwood",
+        "imageUrl": "http://localhost:5000/api/assets/players/532529.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.24,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            3.0,
+            10.0
+        ]
+    },
+    {
+        "id": 243298,
+        "name": "Cody Gakpo",
+        "imageUrl": "http://localhost:5000/api/assets/players/243298.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 3.17,
+        "previousPoints": [
+            16.0,
+            5.0,
+            2.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 536916,
+        "name": "Facundo Buonanotte",
+        "imageUrl": "http://localhost:5000/api/assets/players/536916.png",
+        "opponent": "West Ham",
+        "expectedPoints": 2.35,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 430871,
+        "name": "Matheus Cunha",
+        "imageUrl": "http://localhost:5000/api/assets/players/430871.png",
+        "opponent": "Fulham",
+        "expectedPoints": 5.38,
+        "previousPoints": [
+            2.0,
+            2.0,
+            7.0,
+            9.0,
+            9.0
+        ]
+    },
+    {
+        "id": 503301,
+        "name": "Omari Hutchinson",
+        "imageUrl": "http://localhost:5000/api/assets/players/503301.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 3.86,
+        "previousPoints": [
+            2.0,
+            2.0,
+            2.0,
+            4.0,
+            9.0
+        ]
+    },
+    {
+        "id": 428399,
+        "name": "Jo\u00e3o F\u00e9lix",
+        "imageUrl": "http://localhost:5000/api/assets/players/428399.png",
+        "opponent": "Southampton",
+        "expectedPoints": 1.27,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 106468,
+        "name": "\u00c1lex Moreno",
+        "imageUrl": "http://localhost:5000/api/assets/players/106468.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 0.9,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 502697,
+        "name": "Carlos Alcaraz",
+        "imageUrl": "http://localhost:5000/api/assets/players/502697.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.54,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            13.0,
+            1.0
+        ]
+    },
+    {
+        "id": 513418,
+        "name": "Kevin Schade",
+        "imageUrl": "http://localhost:5000/api/assets/players/513418.png",
+        "opponent": "Everton",
+        "expectedPoints": 2.71,
+        "previousPoints": [
+            1.0,
+            11.0,
+            2.0,
+            9.0,
+            3.0
+        ]
+    },
+    {
+        "id": 465920,
+        "name": "Mykhailo Mudryk",
+        "imageUrl": "http://localhost:5000/api/assets/players/465920.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.54,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 533463,
+        "name": "Dango Ouattara",
+        "imageUrl": "http://localhost:5000/api/assets/players/533463.png",
+        "opponent": "Brighton",
+        "expectedPoints": 3.07,
+        "previousPoints": [
+            4.0,
+            21.0,
+            2.0,
+            7.0,
+            2.0
+        ]
+    },
+    {
+        "id": 513046,
+        "name": "Danilo",
+        "imageUrl": "http://localhost:5000/api/assets/players/513046.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 0.8,
+        "previousPoints": [
+            0.0,
+            0.0,
+            3.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 463067,
+        "name": "Georginio Rutter",
+        "imageUrl": "http://localhost:5000/api/assets/players/463067.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 3.64,
+        "previousPoints": [
+            6.0,
+            1.0,
+            2.0,
+            3.0,
+            8.0
+        ]
+    },
+    {
+        "id": 88484,
+        "name": "Pablo Sarabia",
+        "imageUrl": "http://localhost:5000/api/assets/players/88484.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.74,
+        "previousPoints": [
+            2.0,
+            2.0,
+            5.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 448047,
+        "name": "Enzo Fern\u00e1ndez",
+        "imageUrl": "http://localhost:5000/api/assets/players/448047.png",
+        "opponent": "Southampton",
+        "expectedPoints": 3.06,
+        "previousPoints": [
+            0.0,
+            2.0,
+            4.0,
+            1.0,
+            7.0
+        ]
+    },
+    {
+        "id": 248857,
+        "name": "Noni Madueke",
+        "imageUrl": "http://localhost:5000/api/assets/players/248857.png",
+        "opponent": "Southampton",
+        "expectedPoints": 4.25,
+        "previousPoints": [
+            7.0,
+            9.0,
+            2.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 212314,
+        "name": "Sasa Lukic",
+        "imageUrl": "http://localhost:5000/api/assets/players/212314.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 1.61,
+        "previousPoints": [
+            5.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 440854,
+        "name": "Jakub Kiwior",
+        "imageUrl": "http://localhost:5000/api/assets/players/440854.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 0.87,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 424044,
+        "name": "Hamed Junior Traore",
+        "imageUrl": "http://localhost:5000/api/assets/players/424044.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.31,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 437730,
+        "name": "Antoine Semenyo",
+        "imageUrl": "http://localhost:5000/api/assets/players/437730.png",
+        "opponent": "Brighton",
+        "expectedPoints": 3.39,
+        "previousPoints": [
+            5.0,
+            9.0,
+            2.0,
+            4.0,
+            2.0
+        ]
+    },
+    {
+        "id": 477580,
+        "name": "Illia Zabarnyi",
+        "imageUrl": "http://localhost:5000/api/assets/players/477580.png",
+        "opponent": "Brighton",
+        "expectedPoints": 2.01,
+        "previousPoints": [
+            2.0,
+            5.0,
+            1.0,
+            2.0,
+            -2.0
+        ]
+    },
+    {
+        "id": 476344,
+        "name": "Jhon Dur\u00e1n",
+        "imageUrl": "http://localhost:5000/api/assets/players/476344.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 1.86,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 448089,
+        "name": "Jo\u00e3o Gomes",
+        "imageUrl": "http://localhost:5000/api/assets/players/448089.png",
+        "opponent": "Fulham",
+        "expectedPoints": 3.44,
+        "previousPoints": [
+            4.0,
+            -1.0,
+            0.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 466117,
+        "name": "Naouirou Ahamada",
+        "imageUrl": "http://localhost:5000/api/assets/players/466117.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.06,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 481510,
+        "name": "Victor Kristiansen",
+        "imageUrl": "http://localhost:5000/api/assets/players/481510.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.37,
+        "previousPoints": [
+            1.0,
+            2.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 509416,
+        "name": "Yasin Ayari",
+        "imageUrl": "http://localhost:5000/api/assets/players/509416.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.22,
+        "previousPoints": [
+            2.0,
+            2.0,
+            0.0,
+            1.0,
+            3.0
+        ]
+    },
+    {
+        "id": 441164,
+        "name": "Pedro Porro",
+        "imageUrl": "http://localhost:5000/api/assets/players/441164.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 3.42,
+        "previousPoints": [
+            1.0,
+            6.0,
+            6.0,
+            6.0,
+            1.0
+        ]
+    },
+    {
+        "id": 499724,
+        "name": "Samuel Amo-Ameyaw",
+        "imageUrl": "http://localhost:5000/api/assets/players/499724.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 477424,
+        "name": "Josko Gvardiol",
+        "imageUrl": "http://localhost:5000/api/assets/players/477424.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 4.27,
+        "previousPoints": [
+            6.0,
+            8.0,
+            0.0,
+            6.0,
+            1.0
+        ]
+    },
+    {
+        "id": 445122,
+        "name": "Jurri\u00ebn Timber",
+        "imageUrl": "http://localhost:5000/api/assets/players/445122.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 3.57,
+        "previousPoints": [
+            1.0,
+            5.0,
+            1.0,
+            6.0,
+            2.0
+        ]
+    },
+    {
+        "id": 503139,
+        "name": "Alex Scott",
+        "imageUrl": "http://localhost:5000/api/assets/players/503139.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.83,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 489639,
+        "name": "Bart Verbruggen",
+        "imageUrl": "http://localhost:5000/api/assets/players/489639.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 3.26,
+        "previousPoints": [
+            2.0,
+            1.0,
+            -1.0,
+            10.0,
+            6.0
+        ]
+    },
+    {
+        "id": 229164,
+        "name": "Chiedozie Ogbene",
+        "imageUrl": "http://localhost:5000/api/assets/players/229164.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.32,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 223434,
+        "name": "Igor Julio",
+        "imageUrl": "http://localhost:5000/api/assets/players/223434.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.76,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 512462,
+        "name": "Jake O'Brien",
+        "imageUrl": "http://localhost:5000/api/assets/players/512462.png",
+        "opponent": "Brentford",
+        "expectedPoints": 1.99,
+        "previousPoints": [
+            5.0,
+            6.0,
+            1.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 213999,
+        "name": "Edson \u00c1lvarez",
+        "imageUrl": "http://localhost:5000/api/assets/players/213999.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.56,
+        "previousPoints": [
+            1.0,
+            4.0,
+            0.0,
+            2.0,
+            3.0
+        ]
+    },
+    {
+        "id": 232892,
+        "name": "Calvin Bassey",
+        "imageUrl": "http://localhost:5000/api/assets/players/232892.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 2.03,
+        "previousPoints": [
+            6.0,
+            2.0,
+            2.0,
+            8.0,
+            1.0
+        ]
+    },
+    {
+        "id": 544877,
+        "name": "Milos Kerkez",
+        "imageUrl": "http://localhost:5000/api/assets/players/544877.png",
+        "opponent": "Brighton",
+        "expectedPoints": 3.02,
+        "previousPoints": [
+            7.0,
+            6.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 168090,
+        "name": "Mahmoud Dahoud",
+        "imageUrl": "http://localhost:5000/api/assets/players/168090.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.39,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 222683,
+        "name": "Justin Kluivert",
+        "imageUrl": "http://localhost:5000/api/assets/players/222683.png",
+        "opponent": "Brighton",
+        "expectedPoints": 6.04,
+        "previousPoints": [
+            22.0,
+            13.0,
+            2.0,
+            5.0,
+            2.0
+        ]
+    },
+    {
+        "id": 491012,
+        "name": "Youssef Chermiti",
+        "imageUrl": "http://localhost:5000/api/assets/players/491012.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.17,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 535818,
+        "name": "Simon Adingra",
+        "imageUrl": "http://localhost:5000/api/assets/players/535818.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.06,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 243557,
+        "name": "Moussa Diaby",
+        "imageUrl": "http://localhost:5000/api/assets/players/243557.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.55,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 244954,
+        "name": "Pau Torres",
+        "imageUrl": "http://localhost:5000/api/assets/players/244954.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.62,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 432422,
+        "name": "Sandro Tonali",
+        "imageUrl": "http://localhost:5000/api/assets/players/432422.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.86,
+        "previousPoints": [
+            2.0,
+            9.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 184254,
+        "name": "Guglielmo Vicario",
+        "imageUrl": "http://localhost:5000/api/assets/players/184254.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 2.13,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            9.0,
+            3.0
+        ]
+    },
+    {
+        "id": 491279,
+        "name": "Micky van de Ven",
+        "imageUrl": "http://localhost:5000/api/assets/players/491279.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.41,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 487053,
+        "name": "Iyenoma Destiny Udogie",
+        "imageUrl": "http://localhost:5000/api/assets/players/487053.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.31,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2.0
+        ]
+    },
+    {
+        "id": 118342,
+        "name": "Mark Flekken",
+        "imageUrl": "http://localhost:5000/api/assets/players/118342.png",
+        "opponent": "Everton",
+        "expectedPoints": 3.77,
+        "previousPoints": [
+            3.0,
+            3.0,
+            0.0,
+            10.0,
+            7.0
+        ]
+    },
+    {
+        "id": 424876,
+        "name": "Dominik Szoboszlai",
+        "imageUrl": "http://localhost:5000/api/assets/players/424876.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 4.06,
+        "previousPoints": [
+            13.0,
+            3.0,
+            2.0,
+            2.0,
+            13.0
+        ]
+    },
+    {
+        "id": 441302,
+        "name": "Ian Maatsen",
+        "imageUrl": "http://localhost:5000/api/assets/players/441302.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.73,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 220362,
+        "name": "Axel Disasi",
+        "imageUrl": "http://localhost:5000/api/assets/players/220362.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.34,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 213198,
+        "name": "Christopher Nkunku",
+        "imageUrl": "http://localhost:5000/api/assets/players/213198.png",
+        "opponent": "Southampton",
+        "expectedPoints": 5.91,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 503714,
+        "name": "Chimuanya Ugochukwu",
+        "imageUrl": "http://localhost:5000/api/assets/players/503714.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.55,
+        "previousPoints": [
+            3.0,
+            2.0,
+            2.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 482609,
+        "name": "Malo Gusto",
+        "imageUrl": "http://localhost:5000/api/assets/players/482609.png",
+        "opponent": "Southampton",
+        "expectedPoints": 2.91,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 517052,
+        "name": "Nicolas Jackson",
+        "imageUrl": "http://localhost:5000/api/assets/players/517052.png",
+        "opponent": "Southampton",
+        "expectedPoints": 2.63,
+        "previousPoints": [
+            2.0,
+            5.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 202641,
+        "name": "Andr\u00e9 Onana",
+        "imageUrl": "http://localhost:5000/api/assets/players/202641.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 2.68,
+        "previousPoints": [
+            1.0,
+            6.0,
+            1.0,
+            4.0,
+            3.0
+        ]
+    },
+    {
+        "id": 497894,
+        "name": "Rasmus H\u00f8jlund",
+        "imageUrl": "http://localhost:5000/api/assets/players/497894.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 1.78,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 158983,
+        "name": "Wataru Endo",
+        "imageUrl": "http://localhost:5000/api/assets/players/158983.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 0.51,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 248875,
+        "name": "J\u00e9remy Doku",
+        "imageUrl": "http://localhost:5000/api/assets/players/248875.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 2.21,
+        "previousPoints": [
+            12.0,
+            0.0,
+            0.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 550839,
+        "name": "Wilson Odobert",
+        "imageUrl": "http://localhost:5000/api/assets/players/550839.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.68,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 460842,
+        "name": "Mohammed Kudus",
+        "imageUrl": "http://localhost:5000/api/assets/players/460842.png",
+        "opponent": "Leicester",
+        "expectedPoints": 3.09,
+        "previousPoints": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            3.0
+        ]
+    },
+    {
+        "id": 486385,
+        "name": "Beto",
+        "imageUrl": "http://localhost:5000/api/assets/players/486385.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.15,
+        "previousPoints": [
+            2.0,
+            13.0,
+            8.0,
+            8.0,
+            6.0
+        ]
+    },
+    {
+        "id": 575476,
+        "name": "Murillo",
+        "imageUrl": "http://localhost:5000/api/assets/players/575476.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 3.38,
+        "previousPoints": [
+            1.0,
+            0.0,
+            5.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 535301,
+        "name": "Carlos Baleba",
+        "imageUrl": "http://localhost:5000/api/assets/players/535301.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 1.76,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            3.0,
+            3.0
+        ]
+    },
+    {
+        "id": 231480,
+        "name": "Santiago Bueno",
+        "imageUrl": "http://localhost:5000/api/assets/players/231480.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.38,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            1.0,
+            7.0
+        ]
+    },
+    {
+        "id": 231057,
+        "name": "Jean-Ricner Bellegarde",
+        "imageUrl": "http://localhost:5000/api/assets/players/231057.png",
+        "opponent": "Fulham",
+        "expectedPoints": 2.31,
+        "previousPoints": [
+            1.0,
+            1.0,
+            11.0,
+            4.0,
+            3.0
+        ]
+    },
+    {
+        "id": 441266,
+        "name": "Ryan Gravenberch",
+        "imageUrl": "http://localhost:5000/api/assets/players/441266.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 2.34,
+        "previousPoints": [
+            3.0,
+            2.0,
+            2.0,
+            2.0,
+            3.0
+        ]
+    },
+    {
+        "id": 210462,
+        "name": "Ibrahim Sangare",
+        "imageUrl": "http://localhost:5000/api/assets/players/210462.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 0.1,
+        "previousPoints": [
+            0.0,
+            0.0,
+            4.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 250199,
+        "name": "Nicol\u00e1s Dom\u00ednguez",
+        "imageUrl": "http://localhost:5000/api/assets/players/250199.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 1.48,
+        "previousPoints": [
+            2.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 508395,
+        "name": "Yehor Yarmolyuk",
+        "imageUrl": "http://localhost:5000/api/assets/players/508395.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.95,
+        "previousPoints": [
+            2.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 499169,
+        "name": "Myles Lewis-Skelly",
+        "imageUrl": "http://localhost:5000/api/assets/players/499169.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 0.64,
+        "previousPoints": [
+            2.0,
+            -2.0,
+            7.0,
+            3.0,
+            -2.0
+        ]
+    },
+    {
+        "id": 493125,
+        "name": "Radu Dragusin",
+        "imageUrl": "http://localhost:5000/api/assets/players/493125.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.4,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 204814,
+        "name": "Ben Brereton D\u00edaz",
+        "imageUrl": "http://localhost:5000/api/assets/players/204814.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.22,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 501837,
+        "name": "Yerson Mosquera",
+        "imageUrl": "http://localhost:5000/api/assets/players/501837.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.05,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 247348,
+        "name": "Daniel Mu\u00f1oz",
+        "imageUrl": "http://localhost:5000/api/assets/players/247348.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 4.93,
+        "previousPoints": [
+            6.0,
+            4.0,
+            11.0,
+            1.0,
+            13.0
+        ]
+    },
+    {
+        "id": 496221,
+        "name": "Adam Wharton",
+        "imageUrl": "http://localhost:5000/api/assets/players/496221.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.62,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 244850,
+        "name": "Morgan Rogers",
+        "imageUrl": "http://localhost:5000/api/assets/players/244850.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 4.0,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 168636,
+        "name": "Enes \u00dcnal",
+        "imageUrl": "http://localhost:5000/api/assets/players/168636.png",
+        "opponent": "Brighton",
+        "expectedPoints": 2.36,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 85633,
+        "name": "Matz Sels",
+        "imageUrl": "http://localhost:5000/api/assets/players/85633.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 4.55,
+        "previousPoints": [
+            1.0,
+            1.0,
+            8.0,
+            3.0,
+            0.0
+        ]
+    },
+    {
+        "id": 490881,
+        "name": "Toby Collyer",
+        "imageUrl": "http://localhost:5000/api/assets/players/490881.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.14,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 499721,
+        "name": "Mikey Moore",
+        "imageUrl": "http://localhost:5000/api/assets/players/499721.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.55,
+        "previousPoints": [
+            7.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 458249,
+        "name": "Joshua Zirkzee",
+        "imageUrl": "http://localhost:5000/api/assets/players/458249.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 1.36,
+        "previousPoints": [
+            5.0,
+            1.0,
+            1.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 209365,
+        "name": "Matthijs de Ligt",
+        "imageUrl": "http://localhost:5000/api/assets/players/209365.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 2.49,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 230001,
+        "name": "Noussair Mazraoui",
+        "imageUrl": "http://localhost:5000/api/assets/players/230001.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.91,
+        "previousPoints": [
+            1.0,
+            6.0,
+            2.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 462387,
+        "name": "Ali Al-Hamadi",
+        "imageUrl": "http://localhost:5000/api/assets/players/462387.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.38,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 214964,
+        "name": "George Edmundson",
+        "imageUrl": "http://localhost:5000/api/assets/players/214964.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 220583,
+        "name": "Luke Woolfenden",
+        "imageUrl": "http://localhost:5000/api/assets/players/220583.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.43,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 196411,
+        "name": "Conor Chaplin",
+        "imageUrl": "http://localhost:5000/api/assets/players/196411.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.54,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 231899,
+        "name": "Jack Taylor",
+        "imageUrl": "http://localhost:5000/api/assets/players/231899.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.21,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 167191,
+        "name": "Marcus Harness",
+        "imageUrl": "http://localhost:5000/api/assets/players/167191.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 74944,
+        "name": "Sam Morsy",
+        "imageUrl": "http://localhost:5000/api/assets/players/74944.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.68,
+        "previousPoints": [
+            2.0,
+            2.0,
+            2.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 172453,
+        "name": "Sammie Szmodics",
+        "imageUrl": "http://localhost:5000/api/assets/players/172453.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.02,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 449429,
+        "name": "Jacob Greaves",
+        "imageUrl": "http://localhost:5000/api/assets/players/449429.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.0,
+        "previousPoints": [
+            0.0,
+            6.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 106606,
+        "name": "Massimo Luongo",
+        "imageUrl": "http://localhost:5000/api/assets/players/106606.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 149929,
+        "name": "Wes Burns",
+        "imageUrl": "http://localhost:5000/api/assets/players/149929.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.46,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 510500,
+        "name": "Jota Silva",
+        "imageUrl": "http://localhost:5000/api/assets/players/510500.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 1.11,
+        "previousPoints": [
+            1.0,
+            1.0,
+            6.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 554605,
+        "name": "Dean Huijsen",
+        "imageUrl": "http://localhost:5000/api/assets/players/554605.png",
+        "opponent": "Brighton",
+        "expectedPoints": 3.17,
+        "previousPoints": [
+            2.0,
+            6.0,
+            0.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 609873,
+        "name": "Harrison Armstrong",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.01,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 463903,
+        "name": "Jesper Lindstrom",
+        "imageUrl": "http://localhost:5000/api/assets/players/463903.png",
+        "opponent": "Brentford",
+        "expectedPoints": 2.11,
+        "previousPoints": [
+            2.0,
+            3.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 247412,
+        "name": "J\u00f8rgen Strand Larsen",
+        "imageUrl": "http://localhost:5000/api/assets/players/247412.png",
+        "opponent": "Fulham",
+        "expectedPoints": 2.01,
+        "previousPoints": [
+            2.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 227444,
+        "name": "Nikola Milenkovic",
+        "imageUrl": "http://localhost:5000/api/assets/players/227444.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 3.9,
+        "previousPoints": [
+            1.0,
+            0.0,
+            6.0,
+            1.0,
+            5.0
+        ]
+    },
+    {
+        "id": 467779,
+        "name": "Mats Wieffer",
+        "imageUrl": "http://localhost:5000/api/assets/players/467779.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.51,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 436893,
+        "name": "Juli\u00e1n Araujo",
+        "imageUrl": "http://localhost:5000/api/assets/players/436893.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 483081,
+        "name": "Rodrigo Gomes",
+        "imageUrl": "http://localhost:5000/api/assets/players/483081.png",
+        "opponent": "Fulham",
+        "expectedPoints": 1.15,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 230348,
+        "name": "Ross Stewart",
+        "imageUrl": "http://localhost:5000/api/assets/players/230348.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 219279,
+        "name": "Yukinari Sugawara",
+        "imageUrl": "http://localhost:5000/api/assets/players/219279.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.13,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 592031,
+        "name": "Yankuba Minteh",
+        "imageUrl": "http://localhost:5000/api/assets/players/592031.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 3.01,
+        "previousPoints": [
+            12.0,
+            0.0,
+            2.0,
+            15.0,
+            6.0
+        ]
+    },
+    {
+        "id": 466075,
+        "name": "Riccardo Calafiori",
+        "imageUrl": "http://localhost:5000/api/assets/players/466075.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 1.75,
+        "previousPoints": [
+            0.0,
+            7.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 229384,
+        "name": "Andy Irving",
+        "imageUrl": "http://localhost:5000/api/assets/players/229384.png",
+        "opponent": "Leicester",
+        "expectedPoints": 0.55,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 578545,
+        "name": "Kosta Nedeljkovic",
+        "imageUrl": "http://localhost:5000/api/assets/players/578545.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 462116,
+        "name": "Jean-Clair Todibo",
+        "imageUrl": "http://localhost:5000/api/assets/players/462116.png",
+        "opponent": "Leicester",
+        "expectedPoints": 2.41,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            5.0
+        ]
+    },
+    {
+        "id": 197024,
+        "name": "Guido Rodr\u00edguez",
+        "imageUrl": "http://localhost:5000/api/assets/players/197024.png",
+        "opponent": "Leicester",
+        "expectedPoints": 0.09,
+        "previousPoints": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 91889,
+        "name": "Niclas F\u00fcllkrug",
+        "imageUrl": "http://localhost:5000/api/assets/players/91889.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.62,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 209400,
+        "name": "Daichi Kamada",
+        "imageUrl": "http://localhost:5000/api/assets/players/209400.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.92,
+        "previousPoints": [
+            3.0,
+            1.0,
+            3.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 515621,
+        "name": "Chadi Riad",
+        "imageUrl": "http://localhost:5000/api/assets/players/515621.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 628204,
+        "name": "Yunus Konak",
+        "imageUrl": "http://localhost:5000/api/assets/players/628204.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.08,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 499309,
+        "name": "Marc Guiu",
+        "imageUrl": "http://localhost:5000/api/assets/players/499309.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.08,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 551230,
+        "name": "Renato Veiga",
+        "imageUrl": "http://localhost:5000/api/assets/players/551230.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.16,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 510281,
+        "name": "S\u00e1vio",
+        "imageUrl": "http://localhost:5000/api/assets/players/510281.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 3.54,
+        "previousPoints": [
+            0.0,
+            0.0,
+            5.0,
+            6.0,
+            2.0
+        ]
+    },
+    {
+        "id": 531442,
+        "name": "Abdul Fatawu",
+        "imageUrl": "http://localhost:5000/api/assets/players/531442.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 570526,
+        "name": "Lucas Bergvall",
+        "imageUrl": "http://localhost:5000/api/assets/players/570526.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.89,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            6.0,
+            2.0
+        ]
+    },
+    {
+        "id": 473341,
+        "name": "Caleb Okoli",
+        "imageUrl": "http://localhost:5000/api/assets/players/473341.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.14,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 467189,
+        "name": "Mads Hermansen",
+        "imageUrl": "http://localhost:5000/api/assets/players/467189.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.02,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 154048,
+        "name": "Stephy Mavididi",
+        "imageUrl": "http://localhost:5000/api/assets/players/154048.png",
+        "opponent": "West Ham",
+        "expectedPoints": 1.2,
+        "previousPoints": [
+            2.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 454667,
+        "name": "Jens Cajuste",
+        "imageUrl": "http://localhost:5000/api/assets/players/454667.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 2.06,
+        "previousPoints": [
+            2.0,
+            0.0,
+            2.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 496178,
+        "name": "Roman Dixon",
+        "imageUrl": "http://localhost:5000/api/assets/players/496178.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 551226,
+        "name": "Mateus Fernandes",
+        "imageUrl": "http://localhost:5000/api/assets/players/551226.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 2.24,
+        "previousPoints": [
+            7.0,
+            1.0,
+            2.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 502222,
+        "name": "Ram\u00f3n Sosa",
+        "imageUrl": "http://localhost:5000/api/assets/players/502222.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 0.25,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 444102,
+        "name": "Evanilson",
+        "imageUrl": "http://localhost:5000/api/assets/players/444102.png",
+        "opponent": "Brighton",
+        "expectedPoints": 1.31,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 231416,
+        "name": "Ferdi Kadioglu",
+        "imageUrl": "http://localhost:5000/api/assets/players/231416.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 513527,
+        "name": "Bilal El Khannouss",
+        "imageUrl": "http://localhost:5000/api/assets/players/513527.png",
+        "opponent": "West Ham",
+        "expectedPoints": 4.77,
+        "previousPoints": [
+            2.0,
+            9.0,
+            2.0,
+            1.0,
+            2.0
+        ]
+    },
+    {
+        "id": 443261,
+        "name": "Jack Clarke",
+        "imageUrl": "http://localhost:5000/api/assets/players/443261.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.46,
+        "previousPoints": [
+            2.0,
+            0.0,
+            1.0,
+            1.0,
+            4.0
+        ]
+    },
+    {
+        "id": 509291,
+        "name": "Andr\u00e9",
+        "imageUrl": "http://localhost:5000/api/assets/players/509291.png",
+        "opponent": "Fulham",
+        "expectedPoints": 2.2,
+        "previousPoints": [
+            1.0,
+            2.0,
+            3.0,
+            2.0,
+            3.0
+        ]
+    },
+    {
+        "id": 223541,
+        "name": "Federico Chiesa",
+        "imageUrl": "http://localhost:5000/api/assets/players/223541.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 0.08,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 232112,
+        "name": "Manuel Ugarte",
+        "imageUrl": "http://localhost:5000/api/assets/players/232112.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 1.88,
+        "previousPoints": [
+            1.0,
+            2.0,
+            1.0,
+            0.0,
+            8.0
+        ]
+    },
+    {
+        "id": 224860,
+        "name": "Carlos Soler",
+        "imageUrl": "http://localhost:5000/api/assets/players/224860.png",
+        "opponent": "Leicester",
+        "expectedPoints": 1.99,
+        "previousPoints": [
+            1.0,
+            2.0,
+            2.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 485047,
+        "name": "Morato",
+        "imageUrl": "http://localhost:5000/api/assets/players/485047.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 1.24,
+        "previousPoints": [
+            1.0,
+            -1.0,
+            6.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 437499,
+        "name": "Maxence Lacroix",
+        "imageUrl": "http://localhost:5000/api/assets/players/437499.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 3.74,
+        "previousPoints": [
+            7.0,
+            0.0,
+            10.0,
+            1.0,
+            9.0
+        ]
+    },
+    {
+        "id": 463212,
+        "name": "Carlos Forbs",
+        "imageUrl": "http://localhost:5000/api/assets/players/463212.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.05,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 88248,
+        "name": "Stefan Ortega Moreno",
+        "imageUrl": "http://localhost:5000/api/assets/players/88248.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 0.85,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 472769,
+        "name": "Nico O'Reilly",
+        "imageUrl": "http://localhost:5000/api/assets/players/472769.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 0.17,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 67089,
+        "name": "Martin Dubravka",
+        "imageUrl": "http://localhost:5000/api/assets/players/67089.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 2.21,
+        "previousPoints": [
+            2.0,
+            3.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 547719,
+        "name": "Lewis Miley",
+        "imageUrl": "http://localhost:5000/api/assets/players/547719.png",
+        "opponent": "Liverpool",
+        "expectedPoints": 1.55,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            8.0
+        ]
+    },
+    {
+        "id": 518438,
+        "name": "Kaelan Casey",
+        "imageUrl": "http://localhost:5000/api/assets/players/518438.png",
+        "opponent": "Leicester",
+        "expectedPoints": 0.03,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 569014,
+        "name": "Eric da Silva Moreira",
+        "imageUrl": "http://localhost:5000/api/assets/players/569014.png",
+        "opponent": "Arsenal",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 577114,
+        "name": "Luis Guilherme",
+        "imageUrl": "http://localhost:5000/api/assets/players/577114.png",
+        "opponent": "Leicester",
+        "expectedPoints": 0.28,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 195384,
+        "name": "Mikel Merino",
+        "imageUrl": "http://localhost:5000/api/assets/players/195384.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 3.56,
+        "previousPoints": [
+            2.0,
+            0.0,
+            1.0,
+            13.0,
+            2.0
+        ]
+    },
+    {
+        "id": 192895,
+        "name": "Kieran Tierney",
+        "imageUrl": "http://localhost:5000/api/assets/players/192895.png",
+        "opponent": "Nottingham Forest",
+        "expectedPoints": 0.53,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 570241,
+        "name": "Kim Ji-Soo",
+        "imageUrl": "http://localhost:5000/api/assets/players/570241.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.09,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 532534,
+        "name": "Will Alves",
+        "imageUrl": "http://localhost:5000/api/assets/players/532534.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.04,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 95463,
+        "name": "Danny Ward",
+        "imageUrl": "http://localhost:5000/api/assets/players/95463.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.06,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 499717,
+        "name": "Jayden Meghoma",
+        "imageUrl": "http://localhost:5000/api/assets/players/499717.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.03,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 243505,
+        "name": "Jakub Moder",
+        "imageUrl": "http://localhost:5000/api/assets/players/243505.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.08,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 232792,
+        "name": "Tariq Lamptey",
+        "imageUrl": "http://localhost:5000/api/assets/players/232792.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 2.42,
+        "previousPoints": [
+            1.0,
+            2.0,
+            -1.0,
+            6.0,
+            6.0
+        ]
+    },
+    {
+        "id": 242880,
+        "name": "Benoit Badiashile Mukinayi",
+        "imageUrl": "http://localhost:5000/api/assets/players/242880.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.01,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 502500,
+        "name": "Thiago",
+        "imageUrl": "http://localhost:5000/api/assets/players/502500.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.23,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 507433,
+        "name": "H\u00e1kon Valdimarsson",
+        "imageUrl": "http://localhost:5000/api/assets/players/507433.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.13,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 513433,
+        "name": "Brajan Gruda",
+        "imageUrl": "http://localhost:5000/api/assets/players/513433.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.72,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            4.0
+        ]
+    },
+    {
+        "id": 219249,
+        "name": "Matt O'Riley",
+        "imageUrl": "http://localhost:5000/api/assets/players/219249.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.96,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 436680,
+        "name": "Jakub Stolarczyk",
+        "imageUrl": "http://localhost:5000/api/assets/players/436680.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.56,
+        "previousPoints": [
+            1.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 244619,
+        "name": "Luke Thomas",
+        "imageUrl": "http://localhost:5000/api/assets/players/244619.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.35,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 245824,
+        "name": "Carlos Vinicius",
+        "imageUrl": "http://localhost:5000/api/assets/players/245824.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 0.04,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 184349,
+        "name": "Ryan Sessegnon",
+        "imageUrl": "http://localhost:5000/api/assets/players/184349.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 2.6,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 246301,
+        "name": "Jorge Cuenca",
+        "imageUrl": "http://localhost:5000/api/assets/players/246301.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 0.63,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 577725,
+        "name": "Joshua King",
+        "imageUrl": "http://localhost:5000/api/assets/players/577725.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 0.3,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 573062,
+        "name": "Martial Godo",
+        "imageUrl": "http://localhost:5000/api/assets/players/573062.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 0.04,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 579075,
+        "name": "Asher Agbinone",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 489706,
+        "name": "Justin Devenny",
+        "imageUrl": "http://localhost:5000/api/assets/players/489706.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 1.87,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 166477,
+        "name": "Timothy Castagne",
+        "imageUrl": "http://localhost:5000/api/assets/players/166477.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 2.13,
+        "previousPoints": [
+            6.0,
+            2.0,
+            2.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 440323,
+        "name": "Armando Broja",
+        "imageUrl": "http://localhost:5000/api/assets/players/440323.png",
+        "opponent": "Brentford",
+        "expectedPoints": 0.18,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 245419,
+        "name": "Patson Daka",
+        "imageUrl": "http://localhost:5000/api/assets/players/245419.png",
+        "opponent": "West Ham",
+        "expectedPoints": 2.17,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 111931,
+        "name": "Ricardo Pereira",
+        "imageUrl": "http://localhost:5000/api/assets/players/111931.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 508479,
+        "name": "Filip Jorgensen",
+        "imageUrl": "http://localhost:5000/api/assets/players/508479.png",
+        "opponent": "Southampton",
+        "expectedPoints": 3.06,
+        "previousPoints": [
+            0.0,
+            0.0,
+            3.0,
+            2.0,
+            2.0
+        ]
+    },
+    {
+        "id": 180736,
+        "name": "Trevoh Chalobah",
+        "imageUrl": "http://localhost:5000/api/assets/players/180736.png",
+        "opponent": "Southampton",
+        "expectedPoints": 3.08,
+        "previousPoints": [
+            8.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 641221,
+        "name": "Pedro Lima",
+        "imageUrl": "http://localhost:5000/api/assets/players/641221.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.2,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 517179,
+        "name": "Alfie Pond",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.17,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 432987,
+        "name": "V\u00edtezslav Jaros",
+        "imageUrl": "http://localhost:5000/api/assets/players/432987.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 510363,
+        "name": "Chiquinho",
+        "imageUrl": "http://localhost:5000/api/assets/players/510363.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 232228,
+        "name": "Harry Clarke",
+        "imageUrl": "http://localhost:5000/api/assets/players/232228.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.21,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 108053,
+        "name": "Conor Townsend",
+        "imageUrl": "http://localhost:5000/api/assets/players/108053.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.24,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            2.0,
+            0.0
+        ]
+    },
+    {
+        "id": 173818,
+        "name": "Nathan Broadhead",
+        "imageUrl": "http://localhost:5000/api/assets/players/173818.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 1.06,
+        "previousPoints": [
+            0.0,
+            1.0,
+            2.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 122411,
+        "name": "Cameron Burgess",
+        "imageUrl": "http://localhost:5000/api/assets/players/122411.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.33,
+        "previousPoints": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 199249,
+        "name": "Sergio Reguil\u00f3n",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.04,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 552427,
+        "name": "Will Lankshear",
+        "imageUrl": "http://localhost:5000/api/assets/players/552427.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.12,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 550864,
+        "name": "Leny Yoro",
+        "imageUrl": "http://localhost:5000/api/assets/players/550864.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.59,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 40383,
+        "name": "Fraser Forster",
+        "imageUrl": "http://localhost:5000/api/assets/players/40383.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.48,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 214572,
+        "name": "Brandon Austin",
+        "imageUrl": "http://localhost:5000/api/assets/players/214572.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.05,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 222690,
+        "name": "Tyrell Malacia",
+        "imageUrl": "http://localhost:5000/api/assets/players/222690.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.11,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 184386,
+        "name": "James Bree",
+        "imageUrl": "http://localhost:5000/api/assets/players/184386.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.85,
+        "previousPoints": [
+            1.0,
+            4.0,
+            2.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 167888,
+        "name": "Joe Lumley",
+        "imageUrl": "http://localhost:5000/api/assets/players/167888.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.45,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 204863,
+        "name": "Ryan Manning",
+        "imageUrl": "http://localhost:5000/api/assets/players/204863.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.07,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 244845,
+        "name": "Nathan Wood",
+        "imageUrl": "http://localhost:5000/api/assets/players/244845.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.47,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 147611,
+        "name": "Paul Onuachu",
+        "imageUrl": "http://localhost:5000/api/assets/players/147611.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 1.85,
+        "previousPoints": [
+            5.0,
+            2.0,
+            7.0,
+            5.0,
+            1.0
+        ]
+    },
+    {
+        "id": 500926,
+        "name": "Ronnie Edwards",
+        "imageUrl": "http://localhost:5000/api/assets/players/500926.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.18,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 504783,
+        "name": "Kamaldeen Sulemana",
+        "imageUrl": "http://localhost:5000/api/assets/players/504783.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 2.52,
+        "previousPoints": [
+            1.0,
+            0.0,
+            4.0,
+            9.0,
+            2.0
+        ]
+    },
+    {
+        "id": 590012,
+        "name": "Caleb Kporha",
+        "imageUrl": "http://localhost:5000/api/assets/players/590012.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.01,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 554194,
+        "name": "Jahmai Simpson-Pusey",
+        "imageUrl": "http://localhost:5000/api/assets/players/554194.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 0.03,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 220695,
+        "name": "Paris Maghoma",
+        "imageUrl": "http://localhost:5000/api/assets/players/220695.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.54,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 536109,
+        "name": "Oliver Scarles",
+        "imageUrl": "http://localhost:5000/api/assets/players/536109.png",
+        "opponent": "Leicester",
+        "expectedPoints": 3.5,
+        "previousPoints": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            7.0
+        ]
+    },
+    {
+        "id": 606775,
+        "name": "Ben Winterburn",
+        "imageUrl": "http://localhost:5000/api/assets/players/606775.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.08,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 487837,
+        "name": "Divin Mubama",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 0.06,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 519321,
+        "name": "Alfie Dorrington",
+        "imageUrl": "http://localhost:5000/api/assets/players/519321.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 550615,
+        "name": "Tyrique George",
+        "imageUrl": "http://localhost:5000/api/assets/players/550615.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.92,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 577016,
+        "name": "Josh Acheampong",
+        "imageUrl": "http://localhost:5000/api/assets/players/577016.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.23,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 518442,
+        "name": "Lewis Orford",
+        "imageUrl": "http://localhost:5000/api/assets/players/518442.png",
+        "opponent": "Leicester",
+        "expectedPoints": 0.16,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 606774,
+        "name": "Remy Rees-Dottin",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.02,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 516939,
+        "name": "Emmanuel Agbadou",
+        "imageUrl": "http://localhost:5000/api/assets/players/516939.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.37,
+        "previousPoints": [
+            1.0,
+            2.0,
+            6.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 485055,
+        "name": "Anton\u00edn Kinsky",
+        "imageUrl": "http://localhost:5000/api/assets/players/485055.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.27,
+        "previousPoints": [
+            2.0,
+            1.0,
+            7.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 514254,
+        "name": "Diego G\u00f3mez",
+        "imageUrl": "http://localhost:5000/api/assets/players/514254.png",
+        "opponent": "Bournemouth",
+        "expectedPoints": 0.98,
+        "previousPoints": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 198826,
+        "name": "Ben Godfrey",
+        "imageUrl": "http://localhost:5000/api/assets/players/198826.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+        ]
+    },
+    {
+        "id": 477386,
+        "name": "Armel Bella Kotchap",
+        "imageUrl": "http://localhost:5000/api/assets/players/477386.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 500016,
+        "name": "Welington",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.56,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 530121,
+        "name": "Zain Silcott-Duberry",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Brighton",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 500058,
+        "name": "Jayden Danns",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Newcastle United",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 494779,
+        "name": "Albert Gr\u00f8nb\u00e6k",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Chelsea",
+        "expectedPoints": 0.26,
+        "previousPoints": [
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 438234,
+        "name": "Omar Marmoush",
+        "imageUrl": "http://localhost:5000/api/assets/players/438234.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 3.8,
+        "previousPoints": [
+            0.0,
+            2.0,
+            2.0,
+            17.0,
+            2.0
+        ]
+    },
+    {
+        "id": 578153,
+        "name": "Abduqodir Khusanov",
+        "imageUrl": "http://localhost:5000/api/assets/players/578153.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 3.06,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            6.0,
+            1.0
+        ]
+    },
+    {
+        "id": 488439,
+        "name": "Woyo Coulibaly",
+        "imageUrl": "http://localhost:5000/api/assets/players/488439.png",
+        "opponent": "West Ham",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            -1.0
+        ]
+    },
+    {
+        "id": 606921,
+        "name": "Romain Esse",
+        "imageUrl": "http://localhost:5000/api/assets/players/606921.png",
+        "opponent": "Aston Villa",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            8.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 490145,
+        "name": "Dane Scarlett",
+        "imageUrl": "http://localhost:5000/api/assets/players/490145.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.02,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            4.0
+        ]
+    },
+    {
+        "id": 204646,
+        "name": "Donyell Malen",
+        "imageUrl": "http://localhost:5000/api/assets/players/204646.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.54,
+        "previousPoints": [
+            0.0,
+            1.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 606798,
+        "name": "Andr\u00e9s Garc\u00eda",
+        "imageUrl": "http://localhost:5000/api/assets/players/606798.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 0.87,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            2.0,
+            1.0
+        ]
+    },
+    {
+        "id": 607464,
+        "name": "Michael Kayode",
+        "imageUrl": "http://localhost:5000/api/assets/players/607464.png",
+        "opponent": "Everton",
+        "expectedPoints": 0.65,
+        "previousPoints": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 609640,
+        "name": "Mathis Amougou",
+        "imageUrl": "http://localhost:5000/api/assets/players/609640.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.44,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "id": 174292,
+        "name": "Marco Asensio",
+        "imageUrl": "http://localhost:5000/api/assets/players/174292.png",
+        "opponent": "Crystal Palace",
+        "expectedPoints": 4.4,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            15.0
+        ]
+    },
+    {
+        "id": 465694,
+        "name": "Nico Gonz\u00e1lez",
+        "imageUrl": "http://localhost:5000/api/assets/players/465694.png",
+        "opponent": "Tottenham",
+        "expectedPoints": 1.66,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            3.0,
+            2.0
+        ]
+    },
+    {
+        "id": 112520,
+        "name": "Alex Palmer",
+        "imageUrl": "http://localhost:5000/api/assets/players/112520.png",
+        "opponent": "Manchester United",
+        "expectedPoints": 0.57,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            4.0,
+            0.0
+        ]
+    },
+    {
+        "id": 47431,
+        "name": "Willian",
+        "imageUrl": "http://localhost:5000/api/assets/players/47431.png",
+        "opponent": "Wolverhampton Wanderers",
+        "expectedPoints": 0.65,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 433312,
+        "name": "Marshall Munetsi",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Fulham",
+        "expectedPoints": 2.51,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            6.0
+        ]
+    },
+    {
+        "id": 531170,
+        "name": "Nasser Djiga",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Fulham",
+        "expectedPoints": 0.28,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "id": 596047,
+        "name": "Chido Obi-Martin",
+        "imageUrl": "http://localhost:5000/api/assets/players/596047.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "id": 135720,
+        "name": "Kevin Danso",
+        "imageUrl": "http://localhost:5000/api/assets/players/135720.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 0.89,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            6.0,
+            2.0
+        ]
+    },
+    {
+        "id": 596777,
+        "name": "Patrick Dorgu",
+        "imageUrl": "http://localhost:5000/api/assets/players/596777.png",
+        "opponent": "Ipswich",
+        "expectedPoints": 0.0,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "id": 511499,
+        "name": "Mathys Tel",
+        "imageUrl": "http://localhost:5000/api/assets/players/511499.png",
+        "opponent": "Manchester City",
+        "expectedPoints": 1.2,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            3.0,
+            2.0
+        ]
+    },
+    {
+        "id": 567119,
+        "name": "Shumaira Mheuka",
+        "imageUrl": "http://localhost:5000/api/assets/players/default.png",
+        "opponent": "Southampton",
+        "expectedPoints": 0.65,
+        "previousPoints": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    }
+]
