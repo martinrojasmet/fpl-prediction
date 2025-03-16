@@ -74,10 +74,11 @@ def add_fpl_name_data(players_df):
         if (name not in players_fpl_name_list) or (fpl_id not in players_fpl_id_list):
             new_row = {"fpl": name, "fpl_2024-25": fpl_id, "opta_id": opta_id}
             players_df = players_df._append(new_row, ignore_index=True)
-            print("Nuevo jugador encontrado: ", name, fpl_id)
+            print("New player found: ", name, fpl_id)
 
     if unique_players(players_df):
         players_df.to_csv(players_pivot_path, index=False)
+        return players_df
 
 def merge_understat_data(understat_player_df, understat_game_df):
     merged_df = pd.merge(understat_player_df, understat_game_df, left_on="game_id", right_on="id", how="inner")
@@ -175,7 +176,7 @@ def add_iso_data_fpl():
     fpl_player_df.to_csv(fpl_player_path, index=False)
 
 # temp
-def temp_change_2425(): # Cambiar a 2024-25
+def temp_change_2425(): # Change to 2024-25
     understat_1 = pd.read_csv("understat_merged2.csv")
     players_2425_df["position_number"] = players_2425_df["position"].map(positions_df.set_index("position")["position_number"])
     
@@ -454,13 +455,14 @@ def main():
         scrape_understat_data()
         new_understat_player_df = pd.read_csv(understat_player_path)
         new_understat_game_df = pd.read_csv(understat_game_path)
+        players_df = pd.read_csv(players_pivot_path)
 
         print("Merging Understat data")
         merge_understat_data(new_understat_player_df, new_understat_game_df)
         new_understat_merged_df = pd.read_csv(understat_merged_path)
 
         print("Adding FPL name data")
-        add_fpl_name_data(players_df)
+        players_df =  add_fpl_name_data(players_df)
 
         print("Adding Understat name data")
         add_understat_name_data(new_understat_merged_df, players_df)
