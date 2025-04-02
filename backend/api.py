@@ -2,11 +2,16 @@ from flask import Flask, jsonify, send_from_directory, request
 from flask_cors import CORS
 import os
 import json
+from dotenv import load_dotenv
+
+load_dotenv()
+
+USER_FPL_FOLDER = os.getenv("USER_FPL_FOLDER")
 
 from prediction import get_gws_predicted_jsons
 
-point_predictions_json_folder = "/home/martin/Documents/GitHub/fpl-prediction/backend/data/final/point_prediction_jsons/"
-game_predictions_json_folder = "/home/martin/Documents/GitHub/fpl-prediction/backend/data/final/game_prediction_jsons/"
+point_predictions_json_folder = USER_FPL_FOLDER + "backend/data/final/point_prediction_jsons/"
+game_predictions_json_folder = USER_FPL_FOLDER + "backend/data/final/game_prediction_jsons/"
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -14,13 +19,13 @@ CORS(app)  # Enable CORS for all routes
 # Serve image files
 @app.route('/api/assets/players/<path:filename>')
 def serve_assets(filename):
-    assets_dir = '/home/martin/Documents/GitHub/fpl-prediction/backend/assets/player_images/'
+    assets_dir = USER_FPL_FOLDER + 'backend/assets/player_images/'
     return send_from_directory(assets_dir, filename)
 
 # Serve team logos
 @app.route('/api/assets/teams/<path:filename>')
 def serve_team_logos(filename):
-    assets_dir = '/home/martin/Documents/GitHub/fpl-prediction/backend/assets/team_logos/'
+    assets_dir = USER_FPL_FOLDER + 'backend/assets/team_logos/'
     return send_from_directory(assets_dir, filename)
 
 # Get GW point data

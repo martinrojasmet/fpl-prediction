@@ -14,6 +14,10 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 from datetime import datetime
 import random
+from dotenv import load_dotenv
+
+load_dotenv()
+USER_FPL_FOLDER = os.getenv("USER_FPL_FOLDER")
 
 fpl_data = pd.read_csv('./data/final/2425_players_data.csv')
 team_data = pd.read_csv('./data/pivot/teams.csv')
@@ -30,11 +34,11 @@ teams_path = './data/pivot/teams.csv'
 players_path = './data/final/2425_players_data.csv'
 
 img_api_url = "http://localhost:5000/api/assets/players/"
-player_images_folder_path = "/home/martin/Documents/GitHub/fpl-prediction/backend/assets/player_images/"
+player_images_folder_path = USER_FPL_FOLDER + "backend/assets/player_images/"
 default_player_image_path = img_api_url + "default.png"
 
-point_predictions_json_folder = "/home/martin/Documents/GitHub/fpl-prediction/backend/data/final/point_prediction_jsons/"
-game_predictions_json_folder = "/home/martin/Documents/GitHub/fpl-prediction/backend/data/final/game_prediction_jsons/"
+point_predictions_json_folder = USER_FPL_FOLDER + "backend/data/final/point_prediction_jsons/"
+game_predictions_json_folder = USER_FPL_FOLDER + "backend/data/final/game_prediction_jsons/"
 
 def point_prediction(fpl_data, team_data, gw):
     if (gw not in get_gws_predicted()):

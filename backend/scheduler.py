@@ -3,11 +3,14 @@ from datetime import datetime, timedelta
 import json
 import os
 import logging
+from dotenv import load_dotenv
+
+load_dotenv()
 
 utils_path = "./utils/"
 run_dates = utils_path + "run_dates.json"
 
-folder_path = "/home/martin/Documents/GitHub/fpl4/"
+folder_path = os.getenv("USER_FPL_FOLDER")
 sh_file_path = folder_path + "run_print_gw.sh"
 
 def get_latest_dates():
