@@ -1,12 +1,13 @@
 import { Router } from "express";
+import { getAllFixtures, getFixtureById, createFixture, updateFixture, deleteFixture } from "../controllers/fixture.controller.js";
 
 const fixtureRouter = Router();
 
-fixtureRouter.get("/", (req, res) => { res.send("Get all fixtures"); });
-fixtureRouter.get("/:id", (req, res) => { res.send("Get fixture by ID"); });
-fixtureRouter.post("/", (req, res) => { res.send("Create a new fixture"); });
-fixtureRouter.post("/:id", (req, res) => { res.send("Update a fixture by ID"); });
-fixtureRouter.put("/:id", (req, res) => { res.send("Update a fixture by ID"); });
-fixtureRouter.delete("/:id", (req, res) => { res.send("Delete a fixture by ID"); });
+fixtureRouter.get("/", getAllFixtures);
+fixtureRouter.get("/:id", getFixtureById);
+fixtureRouter.post("/", createFixture);
+fixtureRouter.post("/:id", updateFixture);
+fixtureRouter.put("/:id", updateFixture);
+fixtureRouter.delete("/:id", deleteFixture);
 
 export default fixtureRouter;

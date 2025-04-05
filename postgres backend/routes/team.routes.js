@@ -1,12 +1,13 @@
 import { Router } from 'express';
+import { getAllTeams, getTeamById, createTeam, updateTeam, deleteTeam } from '../controllers/team.controller.js';
 
 const teamRouter = Router();
 
-teamRouter.get("/", (req, res) => { res.send("Get all teams") });
-teamRouter.get("/:id", (req, res) => { res.send("Get team by ID") });
-teamRouter.post("/", (req, res) => { res.send("Create a new team") });
-teamRouter.post("/:id", (req, res) => { res.send("Update a team by ID") });
-teamRouter.put("/:id", (req, res) => { res.send("Update a team by ID") });
-teamRouter.delete("/:id", (req, res) => { res.send("Delete a team by ID") });
+teamRouter.get("/", getAllTeams);
+teamRouter.get("/:id", getTeamById);
+teamRouter.post("/", createTeam);
+teamRouter.post("/:id", updateTeam);
+teamRouter.put("/:id", updateTeam);
+teamRouter.delete("/:id", deleteTeam);
 
 export default teamRouter;

@@ -1,12 +1,13 @@
 import { Router } from "express";
+import { getAllGames, getGameById, createGame, updateGame, deleteGame } from "../controllers/game.controller.js";
 
 const gameRouter = Router();
 
-gameRouter.get("/", (req, res) => { res.send("Get all games") });
-gameRouter.get("/:id", (req, res) => { res.send("Get game by ID") });
-gameRouter.post("/", (req, res) => { res.send("Create a new game") });
-gameRouter.post("/:id", (req, res) => { res.send("Update a game by ID") });
-gameRouter.put("/:id", (req, res) => { res.send("Update a game by ID") });
-gameRouter.delete("/:id", (req, res) => { res.send("Delete a game by ID") });
+gameRouter.get("/", getAllGames);
+gameRouter.get("/:id", getGameById);
+gameRouter.post("/", createGame);
+gameRouter.post("/:id", updateGame);
+gameRouter.put("/:id", updateGame);
+gameRouter.delete("/:id", deleteGame);
 
 export default gameRouter;
