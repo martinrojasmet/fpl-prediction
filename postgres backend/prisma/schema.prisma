@@ -68,3 +68,42 @@ model Team {
   definite_team_number Int
   understat_name       String
 }
+
+model Prediction {
+  id                       Int     @id
+  understat_name           String
+  opta_id                  Int
+  gw                       Int
+  opponent_team            Int
+  global_predicted_points  Float
+  opponent_predicted_points Float
+  combined_predicted_points Float
+}
+
+model Game {
+  id                      Int     @id
+  understat_id            Int
+  date                    DateTime
+  home                    String
+  gw                      Int
+  home_goals              Float
+  home_xG                 Float
+  home_assists            Float
+  home_xA                 Float
+  rolling_home_goals      Float
+  rolling_home_xG         Float
+  rolling_home_assists    Float
+  rolling_home_xA         Float
+  home_team_code          Int
+  away                    String
+  away_goals              Float
+  away_xG                 Float
+  away_assists            Float
+  away_xA                 Float
+  rolling_away_goals      Float
+  rolling_away_xG         Float
+  rolling_away_assists    Float
+  rolling_away_xA         Float
+  away_team_code          Int
+  result                  Float
+}
