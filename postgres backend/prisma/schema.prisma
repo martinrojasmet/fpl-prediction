@@ -1,0 +1,70 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_URI")
+}
+
+model Fixture {
+    id                        Int      @id
+    season                    String
+    gw                        Int
+    fpl_element               Int
+    local_understat_id        Float?
+    local_understat_fixture   Float?
+    fpl_name                  String
+    understat_name            String
+    position                  Int
+    fpl_team                  Int
+    understat_team            String
+    opponent_fpl_team_number  Int
+    fpl_kickoff_time          DateTime
+    understat_date            DateTime
+    value                     Int
+    points                    Int
+    minutes                   Int
+    goals_scored              Int
+    xG                        Float
+    goals_conceded            Int
+    assists                   Int
+    xA                        Float
+    yellow_cards              Int
+    red_cards                 Int
+    clean_sheets              Int
+    key_passes                Float
+    own_goals                 Int
+    penalties_missed          Int
+    penalties_saved           Int
+    saves                     Int
+    bonus                     Int
+    team_a_score              Int
+    team_h_score              Int
+    was_home                  Boolean
+    expected_assists          Float?
+    expected_goals            Float?
+}
+
+model Player {
+  id          Int     @id 
+  fpl_name    String
+  understat_name String?
+  fpl_2024_25 Float
+  opta_id     Int?
+}
+
+model Team {
+  id                   Int     @id
+  season               String
+  team                 Int
+  team_name            String
+  definite_team_number Int
+  understat_name       String
+}
