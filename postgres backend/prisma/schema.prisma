@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DB_URI")
+  url      = env("DATABASE_URL")
 }
 
 model Fixture {
@@ -50,6 +50,8 @@ model Fixture {
     was_home                  Boolean
     expected_assists          Float?
     expected_goals            Float?
+    
+    @@map ("fixtures")
 }
 
 model Player {
@@ -67,6 +69,8 @@ model Team {
   team_name            String
   definite_team_number Int
   understat_name       String
+
+  @@map("teams")
 }
 
 model Prediction {
@@ -78,12 +82,14 @@ model Prediction {
   global_predicted_points  Float
   opponent_predicted_points Float
   combined_predicted_points Float
+
+  @@map("predictions")
 }
 
 model Game {
   id                      Int     @id
   understat_id            Int
-  date                    DateTime
+  date                    String
   home                    String
   gw                      Int
   home_goals              Float
@@ -106,4 +112,6 @@ model Game {
   rolling_away_xA         Float
   away_team_code          Int
   result                  Float
+
+  @@map("games")
 }

@@ -6,6 +6,8 @@ import teamRouter from './routes/team.routes.js';
 import gameRouter from './routes/game.routes.js';
 import predictionRouter from './routes/prediction.route.js';
 
+import errorMiddleware from './middlewares/error.middleware.js';
+
 import { PORT } from './config/env.js';
 
 const app = express();
@@ -19,6 +21,8 @@ app.use('/api/teams', teamRouter);
 app.use('/api/fixtures', fixtureRouter);
 app.use('/api/games', gameRouter);
 app.use('/api/predictions', predictionRouter);
+
+app.use(errorMiddleware)
 
 app.listen(PORT, async () => {
     console.log(`Server is running on http://localhost:${PORT}`);
