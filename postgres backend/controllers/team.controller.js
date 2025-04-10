@@ -1,19 +1,39 @@
-export const getAllTeams = async (req, res) => {
-    res.send("Get all teams");
+export const fetchAllTeams = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Teams retrieved successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };
 
-export const getTeamById = async (req, res) => {
-    res.send("Get team by ID");
-};
-
-export const createTeam = async (req, res) => {
-    res.send("Create a new team");
+export const addTeam = async (req, res) => {
+    try {
+        res.status(201).json({
+            message: "Team created successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };  
 
-export const updateTeam = async (req, res) => {
-    res.send("Update a team by ID");
+export const modifyTeam = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Team updated successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };
 
-export const deleteTeam = async (req, res) => {
-    res.send("Delete a team by ID");
+export const removeTeam = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Team deleted successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };

@@ -1,19 +1,39 @@
-export const getAllFixtures = async (req, res) => {
-    res.send("Get all fixtures");
+export const fetchAllFixtures = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Fixtures retrieved successfully",
+        });     
+    } catch (error) {
+        next(error);
+    }
 };
 
-export const getFixtureById = async (req, res) => {
-    res.send("Get fixture by ID");
+export const addFixture = async (req, res) => {
+    try {
+        res.status(201).json({
+            message: "Fixture created successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };
 
-export const createFixture = async (req, res) => {
-    res.send("Create a new fixture");
+export const modifyFixture = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Fixture updated successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };
 
-export const updateFixture = async (req, res) => {
-    res.send("Update a fixture by ID");
-};
-
-export const deleteFixture = async (req, res) => {
-    res.send("Delete a fixture by ID");
+export const removeFixture = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Fixture deleted successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };

@@ -1,12 +1,11 @@
 import { Router } from "express";
-import { getAllPredictions, getPredictionById, createPrediction, updatePrediction, deletePrediction } from "../controllers/prediction.controller.js";
+import { fetchAllPredictions, addPrediction, modifyPrediction, removePrediction } from "../controllers/prediction.controller.js";
 
 const predictionRouter = Router();
 
-predictionRouter.get("/", getAllPredictions);
-predictionRouter.get("/:id", getPredictionById);
-predictionRouter.post("/", createPrediction);
-predictionRouter.put("/:id", updatePrediction);
-predictionRouter.delete("/:id", deletePrediction);
+predictionRouter.get("/", fetchAllPredictions);
+predictionRouter.post("/", addPrediction);
+predictionRouter.put("/:id", modifyPrediction);
+predictionRouter.delete("/:id", removePrediction);
 
 export default predictionRouter;

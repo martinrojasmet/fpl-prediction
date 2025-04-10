@@ -1,19 +1,62 @@
-export const getAllGames = async (req, res) => {
-    res.send("Get all games");
+import { getGameById } from "../services/game.service.js";
+
+export const fetchAllGames = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Games retrieved successfully",
+        });
+    }
+    catch (error) {
+        next(error);
+    }
 };
 
-export const getGameById = async (req, res) => {
-    res.send("Get game by ID");
+export const fetchGameById = async (req, res, next) => {
+    try {
+        const result = await getGameById(req.params.id);
+
+        if (!result) {
+            return res.status(404).json({
+                message: "Game not found",
+            });
+        }
+
+        res.status(200).json({
+            message: "Game retrieved successfully",
+            data: result
+        });
+    }
+    catch (error) {
+        next(error);
+    }
 };
 
-export const createGame = async (req, res) => {
-    res.send("Create a new game");
+export const addGame = async (req, res) => {
+    try {
+        res.status(201).json({
+            message: "Game created successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };
 
-export const updateGame = async (req, res) => {
-    res.send("Update a game by ID");
+export const modifyGame = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Game updated successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };
 
-export const deleteGame = async (req, res) => {
-    res.send("Delete a game by ID");
+export const removeGame = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: "Game deleted successfully",
+        });
+    } catch (error) {
+        next(error);
+    }
 };

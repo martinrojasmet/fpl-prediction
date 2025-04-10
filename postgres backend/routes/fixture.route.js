@@ -1,13 +1,11 @@
 import { Router } from "express";
-import { getAllFixtures, getFixtureById, createFixture, updateFixture, deleteFixture } from "../controllers/fixture.controller.js";
+import { fetchAllFixtures, addFixture, modifyFixture, removeFixture } from "../controllers/fixture.controller.js";
 
 const fixtureRouter = Router();
 
-fixtureRouter.get("/", getAllFixtures);
-fixtureRouter.get("/:id", getFixtureById);
-fixtureRouter.post("/", createFixture);
-fixtureRouter.post("/:id", updateFixture);
-fixtureRouter.put("/:id", updateFixture);
-fixtureRouter.delete("/:id", deleteFixture);
+fixtureRouter.get("/", fetchAllFixtures);
+fixtureRouter.post("/", addFixture);
+fixtureRouter.put("/:id", modifyFixture);
+fixtureRouter.delete("/:id", removeFixture);
 
 export default fixtureRouter;
