@@ -4,7 +4,7 @@ config({ path: '.env' });
 
 export const {
     PORT,
-    DB_URI,
+    DATABASE_URL,
     JWT_SECRET,
     JWT_EXPIRATION
 } = process.env;
