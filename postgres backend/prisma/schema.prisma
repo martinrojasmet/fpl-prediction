@@ -55,19 +55,18 @@ model Fixture {
 }
 
 model Player {
-  id          Int     @id 
-  fpl_name    String
+  fpl_name   String      @unique
   understat_name String?
-  fpl_2024_25 Float
+  fpl_202425 Float
   opta_id     Int?
+  @@map("players")
 }
 
 model Team {
-  id                   Int     @id
   season               String
   team                 Int
   team_name            String
-  definite_team_number Int
+  definite_team_number Int        @unique
   understat_name       String
 
   @@map("teams")
@@ -114,4 +113,15 @@ model Game {
   result                  Float
 
   @@map("games")
+}
+
+model Double_GW {
+  id                    Int     @id
+  home                  String
+  away                  String
+  gw                    Int
+  original_gw           Int
+  understat_id          Int
+  season                String
+  @@map("double_gw")
 }
