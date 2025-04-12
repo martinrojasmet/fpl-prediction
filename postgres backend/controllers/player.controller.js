@@ -51,7 +51,6 @@ export const fetchAllPlayersUnderstatNames = async (req, res, next) => {
 export const addPlayers = async (req, res, next) => {
     try {
         const playersData = req.body.players;
-        console.log("playersData", playersData);
         const result = await createPlayers(playersData);
 
         if (!result) {
@@ -65,7 +64,6 @@ export const addPlayers = async (req, res, next) => {
             data: result
         });
     } catch (error) {
-        console.log("Error in addPlayers:", error);
         next(error);
     }
 }
@@ -119,7 +117,7 @@ export const removePlayerByFPLName = async (req, res, next) => {
                 message: "Player not found",
             });
         }
-        
+
         res.status(200).json({
             message: "Players deleted successfully",
         });
