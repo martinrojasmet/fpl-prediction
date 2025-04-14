@@ -3,7 +3,7 @@ import { createFixtures, getFixtureById, updateFixture, deleteFixture } from "..
 export const fetchAllFixtures = async (req, res, next) => {
     try {
         const fixtures = await getAllFixtures();
-        if (!fixtures) {
+        if (!fixtures || fixtures.length === 0) {
             return res.status(404).json({
                 message: "No fixtures found",
             });
@@ -22,7 +22,7 @@ export const fetchFixture = async (req, res, next) => {
         const fixtureId = req.params.id;
         const fixture = await getFixtureById(fixtureId);
 
-        if (!fixture) {
+        if (!fixture || fixture.length === 0) {
             return res.status(404).json({
                 message: "Fixture not found"
             });

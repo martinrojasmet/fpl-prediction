@@ -15,7 +15,7 @@ export const fetchGameById = async (req, res, next) => {
     try {
         const result = await getGameById(req.params.id);
 
-        if (!result) {
+        if (!result || result.length === 0) {
             return res.status(404).json({
                 message: "Game not found",
             });

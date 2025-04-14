@@ -14,7 +14,7 @@ export const fetchAllPlayersFPLNames = async (req, res, next) => {
     try {
         const result = await getPlayersFPLNames();
 
-        if (!result) {
+        if (!result || result.length === 0) {
             return res.status(404).json({
                 message: "No players found",
             });
@@ -33,7 +33,7 @@ export const fetchAllPlayersUnderstatNames = async (req, res, next) => {
     try {
         const result = await getPlayersUnderstatNames();
 
-        if (!result) {
+        if (!result || result.length === 0) {
             return res.status(404).json({
                 message: "No players found",
             });
