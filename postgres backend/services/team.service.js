@@ -1,20 +1,36 @@
 import prisma from "../prisma/prisma-client.js";
+import { parseValueByType } from "../utils/validation.utils.js";
 
-export const getAllTeams = async (params) => {
+export const getAllTeams = async (queries) => {
     try {
-        // Todo: add validation for numbers
-        const where = Object.fromEntries(
-            Object.entries(params).filter(([key]) => Object.keys(prisma.team.fields).includes(key))
-        );
+        const validFields = prisma.team.fields;
+        const errors = [];
+        const where = {};
 
-        const teams = await prisma.team.findMany({
-            where: where
-        });
+        for (const [key, value] of Object.entries(queries)) {
+            if (!(key in validFields)) {
+                errors.push(`Invalid field: '${key}'`);
+                continue;
+            }
+
+            const fieldType = validFields[key].typeName;
+            try {
+                where[key] = parseValueByType(fieldType, value, key);
+            } catch (error) {
+                errors.push(error.message);
+            }
+        }
+
+        if (errors.length > 0) {
+            throw new Error(`Validation errors: ${errors.join('; ')}`);
+        }
+
+        const teams = await prisma.team.findMany({ where });
         return teams;
     } catch (error) {
-        throw new Error("Error retrieving teams: " + error.message);
+        throw new Error(`Error retrieving teams: ${error.message}`);
     }
-}
+};
 
 export const createTeam = async (teamData) => {
     try {
