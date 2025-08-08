@@ -1,4 +1,4 @@
-import { getPlayersFPLNames, getPlayersUnderstatNames, createPlayers, updatePlayersUnderstatNames, deletePlayerByFPLName } from "../services/player.service.js";
+import { getAllPlayers, getPlayersFPLNames, getPlayersUnderstatNames, createPlayers, updatePlayersUnderstatNames, deletePlayerByFPLName } from "../services/player.service.js";
 
 export const fetchAllPlayers = async (req, res, next) => {
     try {
@@ -51,6 +51,7 @@ export const fetchAllPlayersUnderstatNames = async (req, res, next) => {
 export const addPlayers = async (req, res, next) => {
     try {
         const playersData = req.body.players;
+        console.log("Adding players:", playersData);
         const result = await createPlayers(playersData);
 
         if (!result) {
@@ -64,6 +65,7 @@ export const addPlayers = async (req, res, next) => {
             data: result
         });
     } catch (error) {
+        console.error("Error adding players:", error);
         next(error);
     }
 }

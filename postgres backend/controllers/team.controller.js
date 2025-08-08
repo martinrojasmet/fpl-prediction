@@ -1,4 +1,4 @@
-import { getAllTeams, createTeam } from "../services/team.service.js";
+import { getAllTeams, createTeams } from "../services/team.service.js";
 
 export const fetchAllTeams = async (req, res, next) => {
     try {
@@ -19,10 +19,10 @@ export const fetchAllTeams = async (req, res, next) => {
     }
 };
 
-export const addTeam = async (req, res) => {
+export const addTeam = async (req, res, next) => {
     try {
-        const teamData = req.body.team;
-        const result = await createTeam(teamData);
+        const teamsData = req.body.teams;
+        const result = await createTeams(teamsData);
 
         if (!result) {
             return res.status(400).json({

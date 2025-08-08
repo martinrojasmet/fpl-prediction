@@ -14,20 +14,20 @@ datasource db {
 }
 
 model Fixture {
-    id                        Int      @id
+    id                        Int      @id  @default(autoincrement())
     season                    String
     gw                        Int
     fpl_element               Int
     local_understat_id        Float?
     local_understat_fixture   Float?
     fpl_name                  String
-    understat_name            String
+    understat_name            String?
     position                  Int
     fpl_team                  Int
-    understat_team            String
+    understat_team            String?
     opponent_fpl_team_number  Int
     fpl_kickoff_time          DateTime
-    understat_date            DateTime
+    understat_date            DateTime?
     value                     Int
     points                    Int
     minutes                   Int
@@ -55,6 +55,7 @@ model Fixture {
 }
 
 model Player {
+  id         Int         @id      @default(autoincrement())
   fpl_name   String      @unique
   understat_name String?
   fpl_202425 Float
@@ -63,17 +64,18 @@ model Player {
 }
 
 model Team {
+  id         Int         @id      @default(autoincrement())
   season               String
   team                 Int
   team_name            String
-  definite_team_number Int        @unique
+  definite_team_number Int
   understat_name       String
 
   @@map("teams")
 }
 
 model Prediction {
-  id                       Int     @id
+  id                       Int     @id      @default(autoincrement())
   understat_name           String
   opta_id                  Int
   gw                       Int
@@ -86,7 +88,7 @@ model Prediction {
 }
 
 model Game {
-  id                      Int     @id
+  id                      Int     @id      @default(autoincrement())
   understat_id            Int
   date                    String
   home                    String
@@ -115,8 +117,8 @@ model Game {
   @@map("games")
 }
 
-model Double_GW {
-  id                    Int     @id
+model DoubleGW {
+  id                    Int     @id      @default(autoincrement())
   home                  String
   away                  String
   gw                    Int

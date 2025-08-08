@@ -1,4 +1,4 @@
-import { getGameById } from "../services/game.service.js";
+import { getGameById, createGames } from "../services/game.service.js";
 
 export const fetchAllGames = async (req, res) => {
     try {
@@ -31,8 +31,18 @@ export const fetchGameById = async (req, res, next) => {
     }
 };
 
-export const addGame = async (req, res) => {
+export const addGames = async (req, res, next) => {
+    
     try {
+        const gamesData = req.body.games;
+        const result = await createGames(gamesData);
+
+        if (!result) {
+            return res.status(400).json({
+                message: "Failed to create game",
+            });
+        }
+
         res.status(201).json({
             message: "Game created successfully",
         });

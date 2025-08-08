@@ -9,6 +9,18 @@ export const getAllGames = async () => {
     }
 }
 
+export const createGames = async (gamesData) => {
+    console.log("Creating games with data:", gamesData);
+    try {
+        const games = await prisma.game.createMany({
+            data: gamesData,
+        });
+        return games;
+    } catch (error) {
+        throw new Error("Error creating games: " + error.message);
+    }
+}
+
 export const getGameById = async (gameId) => {
     try {
         const game = await prisma.game.findUnique({

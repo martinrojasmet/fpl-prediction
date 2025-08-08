@@ -1,3 +1,5 @@
+import { createPredictions } from "../services/prediction.service.js";
+
 export const fetchAllPredictions = async (req, res) => {
     try {
         res.status(200).json({
@@ -9,8 +11,17 @@ export const fetchAllPredictions = async (req, res) => {
     }
 };
 
-export const addPrediction = async (req, res) => {
+export const addPrediction = async (req, res, next) => {
     try {
+        const predictionsData = req.body.predictions;
+        const result = await createPredictions(predictionsData);
+
+        if (!result) {
+            return res.status(400).json({
+                message: "Failed to create prediction",
+            });
+        }
+
         res.status(201).json({
             message: "Prediction created successfully",
         });

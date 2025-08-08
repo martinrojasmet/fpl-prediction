@@ -32,13 +32,13 @@ export const getAllTeams = async (queries) => {
     }
 };
 
-export const createTeam = async (teamData) => {
+export const createTeams = async (teamsData) => {
     try {
-        const team = await prisma.team.create({
-            data: teamData,
+        const teams = await prisma.team.createMany({
+            data: teamsData,
         });
-        return team;
+        return teams;
     } catch (error) {
-        throw new Error("Error creating team: " + error.message);
+        throw new Error("Error creating teams: " + error.message);
     }
 }

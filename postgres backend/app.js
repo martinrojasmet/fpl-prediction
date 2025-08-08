@@ -5,6 +5,7 @@ import playerRouter from './routes/player.routes.js';
 import teamRouter from './routes/team.routes.js';
 import gameRouter from './routes/game.routes.js';
 import predictionRouter from './routes/prediction.route.js';
+import double_gwRouter from './routes/double_gw.route.js';
 
 import errorMiddleware from './middlewares/error.middleware.js';
 
@@ -21,6 +22,7 @@ app.use('/api/teams', teamRouter);
 app.use('/api/fixtures', fixtureRouter);
 app.use('/api/games', gameRouter);
 app.use('/api/predictions', predictionRouter);
+app.use('/api/double_gw', double_gwRouter);
 
 app.use(errorMiddleware)
 
