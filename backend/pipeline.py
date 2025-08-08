@@ -45,9 +45,9 @@ last_gw = int(os.getenv('LAST_GW'))
 logging_folder_path = "/home/martin/Documents/GitHub/fpl-prediction/backend/utils/"
 logging.basicConfig(filename=f'{logging_folder_path}pipeline.log', level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-# not used
+# TODO: rename function
 def unique_players(players_df):
-    players_fpl_id_list = players_df["fpl_2024-25"].to_list()
+    # players_fpl_id_list = players_df["fpl_2024-25"].to_list()
     unique_rows = players_df.drop_duplicates(subset=["fpl", "fpl_2024-25"])
 
     if len(unique_rows) == len(players_df):
@@ -63,33 +63,43 @@ def add_fpl_name_data(players_df):
     response = requests.get('https://fantasy.premierleague.com/api/bootstrap-static/')
     fpl_data = response.json()
 
+    # FPL names list
     players_fpl_name_list = players_df["fpl"].to_list()
+    # 2024-25 FPL ids list
     players_fpl_id_list = players_df["fpl_2024-25"].to_list()
 
-    name_list = []
+    # name_list = []
+    # Add new players and print them
     for element in fpl_data["elements"]:
         name = element["first_name"] + " " + element["second_name"]
         fpl_id = element["id"]
         opta_id = element["photo"].split(".")[0]
         if (name not in players_fpl_name_list) or (fpl_id not in players_fpl_id_list):
             new_row = {"fpl": name, "fpl_2024-25": fpl_id, "opta_id": opta_id}
+            # TODO: change to add only the new ones
             players_df = players_df._append(new_row, ignore_index=True)
             print("New player found: ", name, fpl_id)
 
+    # TODO: add new players if there are any
     if unique_players(players_df):
+        # TODO: change to postgres
         players_df.to_csv(players_pivot_path, index=False)
+        # TODO: undo this
         return players_df
 
 def merge_understat_data(understat_player_df, understat_game_df):
     merged_df = pd.merge(understat_player_df, understat_game_df, left_on="game_id", right_on="id", how="inner")
     merged_df = merged_df.drop(columns=["home", "id_y"])
     merged_df = merged_df.rename(columns={"id_x": "player_game_id", "understat_id": "understat_game_id"})
+    # TODO: change to postgres
     merged_df.to_csv(understat_merged_path, index=False)
 
 def add_understat_name_data(understat_merged_df, players_df):
+    # List of dates
     understat_merged_df["date"] = pd.to_datetime(understat_merged_df["date"])
+    
     unique_player_names = understat_merged_df[understat_merged_df["date"] >= start_date_season]["player_name"].unique()
-    understat_player_names = understat_merged_df["player_name"].unique()
+    # understat_player_names = understat_merged_df["player_name"].unique()
 
     lis = []
     for name in unique_player_names:
@@ -100,6 +110,7 @@ def add_understat_name_data(understat_merged_df, players_df):
             else:
                 lis.append(name)
 
+    # TODO: change to postgres
     players_df.to_csv(players_pivot_path, index=False)
 
     if lis:
@@ -168,6 +179,7 @@ def get_fpl_data():
 
     result_df["fpl_date"] = pd.to_datetime(result_df["fpl_kickoff_time"]).dt.strftime('%Y-%m-%d')
 
+    # TODO: change to postgres
     result_df.to_csv(fpl_player_path, index=False)
 
 # not used
@@ -392,7 +404,7 @@ def change_gw_dw(fpl_player_df):
         ((fpl_player_df["fpl_team"] == fpl_away_team_code) & (fpl_player_df["opponent_fpl_team_number"] == fpl_home_team_code)))
 
         fpl_player_df.loc[mask, "gw"] = values["original_gw"]
-
+        # TODO: change to postgres
         fpl_player_df.to_csv(fpl_player_path, index=False)
 
 # final
@@ -439,6 +451,7 @@ def merge_understat_fpl(fpl_player_df, new_understat_merged_df):
         result_df.loc[(result_df["minutes"] == 0) & (result_df["xA"].isna()), "xA"] = 0
         result_df.loc[(result_df["minutes"] == 0) & (result_df["key_passes"].isna()), "key_passes"] = 0
 
+        # TODO: change to postgres
         result_df.to_csv(result_path, index=False)
 
 def append_current_data(players_2425_df, result_df):
@@ -453,16 +466,21 @@ def main():
 
         print("Scraping Understat data")
         scrape_understat_data()
+        # TODO: change to postgres
         new_understat_player_df = pd.read_csv(understat_player_path)
+        # TODO: change to postgres
         new_understat_game_df = pd.read_csv(understat_game_path)
+        # TODO: change to postgres
         players_df = pd.read_csv(players_pivot_path)
 
         print("Merging Understat data")
         merge_understat_data(new_understat_player_df, new_understat_game_df)
+        # TODO: change to postgres
         new_understat_merged_df = pd.read_csv(understat_merged_path)
 
         print("Adding FPL name data")
-        players_df =  add_fpl_name_data(players_df)
+        # TODO: undo this return
+        players_df = add_fpl_name_data(players_df)
 
         print("Adding Understat name data")
         add_understat_name_data(new_understat_merged_df, players_df)
@@ -471,12 +489,16 @@ def main():
         get_fpl_data()
 
         print("Merging Understat and FPL data")
+        # TODO: change to postgres
         fpl_player_df = pd.read_csv(fpl_player_path)
+        # TODO: change all function to postgres
         change_gw_dw(fpl_player_df)
         merge_understat_fpl(fpl_player_df, new_understat_merged_df)
 
         print("Append new data to 2425")
+        # TODO: change to postgres
         result_df = pd.read_csv(result_path)
+        # TODO: change to postgres all of it
         append_current_data(players_2425_df, result_df)
 
         print("FPL data pipeline finished")

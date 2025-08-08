@@ -95,54 +95,66 @@ def convert_string_to_date(string):
         raise ValueError("Invalid date format. Please use 'Aug 17 2024' format.")
 
 def update_values(second_cond_only, player_game_id, game_number, game_id, player_game_df, games_df):
+    # TODO: change this
     if not second_cond_only:
         update_value_in_txt("start_game", game_number)
     update_value_in_txt("game_id", game_id)
     update_value_in_txt("player_game_id", player_game_id)
 
     if not player_game_df.empty and not games_df.empty:
+        # TODO: change to postgres
         player_game_df.to_csv(player_game_df_path, index=False)
+        # TODO: change to postgres
         games_df.to_csv(games_df_path, index=False)
 
 def run(playwright: Playwright) -> None:
 
+    # Read txt variables
     start_game = get_value_from_txt("start_game")
     last_game = get_value_from_txt("last_game")
     game_id = get_value_from_txt("game_id")
     player_game_id = get_value_from_txt("player_game_id")
 
-    condition = start_game > last_game
+    # Condition to start scraping or not
+    condition = start_game <= last_game
 
+    # Create new dfs
     player_game_df = pd.DataFrame(columns=["id", "player_name", "game_id", "team_name", "minutes", "shots", "goals", "key_passes", "assists", "xG", "xA"])
     games_df = pd.DataFrame(columns=["id", "understat_id", "date", "home", "away"])
 
+    # Start playwright browser
     browser = playwright.chromium.launch(headless=True)
-
     context = browser.new_context()
     cookies = context.cookies()
-
     page = context.new_page()
 
+    # Get double gameweeks
+    # TODO: change to postgres
     with open('./utils/double_gw.json', 'r') as file:
         double_gw = json.load(file)
 
+    # Filter Double Gameweeks that are in interval of GWs but not in Understat
     list_dgw = []
     for key, values in double_gw.items():
         if int(key) >= gw and int(key) <= last_gw:
             list_dgw.append(values["understat_id"])
 
     second_cond_only = False
-
+    # Set the start_game number to a variable that is going to change game_number
     game_number = start_game
 
-    if not condition:
+    if condition:
+        # Run the usual numbers in the loop (txt) and additional double gameweeks (out of the range)
         while game_number <= last_game or len(list_dgw) > 0:
+            # Get which conditions are met
             first_cond_not_met = game_number > last_game
             if not second_cond_only and first_cond_not_met:
                 second_cond_only = True
             if second_cond_only:
                 game_number = list_dgw[0]
                 list_dgw.pop(0)
+            
+            # Scraping
             page.goto(base_url + str(game_number))
             error_404_is_visible = page.get_by_text("404 The page you requested").is_visible()
             if not error_404_is_visible:
@@ -180,6 +192,9 @@ def run(playwright: Playwright) -> None:
 
                     game_id += 1
                 
+            # TODO: change this
+            # When only updates the value when it is a game_number of the
+            # range and not a double gameweek
             if not second_cond_only:
                 game_number += 1
                 last_game_number = game_number
