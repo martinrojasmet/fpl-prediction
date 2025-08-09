@@ -1,16 +1,20 @@
-import { createFixtures, getFixtureById, updateFixture, deleteFixture } from "../services/fixture.service.js";
+import { getFixtures, getFixtureById, createFixtures, updateFixture, deleteFixture } from "../services/fixture.service.js";
 
-export const fetchAllFixtures = async (req, res, next) => {
+export const fetchFixtures = async (req, res, next) => {
     try {
-        const fixtures = await getAllFixtures();
-        if (!fixtures || fixtures.length === 0) {
+        const { cursor, limit, ...filters } = req.query;
+        const result = await getFixtures(filters, cursor, limit);
+        
+        if (!result.data || result.data.length === 0) {
             return res.status(404).json({
                 message: "No fixtures found",
             });
         }
-
+        
         res.status(200).json({
-            message: "Fixtures retrieved successfully"
+            message: "Fixtures retrieved successfully",
+            data: result.data,
+            nextCursor: result.nextCursor
         });     
     } catch (error) {
         next(error);

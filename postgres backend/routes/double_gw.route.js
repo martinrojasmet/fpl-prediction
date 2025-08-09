@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { fetchAllDoubleGws, fetchDoubleGw, addDoubleGws, modifyDoubleGw, removeDoubleGw } from "../controllers/double_gw.controller.js";
+import { fetchDoubleGws, fetchDoubleGw, addDoubleGws, modifyDoubleGw, removeDoubleGw } from "../controllers/double_gw.controller.js";
 
 const double_gwRouter = Router();
 
-double_gwRouter.get("/", fetchAllDoubleGws);
+double_gwRouter.get("/", fetchDoubleGws);
 double_gwRouter.get("/:gw", fetchDoubleGw);
 double_gwRouter.post("/", addDoubleGws);
 double_gwRouter.put("/:gw", modifyDoubleGw);

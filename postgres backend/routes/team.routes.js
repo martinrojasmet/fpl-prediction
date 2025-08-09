@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import { fetchAllTeams, addTeam } from '../controllers/team.controller.js';
+import { fetchTeams, addTeam } from '../controllers/team.controller.js';
 
 const teamRouter = Router();
 
-teamRouter.get("/", fetchAllTeams);
+teamRouter.get("/", fetchTeams);
 teamRouter.post("/", addTeam);
 // teamRouter.post("/", modifyTeam);
 

@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { fetchAllPlayers, addPlayers, fetchAllPlayersFPLNames, fetchAllPlayersUnderstatNames, modifyPlayersUnderstatNames, removePlayerByFPLName } from "../controllers/player.controller.js";
+import { fetchPlayers, addPlayers, fetchAllPlayersFPLNames, fetchAllPlayersUnderstatNames, modifyPlayersUnderstatNames, removePlayerByFPLName } from "../controllers/player.controller.js";
 
 const playerRouter = Router();
 
-playerRouter.get("/", fetchAllPlayers);
+playerRouter.get("/", fetchPlayers);
 playerRouter.post("/", addPlayers);
 
 playerRouter.get("/fpl", fetchAllPlayersFPLNames);

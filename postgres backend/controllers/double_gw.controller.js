@@ -1,9 +1,11 @@
-import { getAllDoubleGws, getDoubleGwByGw, createDoubleGws, updateDoubleGw, deleteDoubleGw } from "../services/double_gw.service.js";
+import { getDoubleGws, getDoubleGwByGw, createDoubleGws, updateDoubleGw, deleteDoubleGw } from "../services/double_gw.service.js";
 
-export const fetchAllDoubleGws = async (req, res, next) => {
+export const fetchDoubleGws = async (req, res, next) => {
     try {
-        const doubleGws = await getAllDoubleGws();
-        if (!doubleGws || doubleGws.length === 0) {
+        const { cursor, limit, ...filters } = req.query;
+        const result = await getDoubleGws(filters, cursor, limit);
+        
+        if (!result.data || result.data.length === 0) {
             return res.status(404).json({
                 message: "No double gameweeks found",
             });
@@ -11,7 +13,8 @@ export const fetchAllDoubleGws = async (req, res, next) => {
 
         res.status(200).json({
             message: "Double gameweeks retrieved successfully",
-            data: doubleGws
+            data: result.data,
+            nextCursor: result.nextCursor
         });
     } catch (error) {
         next(error);

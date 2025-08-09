@@ -1,9 +1,20 @@
-import { getAllPlayers, getPlayersFPLNames, getPlayersUnderstatNames, createPlayers, updatePlayersUnderstatNames, deletePlayerByFPLName } from "../services/player.service.js";
+import { getPlayers, getPlayersFPLNames, getPlayersUnderstatNames, createPlayers, updatePlayersUnderstatNames, deletePlayerByFPLName } from "../services/player.service.js";
 
-export const fetchAllPlayers = async (req, res, next) => {
+export const fetchPlayers = async (req, res, next) => {
     try {
+        const { cursor, limit, ...filters } = req.query;
+        const result = await getPlayers(filters, cursor, limit);
+        
+        if (!result.data || result.data.length === 0) {
+            return res.status(404).json({
+                message: "No players found",
+            });
+        }
+        
         res.status(200).json({
             message: "Players retrieved successfully",
+            data: result.data,
+            nextCursor: result.nextCursor
         });
     } catch (error) {
         next(error);

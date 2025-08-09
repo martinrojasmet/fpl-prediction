@@ -1,9 +1,20 @@
-import { getGameById, createGames } from "../services/game.service.js";
+import { getGames, getGameById, createGames } from "../services/game.service.js";
 
-export const fetchAllGames = async (req, res) => {
+export const fetchGames = async (req, res, next) => {
     try {
+        const { cursor, limit, ...filters } = req.query;
+        const result = await getGames(filters, cursor, limit);
+
+        if (!result.data || result.data.length === 0) {
+            return res.status(404).json({
+                message: "No games found",
+            });
+        }
+        
         res.status(200).json({
             message: "Games retrieved successfully",
+            data: result.data,
+            nextCursor: result.nextCursor
         });
     }
     catch (error) {

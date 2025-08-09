@@ -1,10 +1,11 @@
-import { getAllTeams, createTeams } from "../services/team.service.js";
+import { getTeams, createTeams } from "../services/team.service.js";
 
-export const fetchAllTeams = async (req, res, next) => {
+export const fetchTeams = async (req, res, next) => {
     try {
-        const teams = await getAllTeams(req.query);
+        const { cursor, limit, ...filters } = req.query;
+        const result = await getTeams(filters, cursor, limit);
 
-        if (!teams || teams.length === 0) {
+        if (!result.data || result.data.length === 0) {
             return res.status(404).json({
                 message: "No teams found",
             });
@@ -12,7 +13,8 @@ export const fetchAllTeams = async (req, res, next) => {
         
         res.status(200).json({
             message: "Teams retrieved successfully",
-            data: teams
+            data: result.data,
+            nextCursor: result.nextCursor
         });
     } catch (error) {
         next(error);

@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { fetchAllGames, fetchGameById, addGames, modifyGame, removeGame } from "../controllers/game.controller.js";
+import { fetchGames, fetchGameById, addGames, modifyGame, removeGame } from "../controllers/game.controller.js";
 
 const gameRouter = Router();
 
-gameRouter.get("/", fetchAllGames);
+gameRouter.get("/", fetchGames);
 gameRouter.get("/:id", fetchGameById);
 gameRouter.post("/", addGames);
 gameRouter.put("/:id", modifyGame);

@@ -1,9 +1,21 @@
 import prisma from "../prisma/prisma-client.js";
 
-export const getAllDoubleGws = async () => {
+export const getDoubleGws = async (filters = {}, cursor, limit) => {
+    const cursorObj = cursor ? { id: parseInt(cursor, 10) } : undefined;
+    const takeLimit = limit ? parseInt(limit, 10) : 50;
     try {
-        const doubleGW = await prisma.doubleGW.findMany();
-        return doubleGW;
+        const doubleGW = await prisma.doubleGW.findMany({
+            where: filters,
+            take: takeLimit,
+            ...(cursorObj && { cursor: cursorObj }),
+            skip: cursorObj ? 1 : 0,
+            orderBy: { id: 'asc' }
+        });
+        const nextCursor = doubleGW.length === takeLimit ? doubleGW[doubleGW.length - 1].id : null;
+        return {
+            data: doubleGW,
+            nextCursor
+        };
     } catch (error) {
         throw new Error("Error retrieving double gameweeks: " + error.message);
     }

@@ -1,9 +1,20 @@
-import { createPredictions } from "../services/prediction.service.js";
+import { getPredictions, createPredictions } from "../services/prediction.service.js";
 
-export const fetchAllPredictions = async (req, res) => {
+export const fetchPredictions = async (req, res, next) => {
     try {
+        const { cursor, limit, ...filters } = req.query;
+        const result = await getPredictions(filters, cursor, limit);
+
+        if (!result.data || result.data.length === 0) {
+            return res.status(404).json({
+                message: "No predictions found",
+            });
+        }
+
         res.status(200).json({
             message: "Predictions retrieved successfully",
+            data: result.data,
+            nextCursor: result.nextCursor
         });
     }
     catch (error) {

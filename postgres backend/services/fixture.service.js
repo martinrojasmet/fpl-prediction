@@ -1,9 +1,21 @@
 import prisma from "../prisma/prisma-client.js";
 
-export const getAllFixtures = async () => {
+export const getFixtures = async (filters = {}, cursor, limit) => {
+    const cursorObj = cursor ? { id: parseInt(cursor, 10) } : undefined;
+    const takeLimit = limit ? parseInt(limit, 10) : 50;
     try {
-        const fixtures = await prisma.fixture.findMany();
-        return fixtures;
+        const fixtures = await prisma.fixture.findMany({
+            where: filters,
+            take: takeLimit,
+            ...(cursorObj && { cursor: cursorObj }),
+            skip: cursorObj ? 1 : 0,
+            orderBy: { id: 'asc' }
+        });
+        const nextCursor = fixtures.length === takeLimit ? fixtures[fixtures.length - 1].id : null;
+        return {
+            data: fixtures,
+            nextCursor
+        };
     } catch (error) {
         throw new Error("Error retrieving fixtures: " + error.message);
     }
@@ -53,3 +65,5 @@ export const deleteFixture = async (id) => {
         throw new Error("Error deleting fixture: " + error.message);
     }
 }
+
+

@@ -1,9 +1,25 @@
 import prisma from "../prisma/prisma-client.js";
 
-export const getAllPlayers = async () => {
+export const getPlayers = async (filters = {}, cursor, limit) => {
+    const cursorObj = cursor ? { id: parseInt(cursor, 10) } : undefined;
+    let takeLimit = parseInt(limit, 10);
+    if (!takeLimit || isNaN(takeLimit)) {
+        takeLimit = 50;
+    }
+
     try {
-        const players = await prisma.player.findMany();
-        return players;
+        const players = await prisma.player.findMany({
+            where: filters,
+            take: takeLimit,
+            ...(cursorObj && { cursor: cursorObj }),
+            skip: cursorObj ? 1 : 0,
+            orderBy: { id: 'asc' }
+        });
+        const nextCursor = players.length === takeLimit ? players[players.length - 1].id : null;
+        return {
+            data: players,
+            nextCursor
+        };
     } catch (error) {
         throw new Error("Error retrieving players: " + error.message);
     }
